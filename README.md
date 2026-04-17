@@ -190,24 +190,19 @@ fun_fact: "I turn caffeine into working backend APIs ☕"
 
 </div>
 
----
-
-## `> github_stats`
-
 <div align="center">
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=Anil-Pradhan-web&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=00ff94&icon_color=00ff94&text_color=c9d1d9"/>
+<img height="160em" src="https://github-readme-stats.vercel.app/api?username=Anil-Pradhan-web&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=00ff94&icon_color=00ff94&text_color=c9d1d9"/>
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anil-Pradhan-web&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff94&text_color=c9d1d9"/>
+<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anil-Pradhan-web&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff94&text_color=c9d1d9"/>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=Anil-Pradhan-web&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=00ff94&ring=00ff94&fire=ff6b35&currStreakLabel=00ff94)](https://git.io/streak-stats)
+<img src="https://streak-stats.demolab.com?user=Anil-Pradhan-web&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=00ff94&ring=00ff94&fire=ff6b35&currStreakLabel=00ff94"/>
 
 </div>
-
 ---
 
 ## `> current_focus --q2-2026`
