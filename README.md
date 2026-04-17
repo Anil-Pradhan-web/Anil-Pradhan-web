@@ -1,116 +1,297 @@
-# 💫 About Me
+<div align="center">
 
-Hi 👋, I'm **Anil Pradhan**  
-A passionate **Backend & Full-Stack Developer** focused on building scalable applications and improving problem-solving skills.
+```
+╔═══════════════════════════════════════════════════════════════╗
+║   INITIALIZING... ANIL PRADHAN v2.0   ██████████████  100%   ║
+╚═══════════════════════════════════════════════════════════════╝
+```
 
-🔭 Currently working on **AI-powered backend systems and full-stack web applications**  
-🌱 Learning **Data Structures & Algorithms, System Design, Java, Spring Boot, and Cloud**  
-👯 Looking to collaborate on **backend projects, open-source, and AI-integrated applications**  
-🤝 Interested in **backend scalability, distributed systems, and cloud deployment**  
-💬 Ask me about **Java, DSA, Backend Development, SQL, Django, FastAPI, Next.js, or React**  
-⚡ Fun fact: I love turning ideas into real-world working products 🚀  
+# `> ANIL PRADHAN_`
 
----
+### ⚡ Backend Engineer · AI Systems Builder · Full-Stack Developer
 
-# 🌐 Connect With Me
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&pause=1000&color=00FF94&center=true&vCenter=true&width=600&lines=Spring+Boot+%2B+FastAPI+%7C+Backend+First;Multi-Agent+AI+Systems+Builder;LangGraph+%7C+RAG+%7C+Vector+DBs;GDG+Ecosystem+%7C+Hackathon+Enthusiast;2nd+Year+CSE+%40+ITER%2C+SOA+University)](https://git.io/typing-svg)
 
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:anilpradhan9644@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/anil-pradhan543)
+<br/>
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anil-pradhan543)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://my-portfolio-anil.vercel.app)
+[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anilpradhan9644@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-161B22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anil-Pradhan-web)
 
-# 🚀 Tech Stack
+![Profile Views](https://komarev.com/ghpvc/?username=Anil-Pradhan-web&color=00ff94&style=flat-square&label=PROFILE+VIEWS)
 
-## 👨‍💻 Languages
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=postgresql&logoColor=white)
+</div>
 
 ---
 
-## ⚙️ Backend & APIs
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Spring Boot](https://img.shields.io/badge/springboot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white)
-![REST API](https://img.shields.io/badge/REST-API-blue?style=for-the-badge)
-![JWT](https://img.shields.io/badge/JWT-Auth-black?style=for-the-badge)
-![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white)
+<img align="right" width="340" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="contribution snake"/>
+
+## `> whoami`
+
+```yaml
+name: "Anil Pradhan"
+role: "Backend & AI Systems Engineer"
+university: "ITER, SOA University, Bhubaneswar"
+batch: "2024 - 2028 | CSE"
+cgpa: 9.11
+
+currently:
+  - building: "Multi-Agent AI systems with LangGraph"
+  - learning: "Spring Boot microservices + System Design"
+  - practicing: "DSA daily on LeetCode (Java)"
+
+interests:
+  - Backend Scalability & Distributed Systems
+  - AI/GenAI & RAG Pipeline Engineering
+  - Cloud-Native Deployment (Docker + CI/CD)
+  - Open Source & Hackathons
+
+fun_fact: "I turn caffeine into working backend APIs ☕"
+```
+
+<br/><br/>
 
 ---
 
-## 🎨 Frontend
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+## `> tech_stack --full`
+
+<br/>
+
+### ☕ Primary Language Stack
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
 ---
 
-## 🗄️ Databases
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgresql-316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+### 🔩 Backend Frameworks & APIs *(Core Focus)*
+
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Django REST](https://img.shields.io/badge/DRF-ff1709?style=for-the-badge&logo=django&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT_Auth-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge)
+![Gunicorn](https://img.shields.io/badge/Gunicorn-298729?style=for-the-badge&logo=gunicorn&logoColor=white)
 
 ---
 
-## ☁️ Cloud & Deployment
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
-![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+### 🤖 AI / GenAI / RAG Stack *(Specialization)*
+
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG_Pipelines-6B21A8?style=for-the-badge)
+![Vector DB](https://img.shields.io/badge/Vector_Databases-7C3AED?style=for-the-badge)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge)
+![Multi-Agent](https://img.shields.io/badge/Multi--Agent_Systems-4C1D95?style=for-the-badge)
+![AutoGen](https://img.shields.io/badge/Microsoft_AutoGen-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge)
+![Claude API](https://img.shields.io/badge/Claude_API-D97706?style=for-the-badge)
+![Sarvam AI](https://img.shields.io/badge/Sarvam_AI-FF6B35?style=for-the-badge)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
 ---
 
-## 🤖 AI & Data
-![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
-![LLM Integration](https://img.shields.io/badge/LLM-Integration-purple?style=for-the-badge)
-![Multi Agent](https://img.shields.io/badge/Multi--Agent-Systems-blueviolet?style=for-the-badge)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+### 🎨 Frontend & UI
+
+![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Shadcn UI](https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ---
 
-## 🛠️ Tools & DevOps
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![Playwright](https://img.shields.io/badge/-playwright-%232EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-black?style=for-the-badge&logo=linux)
+### 🗄️ Databases & Storage
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB_(Vector)-FF6B35?style=for-the-badge)
+
+---
+
+### ☁️ Cloud, DevOps & CI/CD *(Future Stack)*
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
+
+---
+
+### 🛠️ Tools & Automation
+
+![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 
 ---
 
-# 📊 GitHub Stats
+## `> my_architecture --vision`
 
-![](https://github-readme-stats.vercel.app/api?username=Anil-Pradhan-web&theme=dark&hide_border=true&include_all_commits=false&count_private=false)
-
-![](https://nirzak-streak-stats.vercel.app/?user=Anil-Pradhan-web&theme=dark&hide_border=true)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Anil-Pradhan-web&theme=dark&hide_border=true&layout=compact)
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    ANIL'S TECH PHILOSOPHY                       │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│   CLIENT ──→  Next.js 14 (TypeScript + TailwindCSS)            │
+│                    │                                            │
+│                    ▼                                            │
+│   BACKEND ──→  Spring Boot (Primary API + Business Logic)       │
+│                    │                                            │
+│                    ▼                                            │
+│   AI LAYER ──→ FastAPI  (LangGraph + RAG + Agent Orchestration) │
+│                    │              │                             │
+│                    ▼              ▼                             │
+│   STORAGE ──→ PostgreSQL     ChromaDB / Pinecone (Vector DB)   │
+│                                   │                             │
+│   CACHE   ──→ Redis               │                             │
+│                                   ▼                             │
+│   INFRA   ──→ Docker + GitHub Actions CI/CD + GCP / Nginx      │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-# 🎯 Current Focus
+## `> projects --highlight`
 
-- Data Structures & Algorithms (LeetCode Practice)
-- Backend Development (FastAPI, Django, Spring Boot)
-- System Design Fundamentals
-- Java & Spring Boot
-- AI Integration & Multi-Agent Systems
-- Cloud Deployment (GCP, Docker)
-- Next.js & Full-Stack Development
+<div align="center">
+
+| Project | Stack | Description |
+|---------|-------|-------------|
+| 🧠 **SIA** *(Super Intelligent Assistant)* | Python · Groq · Gemini · LangGraph · Sarvam AI · Selenium | Desktop AI assistant with multi-agent swarm architecture, RAG memory, vector DB, and voice output |
+| 🤝 **VolunteerIQ** | Next.js 14 · FastAPI · Gemini 1.5 Pro · Firebase | AI-powered volunteer coordination platform — Google Solution Challenge 2026 |
+| 🎯 **AI Career Mentor** | Microsoft AutoGen · FastAPI · Next.js · Groq | Multi-agent career coaching system with Resume Analyst, Coach, Market Researcher & Interview agents |
+
+</div>
 
 ---
 
-⭐ From [Anil-Pradhan-web](https://github.com/Anil-Pradhan-web)
+## `> github_stats`
+
+<div align="center">
+
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=Anil-Pradhan-web&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=00ff94&icon_color=00ff94&text_color=c9d1d9"/>
+
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anil-Pradhan-web&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff94&text_color=c9d1d9"/>
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=Anil-Pradhan-web&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=00ff94&ring=00ff94&fire=ff6b35&currStreakLabel=00ff94)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+## `> current_focus --q2-2026`
+
+```python
+roadmap = {
+    "DSA": {
+        "status": "Active 🟢",
+        "focus": "LeetCode company-wise sets (Java)",
+        "target": "400+ problems"
+    },
+    "Backend": {
+        "status": "Building 🟡",
+        "focus": "Spring Boot microservices + JPA + Security",
+    },
+    "AI/GenAI": {
+        "status": "Building 🟡",
+        "focus": "LangGraph agents + ChromaDB RAG + FastAPI",
+        "projects": ["SIA v2", "RAG pipelines"]
+    },
+    "DevOps": {
+        "status": "Learning 🔵",
+        "focus": "Docker + GitHub Actions CI/CD",
+        "next": "Kubernetes + GCP deployment"
+    },
+    "System Design": {
+        "status": "Starting 🟠",
+        "focus": "HLD + LLD + Distributed systems fundamentals"
+    }
+}
+```
+
+---
+
+## `> achievements --community`
+
+<div align="center">
+
+🏆 **Google Solution Challenge 2026** — VolunteerIQ (Team ClutchCode)
+
+⚡ **Microsoft AI Dev Days** — AI Career Mentor (AutoGen + FastAPI)
+
+🚀 **Amazon Nova AI Challenge** — Participant
+
+</div>
+
+---
+
+## `> leetcode_grind`
+
+<div align="center">
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com)
+
+```
+  DSA Progress ████████░░░░░░░░░░░░  in progress...
+  Topics: Arrays → Strings → Hashing → Two Pointers
+          Sliding Window → Recursion → Backtracking
+          Trees → Graphs → DP → System Design
+```
+
+</div>
+
+---
+
+<div align="center">
+
+```
+┌────────────────────────────────────────────────┐
+│  "First, solve the problem.                    │
+│   Then, write the code."  — John Johnson       │
+│                                                │
+│  Building at the intersection of              │
+│  Backend Engineering × AI Systems × Scale     │
+└────────────────────────────────────────────────┘
+```
+
+**Thanks for visiting! Drop a ⭐ if you find something useful.**
+
+[![GitHub followers](https://img.shields.io/github/followers/Anil-Pradhan-web?style=social)](https://github.com/Anil-Pradhan-web)
+
+</div>
+
+---
+<div align="center">
+  <sub>⚡ Powered by curiosity, caffeine & Stack Overflow | Last updated: 2026</sub>
+</div>
