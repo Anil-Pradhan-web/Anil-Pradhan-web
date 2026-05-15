@@ -1,16 +1,16 @@
 <div align="center">
 
 ```
-╔═══════════════════════════════════════════════════════════════╗
-║   INITIALIZING... ANIL PRADHAN v2.0   ██████████████  100%   ║
-╚═══════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════╗
+║  BOOTING ANIL PRADHAN v2.0  ██████████████████████████  100%   ║
+╚══════════════════════════════════════════════════════════════════╝
 ```
 
 # `> ANIL PRADHAN_`
 
-### ⚡ Backend Engineer · AI Systems Builder · Full-Stack Developer
+### ⚡ Full Stack Developer · AI/Agent Systems · Backend Engineering
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&pause=1000&color=00FF94&center=true&vCenter=true&width=600&lines=Backend+First+%7C+FastAPI+%2B+AI+Agents;Multi-Agent+AI+Systems+Builder;LangGraph+%7C+RAG+%7C+Vector+DBs;2nd+Year+CSE+%40+ITER%2C+SOA+University)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&pause=1000&color=00FF94&center=true&vCenter=true&width=650&lines=FastAPI+%2B+Microsoft+AutoGen+v0.2+%2B+Multi-Agent+AI;Google+OAuth+%7C+JWT+%7C+WebSocket+%7C+Upstash+Redis;Next.js+14+%7C+React+%7C+Neon+Postgres+%7C+Docker;2nd+Year+CSE+%40+ITER%2C+SOA+University+%7C+CGPA+9.11)](https://git.io/typing-svg)
 
 <br/>
 
@@ -30,156 +30,193 @@
 ## `> whoami`
 
 ```yaml
-name: "Anil Pradhan"
-role: "Backend & AI Systems Engineer"
+name:       "Anil Pradhan"
+role:       "Full Stack Developer & AI Systems Builder"
 university: "ITER, SOA University, Bhubaneswar"
-batch: "2024 - 2028 | CSE"
-cgpa: 9.11
+batch:      "2024 - 2028 | CSE"
+cgpa:       9.11
+
+shipped:
+  - "AI Career Mentor — 5-agent AutoGen platform, sub-60s output"
+  - "VolunteerIQ — Google Solution Challenge 2026"
 
 currently:
-  - building: "Multi-Agent AI systems with LangGraph"
-  - learning: "FastAPI + System Design + DSA"
-  - practicing: "DSA daily on LeetCode (Java)"
+  - building:   "FastAPI + AI Agent backends"
+  - practicing: "DSA daily — LeetCode (Java)"
+  - learning:   "System Design + Distributed Systems"
 
-interests:
-  - Backend Scalability & Distributed Systems
-  - AI/GenAI & RAG Pipeline Engineering
-  - Cloud-Native Deployment (Docker + CI/CD)
-  - Open Source & Hackathons
-
+open_to:
+  - "Internships: Bangalore · Hyderabad · Bhubaneswar · Remote"
+  - "Notice Period: Immediate"
 ```
 
-<br/><br/>
+<br clear="right"/>
 
 ---
 
-## `> tech_stack --full`
+## `> tech_stack --current`
 
 <br/>
 
 ### ☕ Languages
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
 ---
 
-### 🔩 Backend & APIs
+### 🔩 Backend
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Django REST](https://img.shields.io/badge/DRF-ff1709?style=for-the-badge&logo=django&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT_Auth-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge)
+![AutoGen](https://img.shields.io/badge/Microsoft_AutoGen_v0.2-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![OpenAI SDK](https://img.shields.io/badge/OpenAI_SDK_(Groq)-412991?style=for-the-badge&logo=openai&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![Alembic](https://img.shields.io/badge/Alembic-6DB33F?style=for-the-badge)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+![SlowAPI](https://img.shields.io/badge/SlowAPI-FF6B35?style=for-the-badge)
+![Uvicorn](https://img.shields.io/badge/Uvicorn-499848?style=for-the-badge)
+![pdfplumber](https://img.shields.io/badge/pdfplumber-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![edge-tts](https://img.shields.io/badge/edge--tts-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge)
 
 ---
 
-### 🤖 AI / GenAI / RAG Stack *(Specialization)*
-
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG_Pipelines-6B21A8?style=for-the-badge)
-![Vector DB](https://img.shields.io/badge/Vector_Databases-7C3AED?style=for-the-badge)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge)
-![Multi-Agent](https://img.shields.io/badge/Multi--Agent_Systems-4C1D95?style=for-the-badge)
-![AutoGen](https://img.shields.io/badge/Microsoft_AutoGen-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge)
-![Sarvam AI](https://img.shields.io/badge/Sarvam_AI-FF6B35?style=for-the-badge)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge)
-
----
-
-### 🎨 Frontend & UI
+### 🎨 Frontend
 
 ![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Shadcn UI](https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Vanilla CSS](https://img.shields.io/badge/Vanilla_CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Recharts](https://img.shields.io/badge/Recharts-22C55E?style=for-the-badge)
+![Lucide React](https://img.shields.io/badge/Lucide_React-F56565?style=for-the-badge)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
+![react-map-gl](https://img.shields.io/badge/react--map--gl-000000?style=for-the-badge)
 
 ---
 
-### 🗄️ Databases & Storage
+### 🤖 AI / LLM
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Gemini](https://img.shields.io/badge/Gemini_2.5_Flash-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq_(Llama_3.3_70B)-F55036?style=for-the-badge)
+![AutoGen](https://img.shields.io/badge/Microsoft_AutoGen-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+
+---
+
+### 🗄️ Databases
+
+![Neon Postgres](https://img.shields.io/badge/Neon_Postgres-00E599?style=for-the-badge&logo=postgresql&logoColor=black)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB_(Vector)-FF6B35?style=for-the-badge)
+![Upstash Redis](https://img.shields.io/badge/Upstash_Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
 ---
 
-### ☁️ DevOps & CI/CD
+### 🔐 Auth & Security
+
+![Google OAuth](https://img.shields.io/badge/Google_OAuth_2.0-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Firebase Auth](https://img.shields.io/badge/Firebase_Auth-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![bcrypt](https://img.shields.io/badge/bcrypt-003366?style=for-the-badge)
+![google-auth](https://img.shields.io/badge/google--auth-4285F4?style=for-the-badge&logo=google&logoColor=white)
+
+---
+
+### ☁️ DevOps & Infra
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
+![Render](https://img.shields.io/badge/Render.com-46E3B7?style=for-the-badge&logo=render&logoColor=black)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 ---
 
 ### 🛠️ Tools
 
-![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger_UI-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Mapbox GL](https://img.shields.io/badge/Mapbox_GL-000000?style=for-the-badge&logo=mapbox&logoColor=white)
 
 ---
 
-## `> my_architecture --vision`
+## `> architecture --ai-career-mentor`
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                    ANIL'S TECH PHILOSOPHY                       │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│   CLIENT ──→  Next.js 14 (TypeScript + TailwindCSS)            │
-│                    │                                            │
-│                    ▼                                            │
-│   BACKEND ──→  FastAPI  (Primary API + Business Logic)          │
-│                    │                                            │
-│                    ▼                                            │
-│   AI LAYER ──→ FastAPI  (LangGraph + RAG + Agent Orchestration) │
-│                    │              │                             │
-│                    ▼              ▼                             │
-│   STORAGE ──→ PostgreSQL     ChromaDB (Vector DB)              │
-│                                                                 │
-│   CACHE   ──→ Redis                                            │
-│                                                                 │
-│   INFRA   ──→ Docker + GitHub Actions CI/CD + Nginx            │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────┐
+│                      AI CAREER MENTOR SYSTEM                        │
+├──────────────────────────────────────────────────────────────────────┤
+│                                                                      │
+│  CLIENT ──────────→  Next.js 14 (TypeScript + Vanilla CSS)          │
+│                              │  WebSocket (mock interview stream)    │
+│                              ▼                                       │
+│  GATEWAY ─────────→  FastAPI + Uvicorn + SlowAPI                    │
+│                       100 req/hr · 1000 req/day · SHA-256 cache      │
+│                              │                                       │
+│                    ┌─────────┴──────────┐                           │
+│                    ▼                    ▼                            │
+│  AGENT LAYER →  AutoGen v0.2       OpenAI SDK → Groq                │
+│                GroupChatManager     (WebSocket streaming)            │
+│                asyncio.to_thread()  sub-2s latency                  │
+│                    │                                                 │
+│   ┌────────────────┼────────────────────┐                           │
+│   ▼                ▼                    ▼                            │
+│ Resume          Market              Career                           │
+│ Analyst +    Researcher +          Coach +                           │
+│ ATS Score    DuckDuckGo live      LinkedIn                           │
+│ pdfplumber   market data          Reviewer                           │
+│                                                                      │
+│  LLM     ────────→  Gemini 2.5 Flash (primary)                      │
+│  FAILOVER          ↳ Groq Llama 3.3 70B (on 429)                    │
+│                                                                      │
+│  STORAGE ─────────→  Neon Postgres (SQLAlchemy + Alembic)           │
+│  CACHE   ─────────→  Upstash Redis (rate limits + AI response cache) │
+│  AUTH    ─────────→  Google OAuth 2.0 + JWT + Refresh Tokens         │
+│                                                                      │
+│  INFRA   ─────────→  Vercel (frontend) · Render (backend)           │
+│                       GitHub Actions CI/CD (ESLint+pytest+pip-audit) │
+│                                                                      │
+└──────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
 ## `> projects --highlight`
 
-<div align="center">
+### 🎯 AI Career Mentor
+> **Multi-Agent AI Career Coaching Platform**
 
-| Project | Stack | Description |
-|---------|-------|-------------|
-| 🧠 **SIA** *(Super Intelligent Assistant)* | Python · Groq · Gemini · LangGraph · Sarvam AI · Selenium | Desktop AI assistant with multi-agent swarm architecture, RAG memory, vector DB, and voice output |
-| 🤝 **VolunteerIQ** | Next.js 14 · FastAPI · Gemini 1.5 Pro · Firebase | AI-powered volunteer coordination platform — Google Solution Challenge 2026 |
-| 🎯 **AI Career Mentor** | Microsoft AutoGen · FastAPI · Next.js · Groq | Multi-agent career coaching system with Resume Analyst, Coach, Market Researcher & Interview agents |
+```
+Stack: Next.js 14 · FastAPI · Microsoft AutoGen v0.2 · Neon Postgres
+       Groq (Llama 3.3 70B) · Gemini 2.5 Flash · Upstash Redis · Google OAuth
+```
 
-</div>
+- 🤖 **5-agent AutoGen GroupChat** — Resume Analyst, Market Researcher, Career Coach, Mock Interviewer, LinkedIn Reviewer running in parallel via `asyncio.to_thread()`, consolidated output in **<60s**
+- ⚡ **Real-time WebSocket interview system** — OpenAI SDK → Groq API, **sub-2s** token streaming, 7-question adaptive state machine by company tier (FAANG → service-based)
+- 🔀 **Dual LLM failover** — Gemini 1.5 Flash primary → Groq Llama 3.3 70B on 429, zero user-facing failures
+- 🛡️ **Distributed rate limiting** — Upstash Redis + SlowAPI, 100 req/hr · 1000 req/day, SHA-256 keyed response caching
+- 📊 **Live market intelligence** — DuckDuckGo tool calling inside Market Researcher agent, real-time salary ranges, no static mock data
+- 🚀 **Full CI/CD** — GitHub Actions (ESLint + pytest + pip-audit), Neon Postgres with connection pooling (`pool_size=3, pool_recycle=300s`)
+
+**Submitted to:** Microsoft AI Dev Days Hackathon · Amazon Nova AI Hackathon (2026)
+
+---
+
+### 🤝 VolunteerIQ
+> **AI-Powered NGO Coordination Platform — Google Solution Challenge 2026**
+
+```
+Stack: Next.js 14 · FastAPI · Firebase Auth · Gemini 2.5 Flash
+       Mapbox GL · react-map-gl · PostgreSQL · Docker
+```
+
+- 📄 **Multi-format survey intelligence** — Gemini 2.5 Flash processes PDF, CSV, DOCX, TXT field surveys; extracts urgent community problems with urgency scores and auto-generated deployable tasks
+- 🎯 **AI volunteer matching** — 0–100 score ranking by skill match, location proximity, and availability; context-aware AI chat querying live PostgreSQL data in plain English
+- 🗺️ **Live Ops Map** — Mapbox GL + react-map-gl with geocoding cache, Firebase JWT verified server-side on every protected request
+- 🐳 **Containerized** — Docker + docker-compose, Gemini-to-Groq automatic fallback under rate limits
+
+**Team ClutchCode · Google Solution Challenge 2026**
 
 ---
 
@@ -201,32 +238,34 @@ interests:
 
 ---
 
-## `> current_focus --q2-2026`
+## `> current_focus --2026`
 
 ```python
 roadmap = {
     "DSA": {
         "status": "Active 🟢",
-        "focus": "LeetCode company-wise sets (Java)",
-        "target": "400+ problems"
+        "platform": "LeetCode + GeeksforGeeks (Java)",
+        "solved": "200+ problems",
+        "topics": ["Arrays", "Strings", "Hashing", "Two Pointers",
+                   "Sliding Window", "Recursion", "Backtracking",
+                   "Trees", "Graphs", "DP"]
     },
     "Backend": {
         "status": "Building 🟡",
         "focus": "FastAPI + System Design fundamentals",
     },
-    "AI/GenAI": {
+    "AI_Agents": {
         "status": "Building 🟡",
-        "focus": "LangGraph agents + ChromaDB RAG + FastAPI",
-        "projects": ["SIA v2", "RAG pipelines"]
+        "stack": "AutoGen v0.2 + Gemini + Groq + RAG pipelines",
     },
     "DevOps": {
         "status": "Learning 🔵",
-        "focus": "Docker + GitHub Actions CI/CD",
-        "next": "Kubernetes deployment"
+        "current": "Docker + GitHub Actions CI/CD",
+        "next": "Kubernetes"
     },
-    "System Design": {
+    "System_Design": {
         "status": "Starting 🟠",
-        "focus": "HLD + LLD + Distributed systems fundamentals"
+        "focus": "HLD + LLD + Distributed systems"
     }
 }
 ```
@@ -237,17 +276,21 @@ roadmap = {
 
 <div align="center">
 
-🏆 **Google Solution Challenge 2026** — VolunteerIQ (Team ClutchCode)
-
-⚡ **Microsoft AI Dev Days** — AI Career Mentor (AutoGen + FastAPI)
-
-🚀 **Amazon Nova AI Hackathon** — Participant
+| | Achievement |
+|---|---|
+| 🏆 | **Google Solution Challenge 2026** — VolunteerIQ (Team ClutchCode) |
+| ⚡ | **Microsoft AI Dev Days Hackathon** — AI Career Mentor |
+| 🚀 | **Amazon Nova AI Hackathon** — AI Career Mentor |
+| ☁️ | **Google Cloud Arcade Program** — 75+ Points, multiple skill rewards |
+| 🎽 | **GeeksforGeeks 80 Days Coding Challenge** — Certificate + T-Shirt |
+| 👥 | **GDG Build with AI 2026** — Techno India University, Kolkata (Offline) |
+| 🎓 | **E-Cell IIT Kanpur** — Campus Ambassador (Dec 2025 – Jan 2026) |
 
 </div>
 
 ---
 
-## `> leetcode_grind`
+## `> dsa_grind`
 
 <div align="center">
 
@@ -255,10 +298,10 @@ roadmap = {
 [![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-0F9D58?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/anilpradhan543)
 
 ```
-  DSA Progress ████████░░░░░░░░░░░░  in progress...
-  Topics: Arrays → Strings → Hashing → Two Pointers
-          Sliding Window → Recursion → Backtracking
-          Trees → Graphs → DP → System Design
+  DSA Progress  ████████████░░░░░░░  200+ solved
+  ✅ Arrays · Strings · Hashing · Two Pointers · Binary Search
+  ✅ Sliding Window · Recursion · Backtracking · Sorting
+  🔄 Trees → Graphs → DP → System Design
 ```
 
 </div>
@@ -268,13 +311,13 @@ roadmap = {
 <div align="center">
 
 ```
-┌────────────────────────────────────────────────┐
-│  "First, solve the problem.                    │
-│   Then, write the code."  — John Johnson       │
-│                                                │
-│  Building at the intersection of              │
-│  Backend Engineering × AI Systems × Scale     │
-└────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────┐
+│  "First, solve the problem.                             │
+│   Then, write the code."  — John Johnson               │
+│                                                         │
+│  Building at the intersection of                       │
+│  Backend Engineering × AI Systems × Real Products      │
+└─────────────────────────────────────────────────────────┘
 ```
 
 **Thanks for visiting! Drop a ⭐ if you find something useful.**
@@ -286,5 +329,5 @@ roadmap = {
 ---
 
 <div align="center">
-  <sub>⚡ Powered by curiosity, caffeine & Stack Overflow | Last updated: 2026</sub>
+  <sub>⚡ Powered by curiosity, caffeine & Stack Overflow | Updated: 2026</sub>
 </div>
