@@ -10,7 +10,7 @@
 
 ### ⚡ Full Stack Developer · AI/Agent Systems · Backend Engineering
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&pause=1000&color=00FF94&center=true&vCenter=true&width=650&lines=FastAPI+%2B+Microsoft+AutoGen+v0.2+%2B+Multi-Agent+AI;Google+OAuth+%7C+JWT+%7C+WebSocket+%7C+Upstash+Redis;Next.js+14+%7C+React+%7C+Neon+Postgres+%7C+Docker;2nd+Year+CSE+%40+ITER%2C+SOA+University+%7C+CGPA+9.11)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&pause=1000&color=00FF94&center=true&vCenter=true&width=650&lines=FastAPI+%2B+LangGraph+%2B+ChromaDB+RAG+Pipelines;Groq+%7C+NVIDIA+NIM+%7C+Gemini+2.5+Flash+%7C+Multi-Provider;Next.js+14+%7C+Neon+Postgres+%7C+Upstash+Redis+%7C+Docker;2nd+Year+CSE+%40+ITER%2C+SOA+University+%7C+CGPA+9.11)](https://git.io/typing-svg)
 
 <br/>
 
@@ -37,11 +37,11 @@ batch:      "2024 - 2028 | CSE"
 cgpa:       9.11
 
 shipped:
-  - "AI Career Mentor — 5-agent AutoGen platform, sub-60s output"
+  - "AI Career Mentor — LangGraph + ChromaDB RAG, 130+ commits"
   - "VolunteerIQ — Google Solution Challenge 2026"
 
 currently:
-  - building:   "FastAPI + AI Agent backends"
+  - building:   "FastAPI + LangGraph + RAG backends"
   - practicing: "DSA daily — LeetCode (Java)"
   - learning:   "System Design + Distributed Systems"
 
@@ -70,16 +70,15 @@ open_to:
 ### 🔩 Backend
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![AutoGen](https://img.shields.io/badge/Microsoft_AutoGen_v0.2-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![OpenAI SDK](https://img.shields.io/badge/OpenAI_SDK_(Groq)-412991?style=for-the-badge&logo=openai&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![OpenAI SDK](https://img.shields.io/badge/OpenAI_SDK_(Groq/NVIDIA)-412991?style=for-the-badge&logo=openai&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge)
 ![Alembic](https://img.shields.io/badge/Alembic-6DB33F?style=for-the-badge)
 ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge)
 ![SlowAPI](https://img.shields.io/badge/SlowAPI-FF6B35?style=for-the-badge)
-![Uvicorn](https://img.shields.io/badge/Uvicorn-499848?style=for-the-badge)
 ![pdfplumber](https://img.shields.io/badge/pdfplumber-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![edge-tts](https://img.shields.io/badge/edge--tts-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge)
 
 ---
 
@@ -97,9 +96,12 @@ open_to:
 
 ### 🤖 AI / LLM
 
-![Gemini](https://img.shields.io/badge/Gemini_2.5_Flash-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq_(Llama_3.3_70B)-F55036?style=for-the-badge)
-![AutoGen](https://img.shields.io/badge/Microsoft_AutoGen-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![NVIDIA NIM](https://img.shields.io/badge/NVIDIA_NIM-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini_2.5_Flash-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB_(RAG)-FF6B35?style=for-the-badge)
+![Serper](https://img.shields.io/badge/Serper.dev-4285F4?style=for-the-badge)
+![Tavily](https://img.shields.io/badge/Tavily_AI-6366F1?style=for-the-badge)
 
 ---
 
@@ -117,7 +119,6 @@ open_to:
 ![Firebase Auth](https://img.shields.io/badge/Firebase_Auth-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 ![bcrypt](https://img.shields.io/badge/bcrypt-003366?style=for-the-badge)
-![google-auth](https://img.shields.io/badge/google--auth-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
 ---
 
@@ -127,7 +128,7 @@ open_to:
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Render](https://img.shields.io/badge/Render.com-46E3B7?style=for-the-badge&logo=render&logoColor=black)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![GHCR](https://img.shields.io/badge/GHCR-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
@@ -156,26 +157,32 @@ open_to:
 │                              │                                       │
 │                    ┌─────────┴──────────┐                           │
 │                    ▼                    ▼                            │
-│  AGENT LAYER →  AutoGen v0.2       OpenAI SDK → Groq                │
-│                GroupChatManager     (WebSocket streaming)            │
-│                asyncio.to_thread()  sub-2s latency                  │
+│  AGENT LAYER →  LangGraph DAG       OpenAI SDK → Groq               │
+│                Static DAG +          (WebSocket streaming)           │
+│                parallel fan-out      sub-2s latency                  │
 │                    │                                                 │
 │   ┌────────────────┼────────────────────┐                           │
 │   ▼                ▼                    ▼                            │
-│ Resume          Market              Career                           │
-│ Analyst +    Researcher +          Coach +                           │
-│ ATS Score    DuckDuckGo live      LinkedIn                           │
-│ pdfplumber   market data          Reviewer                           │
+│ Resume          Market              LinkedIn                         │
+│ Analyst +    Researcher +          Optimizer +                       │
+│ ATS Engine   Serper/Tavily         Roadmap Builder                  │
+│ pdfplumber   live data             ChromaDB RAG                      │
 │                                                                      │
-│  LLM     ────────→  Gemini 2.5 Flash (primary)                      │
-│  FAILOVER          ↳ Groq Llama 3.3 70B (on 429)                    │
+│  LLM ROUTING → Groq (Llama 3.3 70B) — primary                      │
+│               → NVIDIA NIM (Llama 3.3 70B) — alternative            │
+│               → Gemini 2.5 Flash — fallback                          │
+│               → Circuit breaker on repeated failures                 │
+│                                                                      │
+│  RAG ENGINE → ChromaDB vector store (auto-seeded)                   │
+│             → Curated resource knowledge base                        │
+│             → In-memory keyword fallback                             │
 │                                                                      │
 │  STORAGE ─────────→  Neon Postgres (SQLAlchemy + Alembic)           │
 │  CACHE   ─────────→  Upstash Redis (rate limits + AI response cache) │
 │  AUTH    ─────────→  Google OAuth 2.0 + JWT + Refresh Tokens         │
 │                                                                      │
 │  INFRA   ─────────→  Vercel (frontend) · Render (backend)           │
-│                       GitHub Actions CI/CD (ESLint+pytest+pip-audit) │
+│                       Docker + GHCR · GitHub Actions CI/CD           │
 │                                                                      │
 └──────────────────────────────────────────────────────────────────────┘
 ```
@@ -185,21 +192,23 @@ open_to:
 ## `> projects --highlight`
 
 ### 🎯 AI Career Mentor
-> **Multi-Agent AI Career Coaching Platform**
+> **Production-Grade LangGraph AI Career Coaching Platform**
 
 ```
-Stack: Next.js 14 · FastAPI · Microsoft AutoGen v0.2 · Neon Postgres
-       Groq (Llama 3.3 70B) · Gemini 2.5 Flash · Upstash Redis · Google OAuth
+Stack: Next.js 14 · FastAPI · LangGraph · ChromaDB · Neon Postgres
+       Groq (Llama 3.3 70B) · NVIDIA NIM · Gemini 2.5 Flash
+       Upstash Redis · Google OAuth · Serper · Tavily · Docker
 ```
 
-- 🤖 **5-agent AutoGen GroupChat** — Resume Analyst, Market Researcher, Career Coach, Mock Interviewer, LinkedIn Reviewer running in parallel via `asyncio.to_thread()`, consolidated output in **<60s**
-- ⚡ **Real-time WebSocket interview system** — OpenAI SDK → Groq API, **sub-2s** token streaming, 7-question adaptive state machine by company tier (FAANG → service-based)
-- 🔀 **Dual LLM failover** — Gemini 1.5 Flash primary → Groq Llama 3.3 70B on 429, zero user-facing failures
-- 🛡️ **Distributed rate limiting** — Upstash Redis + SlowAPI, 100 req/hr · 1000 req/day, SHA-256 keyed response caching
-- 📊 **Live market intelligence** — DuckDuckGo tool calling inside Market Researcher agent, real-time salary ranges, no static mock data
-- 🚀 **Full CI/CD** — GitHub Actions (ESLint + pytest + pip-audit), Neon Postgres with connection pooling (`pool_size=3, pool_recycle=300s`)
+- 🧠 **LangGraph Static DAG** — orchestrates 4 specialized AI workflows (Resume Analyst, Market Researcher, LinkedIn Optimizer, Roadmap Generator) with parallel fan-out and strict Pydantic validation/repair loops, delivering complete career diagnostics in **<60 seconds**
+- 🔬 **Hybrid Semantic RAG Engine** — ChromaDB persistent vector store (auto-seeded at startup) + curated resource knowledge base + in-memory keyword fallback, enriching personalized 8-week roadmaps with real YouTube, GitHub, and documentation resources
+- ⚡ **Real-time WebSocket Interview System** — OpenAI SDK → Groq, **sub-2s** token streaming, 7-question adaptive state machine (FAANG=Hard / Service-based=Easy), Edge-TTS voice synthesis, crash-resilient `_safe_send_json()` handling
+- 🔀 **Dynamic Multi-Provider LLM Routing** — Groq (Llama 3.3 70B) · NVIDIA NIM · Gemini 2.5 Flash with automatic fallback chains and circuit-breaker mechanisms — **100% system availability**
+- 🔍 **Hardened Market Intelligence** — Serper.dev + Tavily AI + DuckDuckGo with regex-based JSON extraction, real-time salary benchmarks and hiring volumes — zero static mock data
+- 🔐 **Secure Auth & Data Pipeline** — Google OAuth 2.0, short-lived JWTs + Refresh Tokens, deterministic ATS Scoring Engine, in-memory PDF parsing via `pdfplumber`
+- 🚀 **Production CI/CD** — Docker + GHCR, GitHub Actions (ESLint + pytest + pip-audit + Render deploy hook), Vercel + Render, **130+ commits** solo over 5–6 months
 
-**Submitted to:** Microsoft AI Dev Days Hackathon · Amazon Nova AI Hackathon (2026)
+**Submitted to:** Microsoft AI Dev Days ($80K+) · Amazon Nova AI ($95K+) · 2026
 
 ---
 
@@ -213,8 +222,7 @@ Stack: Next.js 14 · FastAPI · Firebase Auth · Gemini 2.5 Flash
 
 - 📄 **Multi-format survey intelligence** — Gemini 2.5 Flash processes PDF, CSV, DOCX, TXT field surveys; extracts urgent community problems with urgency scores and auto-generated deployable tasks
 - 🎯 **AI volunteer matching** — 0–100 score ranking by skill match, location proximity, and availability; context-aware AI chat querying live PostgreSQL data in plain English
-- 🗺️ **Live Ops Map** — Mapbox GL + react-map-gl with geocoding cache, Firebase JWT verified server-side on every protected request
-- 🐳 **Containerized** — Docker + docker-compose, Gemini-to-Groq automatic fallback under rate limits
+- 🗺️ **Live Ops Map** — Mapbox GL + react-map-gl with geocoding cache, Firebase JWT verified server-side on every protected request, Gemini-to-Groq automatic fallback
 
 **Team ClutchCode · Google Solution Challenge 2026**
 
@@ -252,15 +260,15 @@ roadmap = {
     },
     "Backend": {
         "status": "Building 🟡",
-        "focus": "FastAPI + System Design fundamentals",
+        "focus": "FastAPI + LangGraph + System Design",
     },
     "AI_Agents": {
         "status": "Building 🟡",
-        "stack": "AutoGen v0.2 + Gemini + Groq + RAG pipelines",
+        "stack": "LangGraph DAGs + ChromaDB RAG + Multi-Provider LLM routing",
     },
     "DevOps": {
-        "status": "Learning 🔵",
-        "current": "Docker + GitHub Actions CI/CD",
+        "status": "Active 🟢",
+        "current": "Docker + GitHub Actions + GHCR",
         "next": "Kubernetes"
     },
     "System_Design": {
@@ -279,8 +287,8 @@ roadmap = {
 | | Achievement |
 |---|---|
 | 🏆 | **Google Solution Challenge 2026** — VolunteerIQ (Team ClutchCode) |
-| ⚡ | **Microsoft AI Dev Days Hackathon** — AI Career Mentor |
-| 🚀 | **Amazon Nova AI Hackathon** — AI Career Mentor |
+| ⚡ | **Microsoft AI Dev Days Hackathon** ($80K+) — AI Career Mentor |
+| 🚀 | **Amazon Nova AI Hackathon** ($95K+) — AI Career Mentor |
 | ☁️ | **Google Cloud Arcade Program** — 75+ Points, multiple skill rewards |
 | 🎽 | **GeeksforGeeks 80 Days Coding Challenge** — Certificate + T-Shirt |
 | 👥 | **GDG Build with AI 2026** — Techno India University, Kolkata (Offline) |
@@ -331,3 +339,5 @@ roadmap = {
 <div align="center">
   <sub>⚡ Powered by curiosity, caffeine & Stack Overflow | Updated: 2026</sub>
 </div>
+READMEEOF
+echo "README done"
