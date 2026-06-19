@@ -178,7 +178,7 @@ philosophy:   "Ship real things. Solve real problems."
 │   → Mastering System Design & Distributed Systems             │
 │   → Building deeper expertise in LangGraph + RAG pipelines    │
 │   → Grinding DSA to crack top-tier engineering roles          │
-│   → Eventually working in Europe 🌍 (Germany · Netherlands)  │
+| │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
