@@ -105,6 +105,16 @@ philosophy:
 ![Tavily](https://img.shields.io/badge/Tavily_AI-6366F1?style=for-the-badge)
 ![Serper.dev](https://img.shields.io/badge/Serper.dev-4285F4?style=for-the-badge)
 ![DuckDuckGo](https://img.shields.io/badge/DuckDuckGo-DE5833?style=for-the-badge&logo=duckduckgo&logoColor=white)
+### 🔐 Authentication & Security
+
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Google OAuth](https://img.shields.io/badge/Google_OAuth_2.0-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Firebase Auth](https://img.shields.io/badge/Firebase_Auth-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![bcrypt](https://img.shields.io/badge/bcrypt-003366?style=for-the-badge)
+![CORS](https://img.shields.io/badge/CORS_Middleware-22C55E?style=for-the-badge)
+![Rate Limiting](https://img.shields.io/badge/Rate_Limiting-0EA5E9?style=for-the-badge)
+![HTTPS](https://img.shields.io/badge/HTTPS_TLS-DC2626?style=for-the-badge)
+![Environment Variables](https://img.shields.io/badge/.env_Secrets-7C3AED?style=for-the-badge)
 ### ☁️ DevOps & Infrastructure
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -114,7 +124,35 @@ philosophy:
 ![GHCR](https://img.shields.io/badge/GHCR-181717?style=for-the-badge&logo=github&logoColor=white)
 
 <div align="center">
+---
 
+## 📈 Developer Metrics
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anil-Pradhan-web&theme=github_dark" width="100%" />
+
+<br/><br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Anil-Pradhan-web&theme=github_dark" width="32%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Anil-Pradhan-web&theme=github_dark" width="32%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Anil-Pradhan-web&theme=github_dark" width="32%" />
+
+<br/><br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Anil-Pradhan-web&theme=github_dark&utcOffset=5.5" width="49%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Anil-Pradhan-web&theme=github-dark&hide_border=true&bg_color=0D1117&color=00FF94&line=00FF94&point=FFFFFF" width="49%" />
+
+</div>
+
+---
+<div align="center">
+
+### ⚡ Code. Learn. Build. Repeat.
+
+*"Turning ideas into scalable systems, one commit at a time."*
+
+</div>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00FF94,100:0D1117&height=120&section=footer"/>
 
 ### ⚡ Building scalable backend systems and production-grade AI applications.
