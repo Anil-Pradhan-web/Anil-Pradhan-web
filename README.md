@@ -1,25 +1,27 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0D1117,50:00FF94,100:0D1117&text=ANIL%20PRADHAN&fontColor=ffffff&fontSize=55&fontAlignY=38&animation=fadeIn&desc=Full%20Stack%20Developer%20•%20AI%20Systems%20Engineer%20•%20Backend%20Builder&descAlignY=58"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=2500&pause=1000&color=00FF94&center=true&vCenter=true&width=900&lines=Building+Production-Grade+AI+Systems;FastAPI+%7C+LangGraph+%7C+RAG+Pipelines;Backend+Engineering+%7C+System+Design+%7C+Distributed+Systems;B.Tech+CSE+%40+ITER%2C+SOA+University+%7C+CGPA+9.11" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0D1117,50:2563EB,100:0D1117&text=ANIL%20PRADHAN&fontColor=FFFFFF&fontSize=56&fontAlignY=38&animation=fadeIn&desc=Backend%20Engineer%20•%20AI%20Systems%20Builder&descAlignY=58&descSize=18"/>
 
 <br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=Building+Production-Ready+AI+Applications;FastAPI+•+LangGraph+•+RAG+Pipelines;Backend+Engineering+•+System+Design;Always+Learning.+Always+Building." />
+
+<br/><br/>
+
+<a href="https://github.com/Anil-Pradhan-web">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
 <a href="https://linkedin.com/in/anil-pradhan543">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
 <a href="https://my-portfolio-anil.vercel.app">
-<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 
 <a href="mailto:anilpradhan9644@gmail.com">
 <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://github.com/Anil-Pradhan-web">
-<img src="https://img.shields.io/badge/GitHub-161B22?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 <a href="https://leetcode.com/u/Anil_Pradhan/">
@@ -27,136 +29,611 @@
 </a>
 
 <a href="https://www.geeksforgeeks.org/profile/anilpradhan543">
-<img src="https://img.shields.io/badge/GeeksForGeeks-0F9D58?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
+<img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
 </a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=Anil-Pradhan-web&style=for-the-badge&color=2563EB&label=PROFILE+VIEWS"/>
+
+</div>
+
+---
+
+# 👋 Hi, I'm Anil
+
+I'm a **Computer Science undergraduate at ITER, SOA University** passionate about building scalable backend systems and production-ready AI applications.
+
+My primary interest lies in **Backend Engineering**, **AI Agent Systems**, **System Design**, and **Distributed Systems**. I enjoy transforming complex ideas into reliable software that solves real-world problems.
+
+Currently, I'm focused on writing clean backend architectures, exploring modern AI workflows, and continuously improving my problem-solving skills through projects and DSA.
+
+---
+
+## 🚀 What I'm Currently Working On
+
+- 🤖 Building production-ready AI applications using **FastAPI** & **LangGraph**
+- 🧠 Exploring **LLM Agents**, **RAG Pipelines**, and AI Workflows
+- ⚙️ Learning **System Design** & **Distributed Systems**
+- 📈 Improving **Data Structures & Algorithms**
+- ☁️ Deploying scalable applications on modern cloud platforms
+
+---
+
+## 💼 About Me
+
+```text
+🎓 B.Tech Computer Science Engineering
+🏫 ITER, SOA University (2024 – 2028)
+
+📍 Bhubaneswar, Odisha, India
+
+📚 CGPA
+9.11
+
+💡 Interests
+• Backend Engineering
+• AI Systems
+• API Design
+• Distributed Systems
+
+🎯 Looking For
+Software Engineering Internships
+Backend Developer Roles
+AI Engineering Opportunities
+
+🚀 Philosophy
+
+"Build real products.
+Solve real problems.
+Keep shipping."
+```
+
+---
+
+## 🌱 Current Learning Journey
+
+```text
+Backend Development
+███████████████████░░ 95%
+
+FastAPI & APIs
+████████████████████ 100%
+
+AI Agent Systems
+█████████████████░░░ 85%
+
+System Design
+██████████████░░░░░░ 70%
+
+Distributed Systems
+█████████████░░░░░░░ 65%
+
+Data Structures & Algorithms
+████████████████░░░░ 80%
+```
+
+---
+
+## 📌 This Year I'm Focusing On
+
+✔ Building production-grade AI products
+
+✔ Writing clean and scalable backend code
+
+✔ Open Source Contributions
+
+✔ Software Engineering Internships
+
+✔ Becoming a better problem solver every day
+
+---
+
+## 🤝 Let's Connect
+
+<p align="center">
+
+<a href="mailto:anilpradhan9644@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://linkedin.com/in/anil-pradhan543">
+<img src="https://img.shields.io/badge/LinkedIn-Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://my-portfolio-anil.vercel.app">
+<img src="https://img.shields.io/badge/Portfolio-Visit_Website-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
+<div align="center">
+
+### 💭 *"Great software isn't just written — it's carefully engineered."*
+
+</div>
+# 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+
+## 🤖 TaskPilot AI
+
+An intelligent multi-agent AI assistant that helps software engineers manage tasks across GitHub, Jira, Slack, Calendar, and documentation.
+
+### Highlights
+
+- 🧠 Multi-Agent Architecture
+- 🔍 Retrieval-Augmented Generation (RAG)
+- ⚡ FastAPI Backend
+- 📄 Intelligent Document Search
+- 🔄 Context-Aware Workflows
+- 🔌 API-first Design
+
+**Tech Stack**
+
+`FastAPI` `LangGraph` `Python`
+`Gemini` `Groq`
+`PostgreSQL`
+`Docker`
+
+</td>
+
+<td width="50%">
+
+## 🚌 CityBus Live
+
+A real-time public transport tracking platform designed for small cities with live GPS tracking, ETA prediction, and route visualization.
+
+### Highlights
+
+- 📍 Live Bus Tracking
+- 🗺 Interactive Maps
+- ⏱ ETA Prediction
+- 🚏 Route Management
+- 📱 Responsive UI
+- 🌐 REST APIs
+
+**Tech Stack**
+
+`React`
+`Django`
+`Django REST Framework`
+`Leaflet`
+`MySQL`
+
+</td>
+</tr>
+</table>
+
+---
+
+<table>
+<tr>
+<td width="50%">
+
+## 🎓 AI Career Mentor
+
+An AI-powered career guidance platform helping students receive personalized learning paths, resume feedback, and interview preparation.
+
+### Features
+
+- AI Career Guidance
+- Resume Analysis
+- Learning Roadmaps
+- Personalized Suggestions
+
+**Tech Stack**
+
+`React`
+`FastAPI`
+`LLMs`
+`Prompt Engineering`
+
+</td>
+
+<td width="50%">
+
+## 🚀 More Projects
+
+I'm continuously building projects focused on
+
+- Backend Engineering
+- AI Applications
+- Automation
+- Developer Productivity
+- Cloud Deployment
+- Open Source
+
+More exciting repositories coming soon...
+
+</td>
+</tr>
+</table>
+
+---
+
+# 💻 Tech Stack
+
+## Languages
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=python,java,javascript,ts,html,css,sql"/>
+
+</p>
+
+---
+
+## Backend Development
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=fastapi,django,nodejs"/>
+
+</p>
+
+**Core Technologies**
+
+- FastAPI
+- Django
+- REST APIs
+- LangGraph
+- LangChain
+- SQLAlchemy
+- Pydantic
+- WebSockets
+
+---
+
+## Frontend
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite"/>
+
+</p>
+
+---
+
+## Databases
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=postgres,mysql"/>
+
+</p>
+
+Experienced with
+
+- Database Design
+- SQL Optimization
+- ORM
+- Schema Design
+
+---
+
+## AI & LLM Engineering
+
+<table>
+
+<tr>
+<td>🤖 LLM Frameworks</td>
+<td>LangGraph • LangChain</td>
+</tr>
+
+<tr>
+<td>🧠 Models</td>
+<td>Gemini • Groq • NVIDIA NIM</td>
+</tr>
+
+<tr>
+<td>🔍 Search</td>
+<td>Tavily • Serper • DuckDuckGo</td>
+</tr>
+
+<tr>
+<td>📄 RAG</td>
+<td>Vector Search • Prompt Engineering • Context Retrieval</td>
+</tr>
+
+<tr>
+<td>⚡ APIs</td>
+<td>Streaming • Async • HTTPX</td>
+</tr>
+
+</table>
+
+---
+
+## DevOps & Cloud
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=docker,githubactions,git,github,linux,vercel"/>
+
+</p>
+
+Deployment Platforms
+
+- Docker
+- GitHub Actions
+- Vercel
+- Render
+- GitHub Container Registry (GHCR)
+
+---
+
+## Tools I Use Daily
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=vscode,postman,git,github"/>
+
+</p>
+
+Along with
+
+- Pytest
+- Loguru
+- Prometheus
+- Sentry
+- JWT Authentication
+- OAuth
+- Firebase Authentication
+
+---
+
+<div align="center">
+
+## 🧩 Engineering Principles
+
+```
+✔ Clean Code
+
+✔ API First
+
+✔ Performance Matters
+
+✔ Scalability
+
+✔ Simplicity
+
+✔ Continuous Learning
+```
+
+</div>
+
+---
+# 📊 GitHub Analytics
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Anil-Pradhan-web&show_icons=true&theme=github_dark&hide_border=true&border_radius=12&rank_icon=github"/>
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anil-Pradhan-web&layout=compact&theme=github_dark&hide_border=true&border_radius=12"/>
+
+<br/><br/>
+
+<img width="70%" src="https://streak-stats.demolab.com?user=Anil-Pradhan-web&theme=github-dark&hide_border=true&border_radius=12"/>
+
+</div>
+
+---
+
+# 📈 Contribution Activity
+
+<div align="center">
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Anil-Pradhan-web&theme=github-dark&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF"/>
+
+</div>
+
+---
+
+# 🏆 Highlights
+
+<div align="center">
+
+| Achievement | Description |
+|:-----------|:------------|
+| 🏆 Dell FutureMinds AI Hackathon | Grand Finalist |
+| 💻 GeeksforGeeks | 160 Days Coding Challenge Winner |
+| 🎓 CGPA | **9.11** |
+| 🤖 AI Engineering | Building Production-Ready AI Systems |
+| 🚀 Backend Engineering | FastAPI • LangGraph • Distributed Systems |
+| 🌱 Open Source | Continuously Learning & Contributing |
+
+</div>
+
+---
+
+# 📚 Competitive Programming
+
+<div align="center">
+
+<a href="https://leetcode.com/u/Anil_Pradhan/">
+<img src="https://img.shields.io/badge/LeetCode-Solve_Problems-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
+</a>
+
+<a href="https://www.geeksforgeeks.org/profile/anilpradhan543">
+<img src="https://img.shields.io/badge/GeeksforGeeks-Coding_Profile-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
+</a>
+
+</div>
+
+---
+
+# 💼 What You Can Expect From Me
+
+```text
+✔ Clean Architecture
+
+✔ Production Ready Code
+
+✔ REST API Development
+
+✔ AI Agent Workflows
+
+✔ Backend System Design
+
+✔ Strong Problem Solving
+
+✔ Continuous Learning
+
+✔ Team Collaboration
+```
+
+---
+
+# 📖 Currently Learning
+
+<div align="center">
+
+| Learning | Progress |
+|-----------|----------|
+| System Design | ████████░░ 80% |
+| Distributed Systems | ███████░░░ 70% |
+| Backend Architecture | ██████████ 100% |
+| AI Agents | █████████░ 90% |
+| Cloud Deployment | ████████░░ 80% |
+| DSA | █████████░ 90% |
+
+</div>
+
+---
+
+# 🎯 2026 Goals
+
+- 🚀 Crack a Software Engineering Internship
+- 🤖 Build Production-Grade AI Applications
+- ☁️ Master Cloud & Backend Architecture
+- 📖 Deep Dive into Distributed Systems
+- 🌍 Contribute to Open Source
+- 💼 Ship More Real-World Projects
+
+---
+
+# 📌 Fun Facts
+
+```text
+💡 I enjoy building backend systems more than designing UI.
+
+🤖 AI Engineering and System Design excite me the most.
+
+📚 I believe the best way to learn is by building.
+
+🚀 My goal is to become a world-class Software Engineer.
+```
+
+---
+
+<div align="center">
+
+## ⭐ "Consistency beats intensity. Ship. Learn. Repeat."
+
+</div>
+
+---
+---
+
+# 🤝 Let's Connect
+
+<div align="center">
+
+I'm always open to collaborating on **Backend Engineering**, **AI Systems**, **Open Source**, and **Software Engineering** projects.
+
+Whether it's an internship opportunity, an exciting project, or just a tech discussion—I'd love to connect.
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=Anil-Pradhan-web&label=PROFILE+VIEWS&color=00ff94&style=for-the-badge"/>
+<a href="mailto:anilpradhan9644@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://linkedin.com/in/anil-pradhan543">
+<img src="https://img.shields.io/badge/LinkedIn-Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/Anil-Pradhan-web">
+<img src="https://img.shields.io/badge/GitHub-Follow_Me-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://my-portfolio-anil.vercel.app">
+<img src="https://img.shields.io/badge/Portfolio-Visit_Website-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
 
 </div>
-## 🧠 About Me
+
+---
+
+# 💼 Open To Opportunities
+
+<div align="center">
+
+| Role | Status |
+|------|--------|
+| Software Engineering Internship | ✅ Open |
+| Backend Developer Internship | ✅ Open |
+| AI Engineer Internship | ✅ Open |
+| Open Source Collaboration | ✅ Always |
+
+</div>
+
+---
+
+# 🌟 Beyond Coding
+
+```text
+📚 Reading about scalable software systems
+
+🧠 Exploring AI Agents & LLM Architectures
+
+🚀 Building real-world products
+
+💻 Solving DSA consistently
+
+☕ Learning something new every single day
+```
+
+---
+
+# 📬 Reach Me
 
 ```yaml
-name:         "Anil Pradhan"
-role:         "Full Stack Developer & AI Systems Engineer"
-university:   "ITER, SOA University, Bhubaneswar"
-degree:       "B.Tech Computer Science Engineering"
-batch:        "2024 – 2028"
-cgpa:         9.11
+Name:      Anil Pradhan
+Location:  Bhubaneswar, Odisha, India
 
-currently:
-  - 🔨 Building production-grade AI applications
-  - 📚 Learning System Design & Distributed Systems
-  - ⚡ Exploring scalable backend architectures
-  - 💪 Solving DSA problems daily
+Email:
+anilpradhan9644@gmail.com
 
-focus_areas:
-  - Backend Engineering
-  - AI Agent Systems
-  - RAG Pipelines
-  - API Design
-  - Cloud Deployment
+LinkedIn:
+linkedin.com/in/anil-pradhan543
 
-open_to:
-  - Software Engineering Internships
-  - Backend Developer Roles
-  - AI Engineering Opportunities
-  - Remote & On-site Positions
+Portfolio:
+my-portfolio-anil.vercel.app
 
-philosophy:
-  "Build real products. Solve real problems. Keep shipping."
+GitHub:
+github.com/Anil-Pradhan-web
 ```
-### ☕ Languages
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-### 🌐 Frontend
-
-![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
-### ⚙️ Backend
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain_Core-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge)
-![HTTPX](https://img.shields.io/badge/HTTPX-0ea5e9?style=for-the-badge)
-![Loguru](https://img.shields.io/badge/Loguru-16A34A?style=for-the-badge)
-![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge)
-![Uvicorn](https://img.shields.io/badge/Uvicorn-facc15?style=for-the-badge)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Sentry](https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white)
-![SlowAPI](https://img.shields.io/badge/SlowAPI-0ea5e9?style=for-the-badge)
-![pdfplumber](https://img.shields.io/badge/pdfplumber-ef4444?style=for-the-badge&logo=python&logoColor=white)
-![edge--tts](https://img.shields.io/badge/edge--tts-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![Postman_Test_Suite](https://img.shields.io/badge/Postman_Test_Suite-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
-### 🤖 AI / LLM & RAG
-
-![Groq](https://img.shields.io/badge/Groq_(Llama_3.3_70B)-F55036?style=for-the-badge)
-![NVIDIA NIM](https://img.shields.io/badge/NVIDIA_NIM-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![Gemini Live API](https://img.shields.io/badge/Gemini_Live_API-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)
-![Tavily](https://img.shields.io/badge/Tavily_AI-6366F1?style=for-the-badge)
-![Serper.dev](https://img.shields.io/badge/Serper.dev-4285F4?style=for-the-badge)
-![DuckDuckGo](https://img.shields.io/badge/DuckDuckGo-DE5833?style=for-the-badge&logo=duckduckgo&logoColor=white)
-### 🔐 Authentication & Security
-
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![Google OAuth](https://img.shields.io/badge/Google_OAuth_2.0-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![Firebase Auth](https://img.shields.io/badge/Firebase_Auth-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![bcrypt](https://img.shields.io/badge/bcrypt-003366?style=for-the-badge)
-![CORS](https://img.shields.io/badge/CORS_Middleware-22C55E?style=for-the-badge)
-![Rate Limiting](https://img.shields.io/badge/Rate_Limiting-0EA5E9?style=for-the-badge)
-![HTTPS](https://img.shields.io/badge/HTTPS_TLS-DC2626?style=for-the-badge)
-![Environment Variables](https://img.shields.io/badge/.env_Secrets-7C3AED?style=for-the-badge)
-### ☁️ DevOps & Infrastructure
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render.com-46E3B7?style=for-the-badge&logo=render&logoColor=black)
-![GHCR](https://img.shields.io/badge/GHCR-181717?style=for-the-badge&logo=github&logoColor=white)
-
-<div align="center">
----
-
-## 📈 Developer Metrics
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anil-Pradhan-web&theme=github_dark" width="100%" />
-
-<br/><br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Anil-Pradhan-web&theme=github_dark" width="32%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Anil-Pradhan-web&theme=github_dark" width="32%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Anil-Pradhan-web&theme=github_dark" width="32%" />
-
-<br/><br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Anil-Pradhan-web&theme=github_dark&utcOffset=5.5" width="49%" />
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Anil-Pradhan-web&theme=github-dark&hide_border=true&bg_color=0D1117&color=00FF94&line=00FF94&point=FFFFFF" width="49%" />
-
-</div>
 
 ---
+
 <div align="center">
 
-### ⚡ Code. Learn. Build. Repeat.
+## ⭐ Thanks for visiting my profile!
 
-*"Turning ideas into scalable systems, one commit at a time."*
+If you like my work, consider giving a ⭐ to the repositories you find useful.
 
-</div>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00FF94,100:0D1117&height=120&section=footer"/>
+<br/>
 
-### ⚡ Building scalable backend systems and production-grade AI applications.
+### 🚀 Building scalable backend systems and production-ready AI applications.
 
-⭐ If you like my work, consider giving a star to my repositories.
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0D1117,50:2563EB,100:0D1117"/>
 
 </div>
