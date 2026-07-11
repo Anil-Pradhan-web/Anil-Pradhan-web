@@ -1,8 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0D1117,50:00FF94,100:0D1117&text=ANIL%20PRADHAN&fontColor=ffffff&fontSize=55&fontAlignY=38&animation=fadeIn&desc=Full%20Stack%20Developer%20•%20AI%20Systems%20Engineer%20•%20Backend%20Builder&descAlignY=58"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=2500&pause=1000&color=00FF94&center=true&vCenter=true&width=900&lines=Building+Production-Grade+AI+Systems;FastAPI+%7C+LangGraph+%7C+RAG+Pipelines;Backend+Engineering+%7C+System+Design+%7C+Distributed+Systems;B.Tech+CSE+%40+ITER%2C+SOA+University+%7C+CGPA+9.11" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0D1117,50:00FF94,100:0D1117&text=ANIL%20PRADHAN&fontColor=ffffff&fontSize=55&fontAlignY=38&animation=fadeIn&desc=AI%20Systems%20Engineer%20•%20Backend%20Builder&descAlignY=58"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=2000&pause=1000&color=00FF94&center=true&vCenter=true&width=900&lines=Building+Production-Grade+AI+Systems;FastAPI+%7C+LangGraph+%7C+RAG+Pipelines;Backend+Engineering+%7C+System+Design+%7C+Distributed+Systems;B.Tech+CSE+%40+ITER%2C+SOA+University+%7C+CGPA+9.11" />
 
 <br/>
 
