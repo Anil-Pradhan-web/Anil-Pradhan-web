@@ -66,31 +66,6 @@ philosophy:
 
 ---
 
-## 🚀 Featured Projects
-
-### 🎯 [AI Career Mentor](https://ai-career-mentor-anil.vercel.app)
-Production-grade, solo-built full-stack AI career coaching platform.
-- **Architecture:** LangGraph static DAG (parallel fan-out/fan-in), 7-phase FSM interview console, Anya voice assistant (Gemini Live Multimodal API)
-- **Stack:** Next.js 14 (Vercel) · FastAPI (Render) · Neon Postgres · Upstash Redis · ChromaDB (RAG, ONNX embeddings)
-- **Engineering:** SSE streaming, circuit breakers, 4-layer prompt injection sanitization, Redis observability, multi-stage Docker builds
-- **LLMs:** Groq (Llama 3.3 70B) · NVIDIA NIM · Gemini 2.5 Flash
-- 254+ commits · 106 tests
-
-`Next.js` `FastAPI` `LangGraph` `PostgreSQL` `Redis` `Docker`
-
-### 🤝 VolunteerIQ
-NGO coordination platform — built for **Google Solution Challenge 2026** with Team ClutchCode.
-
-### 🛠️ TaskPilot AI
-Multi-agent engineering workflow assistant — built for **DELL FutureMind AI Hackathon 2026** with Team IdeaForg-E.
-
-### 🖥️ SIA (Super Intelligent Assistant)
-Python-based desktop AI assistant with multi-agent swarm architecture, Groq primary/Gemini fallback LLMs, Sarvam AI TTS, and Selenium browser automation.
-
-### 🚌 City-Bus Live
-Real-time bus tracking system for Bhubaneswar.
-
----
 
 ### ☕ Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -168,11 +143,6 @@ Real-time bus tracking system for Bhubaneswar.
 
 ---
 
-## 🎓 Community & Achievements
-- Campus Ambassador — **E-Cell, IIT Kanpur**
-- Active member — **GDG (Google Developer Groups)**
-- Google Cloud Arcade Badges
-- Participant — Microsoft AI Dev Days, Amazon Nova AI Hackathon
 
 ---
 
