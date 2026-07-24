@@ -74,104 +74,73 @@ philosophy:
 
 ---
 
-# ⚡ Tech Stack
-
 ## ☕ Languages
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,java,javascript,postgresql" />
+<p>
+<img src="https://skillicons.dev/icons?i=python,java,javascript,postgresql" />
 </p>
 
 ---
 
 ## ⚙️ Backend
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=fastapi" />
+<p>
+<img src="https://skillicons.dev/icons?i=fastapi" />
 </p>
 
-<p align="left">
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/WebSockets-111111?style=flat-square&logoColor=white" />
-</p>
+`LangGraph` • `SQLAlchemy` • `Pydantic` • `WebSockets`
 
 ---
 
 ## 🌐 Frontend
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=react,html,css,tailwind" />
+<p>
+<img src="https://skillicons.dev/icons?i=react,html,css,tailwind" />
 </p>
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white" />
-</p>
+`Axios`
 
 ---
 
 ## 🗄️ Databases
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=postgresql,sqlite,redis" />
+<p>
+<img src="https://skillicons.dev/icons?i=postgresql,sqlite,redis" />
 </p>
 
-<p align="left">
-  <img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square&logoColor=white" />
-</p>
+`ChromaDB`
 
 ---
 
 ## 🤖 AI / GenAI
 
-<p align="left">
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/RAG-00C853?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gemini%20Live%20API-4285F4?style=flat-square&logo=googlegemini&logoColor=white" />
-  <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/NVIDIA%20NIM-76B900?style=flat-square&logo=nvidia&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cerebras-111111?style=flat-square&logoColor=white" />
-</p>
+`LangGraph` • `RAG` • `Gemini Live API` • `Groq` • `NVIDIA NIM` • `Cerebras`
 
 ---
 
 ## ☁️ DevOps & Cloud
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=docker,git,githubactions,vercel" />
+<p>
+<img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,vercel" />
 </p>
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black" />
-</p>
+`Render`
 
 ---
 
 ## 🔐 Authentication & Security
 
-<p align="left">
-  <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google%20OAuth-4285F4?style=flat-square&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/bcrypt-003366?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/CORS-22C55E?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Rate%20Limiting-0EA5E9?style=flat-square&logoColor=white" />
-</p>
+`JWT` • `Google OAuth` • `bcrypt` • `CORS` • `Rate Limiting`
 
 ---
 
 ## 🛠 Developer Tools
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,docker" />
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,docker" />
 </p>
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Swagger_UI-85EA2D?style=flat-square&logo=swagger&logoColor=black" />
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white" />
-</p>
-
+`Swagger UI` • `Prometheus` • `Sentry`
 # 📊 GitHub Analytics
 
 <div align="center">
