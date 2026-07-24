@@ -201,19 +201,6 @@ philosophy:
 # 📊 GitHub Analytics
 
 <div align="center">
-
-<table>
-<tr>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Anil-Pradhan-web&theme=algolia&no-frame=true&row=1&column=6"/>
-
-</div>
-
-</tr>
-</table>
-
 <br>
 
 <img width="70%" src="https://streak-stats.demolab.com?user=Anil-Pradhan-web&theme=github-dark&hide_border=true"/>
