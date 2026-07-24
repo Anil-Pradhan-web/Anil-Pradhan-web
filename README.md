@@ -205,17 +205,11 @@ philosophy:
 <table>
 <tr>
 
-<td width="50%">
+<div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Anil-Pradhan-web&show_icons=true&theme=github_dark&hide_border=true&count_private=true"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Anil-Pradhan-web&theme=algolia&no-frame=true&row=1&column=6"/>
 
-</td>
-
-<td width="50%">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anil-Pradhan-web&layout=compact&theme=github_dark&hide_border=true"/>
-
-</td>
+</div>
 
 </tr>
 </table>
