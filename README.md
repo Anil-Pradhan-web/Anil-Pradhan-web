@@ -202,24 +202,33 @@ philosophy:
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anil-Pradhan-web&theme=github_dark" width="100%" />
+<table>
+<tr>
+
+<td width="50%">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Anil-Pradhan-web&show_icons=true&theme=github_dark&hide_border=true&count_private=true"/>
+
+</td>
+
+<td width="50%">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anil-Pradhan-web&layout=compact&theme=github_dark&hide_border=true"/>
+
+</td>
+
+</tr>
+</table>
+
+<br>
+
+<img width="70%" src="https://streak-stats.demolab.com?user=Anil-Pradhan-web&theme=github-dark&hide_border=true"/>
 
 <br><br>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Anil-Pradhan-web&theme=github_dark" width="32%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Anil-Pradhan-web&theme=github_dark" width="32%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Anil-Pradhan-web&theme=github_dark" width="32%" />
-
-<br><br>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Anil-Pradhan-web&theme=github_dark&utcOffset=5.5" width="49%" />
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Anil-Pradhan-web&theme=github-dark&hide_border=true&bg_color=0D1117&color=00FF94&line=00FF94&point=FFFFFF" width="49%" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Anil-Pradhan-web&theme=github-dark&hide_border=true&bg_color=0D1117&color=00FF94&line=00FF94&point=FFFFFF"/>
 
 </div>
-
----
-
-<div align="center">
 
 # ⚡ Build Real Products. Solve Real Problems.
 
