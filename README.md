@@ -84,13 +84,13 @@ philosophy:
 
 ## ⚙️ Backend
 
-<p>
-<img src="https://skillicons.dev/icons?i=fastapi" />
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=fastapi" />
 </p>
 
-`LangGraph` • `SQLAlchemy` • `Pydantic` • `WebSockets`
+**Core Technologies**
 
----
+`REST API` • `LangGraph` • `SQLAlchemy` • `Pydantic` • `WebSockets`
 
 ## 🌐 Frontend
 
