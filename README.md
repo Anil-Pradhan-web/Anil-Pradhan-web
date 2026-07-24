@@ -78,125 +78,99 @@ philosophy:
 
 ## ☕ Languages
 
-<p>
-
-<img src="https://skillicons.dev/icons?i=python,java,js" height="45"/>
-
-<img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
-
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,java,javascript,postgresql" />
 </p>
 
 ---
 
 ## ⚙️ Backend
 
-<p>
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=fastapi" />
+</p>
 
-<img src="https://skillicons.dev/icons?i=fastapi" height="45"/>
-
-<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/WebSockets-010101?style=for-the-badge"/>
-
+<p align="left">
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/WebSockets-111111?style=flat-square&logoColor=white" />
 </p>
 
 ---
 
 ## 🌐 Frontend
 
-<p>
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,html,css,tailwind" />
+</p>
 
-<img src="https://skillicons.dev/icons?i=react,html,css,tailwind" height="45"/>
-
-<img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge"/>
-
+<p align="left">
+  <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white" />
 </p>
 
 ---
 
 ## 🗄️ Databases
 
-<p>
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=postgresql,sqlite,redis" />
+</p>
 
-<img src="https://skillicons.dev/icons?i=postgresql,sqlite,redis" height="45"/>
-
-<img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge"/>
-
+<p align="left">
+  <img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square&logoColor=white" />
 </p>
 
 ---
 
 ## 🤖 AI / GenAI
 
-<p>
-
-<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/RAG-00C853?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Gemini_Live_API-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/NVIDIA_NIM-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Cerebras-111111?style=for-the-badge"/>
-
+<p align="left">
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/RAG-00C853?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gemini%20Live%20API-4285F4?style=flat-square&logo=googlegemini&logoColor=white" />
+  <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/NVIDIA%20NIM-76B900?style=flat-square&logo=nvidia&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cerebras-111111?style=flat-square&logoColor=white" />
 </p>
 
 ---
 
 ## ☁️ DevOps & Cloud
 
-<p>
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=docker,git,githubactions,vercel" />
+</p>
 
-<img src="https://skillicons.dev/icons?i=docker,git,githubactions" height="45"/>
-
-<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black"/>
-
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel"/>
-
+<p align="left">
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black" />
 </p>
 
 ---
 
 ## 🔐 Authentication & Security
 
-<p>
-
-<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens"/>
-
-<img src="https://img.shields.io/badge/Google_OAuth-4285F4?style=for-the-badge&logo=google"/>
-
-<img src="https://img.shields.io/badge/bcrypt-003366?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/CORS-22C55E?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Rate_Limiting-0EA5E9?style=for-the-badge"/>
-
+<p align="left">
+  <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google%20OAuth-4285F4?style=flat-square&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/bcrypt-003366?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/CORS-22C55E?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/Rate%20Limiting-0EA5E9?style=flat-square&logoColor=white" />
 </p>
 
 ---
 
 ## 🛠 Developer Tools
 
-<p>
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman" height="45"/>
-
-<img src="https://img.shields.io/badge/Swagger_UI-85EA2D?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus"/>
-
-<img src="https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry"/>
-
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,docker" />
 </p>
 
----
+<p align="left">
+  <img src="https://img.shields.io/badge/Swagger_UI-85EA2D?style=flat-square&logo=swagger&logoColor=black" />
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white" />
+</p>
 
 # 📊 GitHub Analytics
 
