@@ -99,7 +99,7 @@ philosophy: "Build real products. Solve real problems. Keep shipping."
 
 ![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![Agentic AI](https://img.shields.io/badge/Agentic_AI-7C3AED?style=for-the-badge&logo=robot-framework&logoColor=white)
+![Agentic AI](https://img.shields.io/badge/Agentic_AI-7C3AED?style=for-the-badge&logo=robotframework&logoColor=white)
 ![Multi-Agent Systems](https://img.shields.io/badge/Multi--Agent_Systems-0EA5E9?style=for-the-badge&logo=probot&logoColor=white)
 ![Semantic Search](https://img.shields.io/badge/Semantic_Search-06B6D4?style=for-the-badge&logo=elastic&logoColor=white)
 ![LLM Integration](https://img.shields.io/badge/LLM_Integration-10A37F?style=for-the-badge&logo=openai&logoColor=white)
@@ -107,7 +107,7 @@ philosophy: "Build real products. Solve real problems. Keep shipping."
 **LLM Providers**
 
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
-![Cerebras](https://img.shields.io/badge/Cerebras-FF6B00?style=for-the-badge&logo=cpu&logoColor=white)
+![Cerebras](https://img.shields.io/badge/Cerebras-FF6B00?style=for-the-badge&logoColor=white)
 ![NVIDIA NIM](https://img.shields.io/badge/NVIDIA_NIM-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 
 ---
