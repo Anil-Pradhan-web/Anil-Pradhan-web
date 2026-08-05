@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0D1117,50:00FF94,100:0D1117&text=ANIL%20PRADHAN&fontColor=ffffff&fontSize=55&fontAlignY=38&animation=fadeIn&desc=Software%20Engineer%20%7C%20Backend%20%26%20AI&descAlignY=58&descSize=18"/>
-
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=2200&pause=1000&color=00FF94&center=true&vCenter=true&width=900&lines=Building+Production-Grade+Backend+%26+AI+Systems;FastAPI+%7C+LangGraph+%7C+RAG+%7C+Distributed+Systems;Multi-Agent+Orchestration+%7C+Cloud+Engineering;Always+Learning.+Always+Building." />
 
 <br/>
