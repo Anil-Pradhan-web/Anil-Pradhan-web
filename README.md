@@ -5,8 +5,6 @@
 <br/>
 
 <img src="https://komarev.com/ghpvc/?username=Anil-Pradhan-web&label=PROFILE+VIEWS&color=00ff94&style=for-the-badge"/>
-<img src="https://img.shields.io/github/followers/Anil-Pradhan-web?label=Followers&style=for-the-badge&color=0e75b6"/>
-<img src="https://img.shields.io/badge/Location-Bhubaneswar%2C%20India-0e75b6?style=for-the-badge"/>
 
 <br/><br/>
 
@@ -58,19 +56,15 @@ $ agent-orchestrator --status
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anil-Pradhan-web&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
 
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Anil-Pradhan-web&theme=tokyo-night&hide_border=true" width="100%"/>
-
 </div>
 
 <br/>
 
-## 🏆 Trophy Case
+## 📈 Contribution Graph
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Anil-Pradhan-web&theme=tokyonight&no-frame=true&row=1&column=6"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Anil-Pradhan-web&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
 
 </div>
 
