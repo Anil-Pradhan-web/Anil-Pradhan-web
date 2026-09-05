@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=210&section=header&text=ANIL%20PRADHAN&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%26%20Backend%20Engineer%20%7C%20Multi-Agent%20Systems%20%7C%20Computer%20Vision&descAlignY=58&descSize=16&descColor=CBD5E1"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:0EA5E9,100:0F172A&height=220&section=header&text=ANIL%20PRADHAN&fontSize=48&fontColor=ffffff" alt="Anil Pradhan"/>
 
 <br/>
 
