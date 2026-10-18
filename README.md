@@ -7,8 +7,9 @@
 
 <!-- ── Profile Views Counter ── -->
 <a href="https://github.com/Anil-Pradhan-web">
-  <img src="https://komarev.com/ghpvc/?username=Anil-Pradhan-web&label=PROFILE+VIEWS&color=00E89D&style=for-the-badge" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=Anil-Pradhan-web&label=PROFILE+VIEWS&color=00E89D&style=for-the-badge&v=1" alt="Profile Views"/>
 </a>
+
 
 
 
