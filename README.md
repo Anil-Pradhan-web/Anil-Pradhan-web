@@ -1,22 +1,31 @@
 <div align="center">
 
-<!-- ── Hero Banner ── -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:090d16,40:0d1117,70:064e3b,100:00e89d&height=220&section=header&text=ANIL%20PRADHAN&fontSize=46&fontColor=ffffff&fontAlignY=42&desc=AI%20%26%20Backend%20Engineer%20%C2%B7%20Multi-Agent%20Architectures%20%C2%B7%20Computer%20Vision&descSize=16&descAlignY=64&descColor=38bdf8" alt="Anil Pradhan Header"/>
+<!-- ── Header Banner (Emerald & Cyber-Slate Wave) ── -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:00e89d&height=200&section=header&text=ANIL%20PRADHAN&fontSize=48&fontColor=ffffff" alt="Anil Pradhan Header"/>
 
-<!-- ── Live Status & Metric Badges ── -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Anil-Pradhan-web&label=PROFILE+VIEWS&color=00e89d&style=for-the-badge&logo=eye&logoColor=090d16" alt="Profile Views"/>
-  <img src="https://img.shields.io/badge/STATUS-OPEN_TO_INTERNSHIPS-00e89d?style=for-the-badge&logo=statuspage&logoColor=090d16" alt="Status"/>
-  <img src="https://img.shields.io/badge/ACADEMICS-CGPA_8.93_%2F_10-38bdf8?style=for-the-badge&logo=graduations&logoColor=090d16" alt="Academic Merit"/>
-  <img src="https://img.shields.io/badge/LOCATION-BHUBANESWAR,_IN-f5a623?style=for-the-badge&logo=googlemaps&logoColor=090d16" alt="Location"/>
-</p>
+<br/>
 
-<!-- ── Typing Telemetry ── -->
+<!-- ── Profile Views Counter ── -->
+<a href="https://github.com/Anil-Pradhan-web">
+  <img src="https://komarev.com/ghpvc/?username=Anil-Pradhan-web&label=PROFILE+VIEWS&color=00e89d&style=for-the-badge" alt="Profile Views"/>
+</a>
+
+<br/><br/>
+
+<!-- ── Clean Status & Metric Badges ── -->
+<img src="https://img.shields.io/badge/STATUS-OPEN_TO_INTERNSHIPS-00e89d?style=for-the-badge" alt="Status"/>
+<img src="https://img.shields.io/badge/ACADEMICS-CGPA_8.93-38bdf8?style=for-the-badge" alt="Academic Merit"/>
+<img src="https://img.shields.io/badge/LOCATION-BHUBANESWAR-f5a623?style=for-the-badge" alt="Location"/>
+
+<br/><br/>
+
+<!-- ── Dynamic Typing Telemetry ── -->
 <a href="https://my-portfolio-anil.vercel.app">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=18&pause=1200&color=00E89D&center=true&vCenter=true&width=780&height=40&lines=Building+Deterministic+Multi-Agent+Workflows;Fine-Tuning+YOLO11n+%26+VisionForge+Pipelines;Orchestrating+High-Throughput+FastAPI+Backends;Turning+LLMs+into+Reliable+Production+Systems" alt="Typing SVG"/>
 </a>
 
 </div>
+
 
 <br/>
 
