@@ -14,7 +14,7 @@
 
 <!-- ── Dynamic Typing Telemetry ── -->
 <a href="https://my-portfolio-anil.vercel.app">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=17&pause=1200&color=00E5FF&center=true&vCenter=true&width=840&height=40&lines=Building+Deterministic+Multi-Agent+Workflows;Dell+FutureMinds+National+Grand+Finalist+(Top+6+%2F+8%2C000%2B);iQOO+Hackathon+2026+Builder+%26+Innovator;400%2B+Problems+Solved+Across+LeetCode+%26+GeeksforGeeks;Architecting+High-Throughput+FastAPI+Backends" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=17&pause=1200&color=00E5FF&center=true&vCenter=true&width=840&height=40&lines=Building+Deterministic+Multi-Agent+Workflows;Dell+FutureMinds+National+Grand+Finalist+(Top+6+%2F+8%2C000%2B);5%C3%97+AI+Hackathon+Builder+(Dell%2C+MSFT%2C+Google%2C+AWS%2C+iQOO);218%2B+LeetCode+%C2%B7+111%2B+GFG+%C2%B7+4%E2%98%85+HackerRank+Java;Architecting+High-Throughput+FastAPI+Backends" alt="Typing SVG"/>
 </a>
 
 </div>
@@ -26,69 +26,112 @@
 ## 🏆 Hackathons & National Competitions
 
 <table>
+  <!-- Grand Finalist Highlight -->
   <tr>
-    <td width="50%" valign="top">
-      <h3>🥇 Dell FutureMinds AI Hackathon 2026</h3>
-      <p><b>National Grand Finalist · Top 6 Nationwide (8,000+ Teams)</b></p>
-      <p>Ranked among the <b>top 6 teams across India</b> out of 8,000+ engineering contenders. Awarded Certificate of Excellence and pitched our autonomous AI hardware inspection architecture live to executive leadership and engineering directors at <b>Dell Technologies Bengaluru HQ</b>.</p>
+    <td colspan="2" valign="top" bgcolor="#0d1117">
+      <h3 align="left">🥇 Dell FutureMinds AI Hackathon 2026</h3>
+      <p><b>National Grand Finalist · Top 6 Nationwide out of 8,000+ Teams</b> &nbsp; <img src="https://img.shields.io/badge/Standing-Grand_Finalist-00e89d?style=flat-square" alt="Grand Finalist"/></p>
+      <p>Ranked in the <b>top 6 teams across India</b> among 8,000+ engineering contenders. Awarded Certificate of Excellence and pitched our autonomous hardware inspection architecture live to executive leadership, technical directors, and engineering panels at <b>Dell Technologies Bengaluru HQ</b>.</p>
       <ul>
-        <li><b>Pitch:</b> Real-time multi-agent vision system running parallel anomaly detection in &lt; 5 seconds.</li>
-        <li><b>Recognition:</b> National Certificate of Excellence &amp; executive commendation.</li>
+        <li><b>Live Pitch:</b> Multi-agent vision inspection pipeline running anomaly detection and vector matching in &lt; 5 seconds.</li>
+        <li><b>Recognition:</b> National Certificate of Excellence &amp; executive leadership commendation.</li>
       </ul>
     </td>
+  </tr>
+  <!-- Participant Hackathons Grid -->
+  <tr>
     <td width="50%" valign="top">
-      <h3>⚡ iQOO Hackathon 2026</h3>
-      <p><b>High-Performance Computing &amp; AI Systems Innovation</b></p>
-      <p>Engineered innovative, high-performance computing solutions tackling real-time on-device intelligence, system responsiveness, and modern developer workflow optimizations under high-throughput constraints.</p>
-      <ul>
-        <li><b>Focus:</b> Low-latency pipeline design, resource-constrained optimization, and responsive architectures.</li>
-        <li><b>Execution:</b> Rapid agile prototyping with rigorous state-flow verification.</li>
-      </ul>
+      <h4 align="left">⚡ iQOO Hackathon 2026</h4>
+      <p><img src="https://img.shields.io/badge/Role-Participant_%2F_Builder-00e5ff?style=flat-square" alt="Participant"/></p>
+      <p><b>High-Performance Computing &amp; On-Device Intelligence</b></p>
+      <p>Engineered responsive, resource-optimized pipeline architectures tackling latency-sensitive real-time processing and on-device developer workflow efficiency.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h4 align="left">🔷 Microsoft AI Dev Days</h4>
+      <p><img src="https://img.shields.io/badge/Role-Participant_%2F_Builder-00e5ff?style=flat-square" alt="Participant"/></p>
+      <p><b>Azure AI Services &amp; Copilot Integration</b></p>
+      <p>Built and deployed autonomous agentic prototypes leveraging Azure OpenAI, semantic search chunking, and intelligent conversational copilot capabilities.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🏛️ FlowFinance × Techfest IIT Bombay</h3>
-      <p><b>National Round 2 Qualifier</b></p>
-      <p>Architected comprehensive Go-To-Market (GTM) frameworks, automated financial logic, and strategic user acquisition models for an AI-driven fintech platform at Asia's largest science and technology festival.</p>
+      <h4 align="left">🟧 Amazon Nova Hackathon</h4>
+      <p><img src="https://img.shields.io/badge/Role-Participant_%2F_Builder-00e5ff?style=flat-square" alt="Participant"/></p>
+      <p><b>AWS Bedrock &amp; Multimodal AI Systems</b></p>
+      <p>Developed high-throughput inference workflows utilizing Amazon Nova and Bedrock foundation models with resilient cloud event orchestration.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>🚀 4× AI Hackathons Builder</h3>
-      <p><b>High-Velocity Prototyping Across Major Platforms</b></p>
-      <ul>
-        <li><b>Microsoft AI Dev Days:</b> Azure AI &amp; Copilot agentic integrations.</li>
-        <li><b>Amazon Nova Hackathon:</b> AWS Bedrock &amp; multimodal inference pipelines.</li>
-        <li><b>Google Solution Challenge:</b> Gemini API &amp; cloud automation.</li>
-        <li><b>Dell FutureMinds:</b> Top 6 National Finalist in hardware AI QA.</li>
-      </ul>
+      <h4 align="left">🌐 Google Solution Challenge</h4>
+      <p><img src="https://img.shields.io/badge/Role-Participant_%2F_Builder-00e5ff?style=flat-square" alt="Participant"/></p>
+      <p><b>Google Cloud &amp; Gemini Multimodal Pipelines</b></p>
+      <p>Architected sustainable community-focused solutions integrating Gemini multimodal models, serverless backend microservices, and Google Cloud APIs.</p>
     </td>
   </tr>
 </table>
 
 ---
 
-## 🎖️ Algorithmic Rigor & Competitive Problem Solving
+## ⚡ Problem Solving & Algorithmic Rigor
 
-<table>
+<table width="100%">
   <tr>
-    <td width="50%" align="center">
+    <td width="33.33%" align="center" valign="top">
       <br/>
       <a href="https://leetcode.com/u/Anil_Pradhan/">
-        <img src="https://img.shields.io/badge/LeetCode-200+_Problems_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=090d16" alt="LeetCode 200+"/>
+        <img src="https://img.shields.io/badge/LeetCode-218+_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=090d16" alt="LeetCode 218+"/>
       </a>
       <br/><br/>
       <p align="left">
-        <b>200+ Data Structures &amp; Algorithms problems solved</b> focusing on Graph Algorithms, Dynamic Programming, Tree Traversals, Two Pointers, and Binary Search with optimal time and space complexity.
+        <b>218+ Problems Solved</b><br/>
+        Focused on optimal time &amp; space complexity across:
+      </p>
+      <ul align="left">
+        <li>Graph Algorithms (BFS/DFS)</li>
+        <li>Dynamic Programming</li>
+        <li>Trees &amp; Binary Search</li>
+        <li>Two Pointers &amp; Sliding Window</li>
+      </ul>
+      <p align="center">
+        <a href="https://leetcode.com/u/Anil_Pradhan/"><img src="https://img.shields.io/badge/View_Profile-FFA116?style=flat-square&logo=leetcode&logoColor=090d16" alt="LeetCode Profile"/></a>
       </p>
     </td>
-    <td width="50%" align="center">
+    <td width="33.33%" align="center" valign="top">
       <br/>
       <a href="https://www.geeksforgeeks.org/user/anilpradhan543/">
-        <img src="https://img.shields.io/badge/GeeksforGeeks-200+_Problems_Solved-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GFG 200+"/>
+        <img src="https://img.shields.io/badge/GeeksforGeeks-111+_Solved-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GFG 111+"/>
       </a>
       <br/><br/>
       <p align="left">
-        <b>200+ Core Computer Science &amp; DSA challenges mastered</b> with a disciplined <b>100+ Day DSA Streak</b> on GFG 160 Days of Code, strengthening fundamentals in memory, pointers, and concurrency.
+        <b>111+ Problems Solved</b><br/>
+        Consistent core algorithmic mastery:
+      </p>
+      <ul align="left">
+        <li><b>100+ Day DSA Streak</b> (160 Days of Code)</li>
+        <li>Arrays, Matrices &amp; Strings</li>
+        <li>Linked Lists &amp; Recursion</li>
+        <li>Bit Manipulation &amp; Math</li>
+      </ul>
+      <p align="center">
+        <a href="https://www.geeksforgeeks.org/user/anilpradhan543/"><img src="https://img.shields.io/badge/View_Profile-2F8D46?style=flat-square&logo=geeksforgeeks&logoColor=white" alt="GFG Profile"/></a>
+      </p>
+    </td>
+    <td width="33.33%" align="center" valign="top">
+      <br/>
+      <a href="https://www.hackerrank.com/profile/anilpradhan9644">
+        <img src="https://img.shields.io/badge/HackerRank-Java_4%E2%98%85-00EA64?style=for-the-badge&logo=hackerrank&logoColor=090d16" alt="HackerRank 4 Star"/>
+      </a>
+      <br/><br/>
+      <p align="left">
+        <b>Domain Skill Ratings:</b>
+      </p>
+      <ul align="left">
+        <li>☕ <b>Java:</b> ⭐⭐⭐⭐ (4 Star)</li>
+        <li>🐍 <b>Python:</b> ⭐ (1 Star)</li>
+        <li>🗄️ <b>SQL:</b> ⭐ (1 Star)</li>
+        <li>🧩 <b>Problem Solving:</b> ⭐ (1 Star)</li>
+      </ul>
+      <p align="center">
+        <a href="https://www.hackerrank.com/profile/anilpradhan9644"><img src="https://img.shields.io/badge/View_Profile-00EA64?style=flat-square&logo=hackerrank&logoColor=090d16" alt="HackerRank Profile"/></a>
       </p>
     </td>
   </tr>
