@@ -1,26 +1,18 @@
 <div align="center">
 
-<!-- ── Header Banner (Emerald & Cyber-Slate Wave) ── -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:00e89d&height=200&section=header&text=ANIL%20PRADHAN&fontSize=48&fontColor=ffffff" alt="Anil Pradhan Header"/>
+<!-- Cyberpunk Coding Banner -->
+<img width="100%" src="assets/anil_pradhan_cyberpunk_github.gif" alt="Anil Pradhan - Cyberpunk Developer"/>
 
-<br/>
+<br/><br/>
 
-<!-- ── Profile Views Counter ── -->
+<!-- Profile Views Counter -->
 <a href="https://github.com/Anil-Pradhan-web">
-  <img src="https://komarev.com/ghpvc/?username=Anil-Pradhan-web&label=PROFILE+VIEWS&color=00E89D&style=for-the-badge&v=1" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=Anil-Pradhan-web&label=PROFILE+VIEWS&color=00E5FF&style=for-the-badge" alt="Profile Views"/>
 </a>
 
-
-
-
 <br/><br/>
 
-<!-- ── Clean Status & Metric Badges ── -->
-<img src="https://img.shields.io/badge/STATUS-OPEN_TO_INTERNSHIPS-00e89d?style=for-the-badge" alt="Status"/>
-<img src="https://img.shields.io/badge/ACADEMICS-CGPA_8.93-38bdf8?style=for-the-badge" alt="Academic Merit"/>
-<img src="https://img.shields.io/badge/LOCATION-BHUBANESWAR-f5a623?style=for-the-badge" alt="Location"/>
-
-<br/><br/>
+</div>
 
 <!-- ── Dynamic Typing Telemetry ── -->
 <a href="https://my-portfolio-anil.vercel.app">
