@@ -30,7 +30,7 @@
   <tr>
     <td colspan="2" valign="top" bgcolor="#0d1117">
       <h3 align="left">🥇 Dell FutureMinds AI Hackathon 2026</h3>
-      <p><b>National Grand Finalist · Top 6 Nationwide out of 8,000+ Teams</b> &nbsp; <img src="https://img.shields.io/badge/Standing-Grand_Finalist-00e89d?style=flat-square" alt="Grand Finalist"/></p>
+      <p><b>National Grand Finalist · Top 6 Nationwide out of 8,000+ Students</b> &nbsp; <img src="https://img.shields.io/badge/Standing-Grand_Finalist-00e89d?style=flat-square" alt="Grand Finalist"/></p>
       <p>Ranked in the <b>top 6 teams across India</b> among 8,000+ engineering contenders. Awarded Certificate of Excellence and pitched our autonomous hardware inspection architecture live to executive leadership, technical directors, and engineering panels at <b>Dell Technologies Bengaluru HQ</b>.</p>
       <ul>
         <li><b>Live Pitch:</b> Multi-agent vision inspection pipeline running anomaly detection and vector matching in &lt; 5 seconds.</li>
