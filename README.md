@@ -30,7 +30,7 @@
   <tr>
     <td colspan="2" valign="top" bgcolor="#0d1117">
       <h3 align="left">🥇 Dell FutureMinds AI Hackathon 2026</h3>
-      <p><b>National Grand Finalist · Top 6 Nationwide out of 8,000+ Teams</b> &nbsp; <img src="https://img.shields.io/badge/Standing-Grand_Finalist-00e89d?style=flat-square" alt="Grand Finalist"/></p>
+      <p><b>National Grand Finalist · Top 6 Nationwide out of 8,000+ Students</b> &nbsp; <img src="https://img.shields.io/badge/Standing-Grand_Finalist-00e89d?style=flat-square" alt="Grand Finalist"/></p>
       <p>Ranked in the <b>top 6 teams across India</b> among 8,000+ engineering contenders. Awarded Certificate of Excellence and pitched our autonomous hardware inspection architecture live to executive leadership, technical directors, and engineering panels at <b>Dell Technologies Bengaluru HQ</b>.</p>
       <ul>
         <li><b>Live Pitch:</b> Multi-agent vision inspection pipeline running anomaly detection and vector matching in &lt; 5 seconds.</li>
@@ -189,6 +189,42 @@
 <img src="https://img.shields.io/badge/DSA_Grind-090d16?style=for-the-badge&logo=leetcode&logoColor=ffa116" alt="DSA"/>
 
 </div>
+
+---
+
+## 📜 Licenses & Certifications
+
+<p>
+  <a href="https://www.linkedin.com/in/anil-pradhan543/details/certifications/">
+    <img src="https://img.shields.io/badge/View_All_Credentials_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="View on LinkedIn"/>
+  </a>
+</p>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🤖 Frontier AI &amp; Generative Systems</h4>
+      <ul>
+        <li><b>Anthropic</b> — Claude 101</li>
+        <li><b>Anthropic</b> — AI Fluency for Students</li>
+        <li><b>IBM</b> — Getting Started with Artificial Intelligence</li>
+        <li><b>IBM</b> — Artificial Intelligence Fundamentals</li>
+        <li><b>Infosys Springboard</b> — Gen AI (OpenAI GPT Models &amp; AI for Software Engineering)</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>⚙️ Enterprise SWE, Systems &amp; National Merit</h4>
+      <ul>
+        <li><b>Naukri.com</b> — Certificate of Merit: Young Turks 2026 (96.57 Percentile)</li>
+        <li><b>Wells Fargo</b> — Software Engineering Job Simulation</li>
+        <li><b>Cisco Networking Academy</b> — Python Essentials 2</li>
+        <li><b>IIT Madras &amp; NIT Rourkela</b> — Reverse Coding-X &amp; AlgoUtsav 2026</li>
+        <li><b>HackerRank</b> — Problem Solving (Basic), SQL (Basic), Python (Basic)</li>
+        <li><b>GeeksforGeeks</b> — 160 Days of Problem Solving</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
