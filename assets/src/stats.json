@@ -1886,7 +1886,7 @@
     },
     {
       "name": "JavaScript",
-      "bytes": 267430,
+      "bytes": 286823,
       "repos": 9
     },
     {
@@ -1925,6 +1925,6 @@
       "repos": 1
     }
   ],
-  "languageTotalBytes": 4808805,
+  "languageTotalBytes": 4828198,
   "languageRepoCount": 15
 }

@@ -1,6 +1,6 @@
 <!-- generated: assets/src/build-stats.mjs - do not edit by hand -->
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="700" viewBox="0 0 760 700"
-  role="img" aria-label="Anil Pradhan's GitHub activity: 1,340 contributions in the last 12 months, 194 active days, longest streak 20 days, current streak 3 days. Languages by byte share: TypeScript 28.8 percent, Python 23.7 percent, Jupyter Notebook 19.4 percent, Java 15.7 percent, JavaScript 5.6 percent, Other 6.8 percent.">
+  role="img" aria-label="Anil Pradhan's GitHub activity: 1,340 contributions in the last 12 months, 194 active days, longest streak 20 days, current streak 3 days. Languages by byte share: TypeScript 28.7 percent, Python 23.6 percent, Jupyter Notebook 19.3 percent, Java 15.7 percent, JavaScript 5.9 percent, Other 6.8 percent.">
   <title>GitHub activity &#8212; last 12 months</title>
   <defs>
     <radialGradient id="glow-actm-dark" cx="86%" cy="-14%" r="72%">
@@ -84,25 +84,25 @@
   <text x="720" y="420" text-anchor="end" font-family="'Cascadia Mono','SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" letter-spacing="1.2"
         fill="#6b7785">BY BYTES &#183; 15 REPOS</text>
 
-  <rect x="40" y="432" width="194" height="14" rx="7" fill="rgba(61,220,151,1)" />
-    <rect x="236" y="432" width="159" height="14" rx="7" fill="rgba(61,220,151,0.82)" />
-    <rect x="397" y="432" width="130" height="14" rx="7" fill="rgba(61,220,151,0.68)" />
-    <rect x="529" y="432" width="105" height="14" rx="7" fill="rgba(61,220,151,0.55)" />
-    <rect x="636" y="432" width="36" height="14" rx="7" fill="rgba(61,220,151,0.44)" />
+  <rect x="40" y="432" width="193" height="14" rx="7" fill="rgba(61,220,151,1)" />
+    <rect x="235" y="432" width="159" height="14" rx="7" fill="rgba(61,220,151,0.82)" />
+    <rect x="396" y="432" width="129" height="14" rx="7" fill="rgba(61,220,151,0.68)" />
+    <rect x="527" y="432" width="105" height="14" rx="7" fill="rgba(61,220,151,0.55)" />
+    <rect x="634" y="432" width="38" height="14" rx="7" fill="rgba(61,220,151,0.44)" />
     <rect x="674" y="432" width="46" height="14" rx="7" fill="#6b7785" />
 
   <circle cx="45" cy="463" r="5" fill="rgba(61,220,151,1)" />
   <text x="62" y="470" font-family="'Inter','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="22" fill="#9aa7b4">TypeScript</text>
   <text x="720" y="470" text-anchor="end" font-family="'Cascadia Mono','SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16"
-        fill="#6b7785">28.8%</text>
+        fill="#6b7785">28.7%</text>
   <circle cx="45" cy="497" r="5" fill="rgba(61,220,151,0.82)" />
   <text x="62" y="504" font-family="'Inter','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="22" fill="#9aa7b4">Python</text>
   <text x="720" y="504" text-anchor="end" font-family="'Cascadia Mono','SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16"
-        fill="#6b7785">23.7%</text>
+        fill="#6b7785">23.6%</text>
   <circle cx="45" cy="531" r="5" fill="rgba(61,220,151,0.68)" />
   <text x="62" y="538" font-family="'Inter','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="22" fill="#9aa7b4">Jupyter Notebook</text>
   <text x="720" y="538" text-anchor="end" font-family="'Cascadia Mono','SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16"
-        fill="#6b7785">19.4%</text>
+        fill="#6b7785">19.3%</text>
   <circle cx="45" cy="565" r="5" fill="rgba(61,220,151,0.55)" />
   <text x="62" y="572" font-family="'Inter','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="22" fill="#9aa7b4">Java</text>
   <text x="720" y="572" text-anchor="end" font-family="'Cascadia Mono','SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16"
@@ -110,7 +110,7 @@
   <circle cx="45" cy="599" r="5" fill="rgba(61,220,151,0.44)" />
   <text x="62" y="606" font-family="'Inter','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="22" fill="#9aa7b4">JavaScript</text>
   <text x="720" y="606" text-anchor="end" font-family="'Cascadia Mono','SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16"
-        fill="#6b7785">5.6%</text>
+        fill="#6b7785">5.9%</text>
   <circle cx="45" cy="633" r="5" fill="#6b7785" />
   <text x="62" y="640" font-family="'Inter','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="22" fill="#9aa7b4">Other</text>
   <text x="720" y="640" text-anchor="end" font-family="'Cascadia Mono','SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16"
