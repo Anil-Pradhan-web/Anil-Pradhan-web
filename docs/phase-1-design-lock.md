@@ -120,7 +120,7 @@ Served via:
 
 Dark is the fallback because the profile's default rendering (and the author's own view) is dark; a light-theme viewer gets `hero-light.svg` explicitly.
 
-> Verified against GitHub's markdown renderer (`POST /markdown`): `<picture>`, all three `<source media>` tags, and `<img width="100%">` survive sanitisation intact, and GitHub wraps the result in its own `<themed-picture>` element — which is what re-evaluates the sources when the viewer switches theme. **Known caveat:** `prefers-color-scheme` follows the OS; a viewer who manually picks the opposite GitHub theme may get the other variant. The failure mode is a dark banner card on a light page, which still reads correctly.
+> Verified against GitHub's markdown renderer (`POST /markdown`) and then on the live profile after push: `<picture>`, all three `<source media>` tags, and `<img width="100%">` survive sanitisation intact, GitHub wraps the result in its own `<themed-picture>` element, and the dark/light variants were confirmed loading under matching `prefers-color-scheme`. **Remaining caveat:** `prefers-color-scheme` follows the OS, so a viewer who manually picks the opposite GitHub theme may get the other variant. The failure mode is a dark banner card on a light page, which still reads correctly.
 
 ---
 

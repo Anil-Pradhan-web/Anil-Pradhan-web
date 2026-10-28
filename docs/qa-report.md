@@ -80,9 +80,25 @@ Retired: snake animation (2 SVGs + workflow), 3 DSA stat cards, skill tree, hack
 - Text stays as live `<text>` (no font path conversion). Pill widths are over-estimated so font substitution cannot overflow a border.
 - `.github/workflows/assets.yml` regenerates the assets on CI and fails if the output differs from what is committed. `og-image.png` is a manual raster of `og-image.svg`, so it is intentionally outside that check — regenerate it only when the card copy changes.
 
-## 7. Known caveats (accepted)
+## 7. Live verification (after push)
 
-1. **Theme mismatch.** `prefers-color-scheme` follows the operating system, not GitHub's manual theme picker. A viewer running OS-dark who selects GitHub light may see the dark banner card on a white page. It still reads correctly, and GitHub's `<themed-picture>` wrapper should re-evaluate the sources — this cannot be proven without pushing, so it is documented rather than asserted.
+Pushed as `33dc04c` and re-checked the public page rather than trusting the local render.
+
+| Check | Result |
+|---|---|
+| `GET https://github.com/Anil-Pradhan-web` serves the new README | ✅ "Selected work" present, old "Animated Terminal Hero" gone |
+| Rendered banner markup | ✅ `<themed-picture><picture>` with 3 `<source media>` + `width="100%"` fallback, URLs rewritten to `/raw/main/assets/…` |
+| Raw assets | ✅ all four SVG variants `200`, `image/svg+xml` (5.1 KB mobile, 9.1 KB desktop) |
+| Desktop, OS dark (`prefers-color-scheme: dark`) | ✅ dark banner, dark page |
+| Desktop, OS light (`prefers-color-scheme: light`) | ✅ light banner, light page — `<themed-picture>` resolves the sources as intended |
+| Mobile 390 px | ✅ mobile banner variant, `scrollWidth === innerWidth === 390`, no overflow |
+| `assets` workflow | ✅ run on `33dc04c` completed `success` — assets match `profile.json` |
+
+That lays caveat 1 below to rest for the normal case: the theme switch follows the OS, and when it does, the correct banner loads. Only a deliberate mismatch (OS dark + manually selected GitHub light) can show the other variant.
+
+## 8. Known caveats (accepted)
+
+1. **Theme mismatch.** `prefers-color-scheme` follows the operating system, not GitHub's manual theme picker. A viewer running OS-dark who manually selects GitHub light may see the dark banner card on a white page. It still reads correctly. Verified live in both OS schemes (§7); the manual-override case cannot be exercised without a signed-in session.
 2. **`218+` DSA count is hardcoded.** It goes stale. Refresh it when the LeetCode total moves.
 3. **Third-party badge.** The view counter is one external request to `komarev.com`. Kept at the user's explicit request.
 4. **Dell certificate is physical.** The Top 6 / 8,000+ claim is unlinked by design rather than pointing at a dead URL.
