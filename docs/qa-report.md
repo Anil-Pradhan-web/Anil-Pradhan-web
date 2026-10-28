@@ -83,7 +83,7 @@ The activity section is generated from GitHub itself, not a third-party widget:
 - the sum of the daily counts must equal the page's "N contributions in the last year" figure (currently 1,340);
 - language bytes are summed per repo, so shares are byte-weighted the same way GitHub computes a repository's language bar.
 
-**Snapshot at build time:** 368 days (2025-10-26 → 2026-10-28), 1,340 contributions, 194 active days, longest streak 20 days (ending 2026-08-24), current streak 3 days, best day 47. Languages: TypeScript 28.8%, Python 23.7%, Jupyter Notebook 19.4%, Java 15.7%, JavaScript 5.6%, other 6.8% — 4.6 MB across 15 repos.
+**Snapshot at the first CI refresh:** 368 days (2025-10-26 → 2026-10-28), 1,340 contributions, 194 active days, longest streak 20 days (ending 2026-08-24), current streak 3 days, best day 47. Languages: TypeScript 28.7%, Python 23.6%, Jupyter Notebook 19.3%, Java 15.7%, JavaScript 5.9%, other 6.8% — 4.6 MB across 15 repos. These figures move with the account; the card is the source of truth, not this document.
 
 **Rendering notes**
 

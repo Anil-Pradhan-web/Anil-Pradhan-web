@@ -237,14 +237,14 @@ function heatmap(t, { x0, y0, cell, gap, labels = true, id }) {
     .join("\n    ");
 
   const months = monthMarks
-    .map((m) => `<text x="${x0 + m.col * pitch}" y="${y0 - 9}" font-family="${MONO}" font-size="9" letter-spacing="1.2" fill="${t.muted}">${m.label}</text>`)
+    .map((m) => `<text x="${x0 + m.col * pitch}" y="${y0 - 9}" font-family="${MONO}" font-size="10" letter-spacing="1.2" fill="${t.muted}">${m.label}</text>`)
     .join("\n    ");
 
   const weekdays = labels
     ? ["MON", "WED", "FRI"]
         .map((name, i) => {
           const row = i * 2 + 1;
-          return `<text x="${x0 - 10}" y="${y0 + row * pitch + cell - 1}" text-anchor="end" font-family="${MONO}" font-size="8.5" letter-spacing="1" fill="${t.muted}">${name}</text>`;
+          return `<text x="${x0 - 10}" y="${y0 + row * pitch + cell - 1}" text-anchor="end" font-family="${MONO}" font-size="9.5" letter-spacing="1" fill="${t.muted}">${name}</text>`;
         })
         .join("\n    ")
     : "";
@@ -261,9 +261,9 @@ function legend(t, { x, y, size = 9, pitch = 13 }) {
     .map((fill, i) => `<rect x="${x + 46 + i * pitch}" y="${y - size + 1}" width="${size}" height="${size}" rx="2" fill="${fill}" />`)
     .join("");
   return `
-    <text x="${x}" y="${y}" font-family="${MONO}" font-size="9" letter-spacing="1.4" fill="${t.muted}">LESS</text>
+    <text x="${x}" y="${y}" font-family="${MONO}" font-size="10" letter-spacing="1.4" fill="${t.muted}">LESS</text>
     ${swatches}
-    <text x="${x + 46 + 5 * pitch + 8}" y="${y}" font-family="${MONO}" font-size="9" letter-spacing="1.4" fill="${t.muted}">MORE</text>`;
+    <text x="${x + 46 + 5 * pitch + 8}" y="${y}" font-family="${MONO}" font-size="10" letter-spacing="1.4" fill="${t.muted}">MORE</text>`;
 }
 
 function languageBar(t, { x, y, w, h, gap = 2 }) {
@@ -298,9 +298,9 @@ function desktop(themeName) {
 
   const statSvg = stats4
     .map(
-      ([value, label], i) => `<text x="${M + i * 164}" y="262" font-family="${SANS}" font-size="34" font-weight="700"
+      ([value, label], i) => `<text x="${M + i * 164}" y="262" font-family="${SANS}" font-size="36" font-weight="700"
         letter-spacing="-0.8" fill="${t.text}">${esc(value)}</text>
-  <text x="${M + i * 164}" y="282" font-family="${MONO}" font-size="9.5" letter-spacing="1.7"
+  <text x="${M + i * 164}" y="282" font-family="${MONO}" font-size="11" letter-spacing="1.7"
         fill="${t.muted}">${esc(label)}</text>`,
     )
     .join("\n  ");
@@ -308,8 +308,8 @@ function desktop(themeName) {
   const rows = slices
     .map(
       (s, i) => `<circle cx="782" cy="${158 + i * 24 - 4}" r="3.6" fill="${sliceColor(t, i, slices.length)}" />
-  <text x="796" y="${158 + i * 24}" font-family="${SANS}" font-size="13.5" fill="${t.textDim}">${esc(s.name)}</text>
-  <text x="${W - M}" y="${158 + i * 24}" text-anchor="end" font-family="${MONO}" font-size="11.5"
+  <text x="796" y="${158 + i * 24}" font-family="${SANS}" font-size="16.5" fill="${t.textDim}">${esc(s.name)}</text>
+  <text x="${W - M}" y="${158 + i * 24}" text-anchor="end" font-family="${MONO}" font-size="13.5"
         fill="${t.muted}">${s.percent.toFixed(1)}%</text>`,
     )
     .join("\n  ");
@@ -341,9 +341,9 @@ function desktop(themeName) {
 
   <line x1="748" y1="100" x2="748" y2="288" stroke="${t.line}" />
 
-  <text x="776" y="110" font-family="${MONO}" font-size="10" font-weight="600" letter-spacing="2.6"
+  <text x="776" y="110" font-family="${MONO}" font-size="11" font-weight="600" letter-spacing="2.6"
         fill="${t.accent}">LANGUAGES</text>
-  <text x="${W - M}" y="110" text-anchor="end" font-family="${MONO}" font-size="9.5" letter-spacing="1.4"
+  <text x="${W - M}" y="110" text-anchor="end" font-family="${MONO}" font-size="10.5" letter-spacing="1.4"
         fill="${t.muted}">BY BYTES &#183; ${stats.languageRepoCount} REPOS</text>
 
   ${languageBar(t, { x: 776, y: 124, w: W - M - 776, h: 12 })}
@@ -351,9 +351,9 @@ function desktop(themeName) {
   ${rows}
 
   <line x1="${M}" y1="300" x2="${W - M}" y2="300" stroke="${t.line}" />
-  <text x="${M}" y="322" font-family="${MONO}" font-size="9.5" letter-spacing="1.2"
+  <text x="${M}" y="322" font-family="${MONO}" font-size="10.5" letter-spacing="1.2"
         fill="${t.muted}">SOURCE: GITHUB CONTRIBUTION GRAPH + LANGUAGE BYTES &#183; DATA THROUGH ${esc(stats.range.to)}</text>
-  <text x="${W - M}" y="322" text-anchor="end" font-family="${MONO}" font-size="9.5" letter-spacing="1.2"
+  <text x="${W - M}" y="322" text-anchor="end" font-family="${MONO}" font-size="10.5" letter-spacing="1.2"
         fill="${t.textDim}">github.com/Anil-Pradhan-web</text>
 </svg>
 `;
@@ -373,8 +373,8 @@ function mobile(themeName) {
   const rows = slices
     .map(
       (s, i) => `<circle cx="45" cy="${470 + i * 34 - 7}" r="5" fill="${sliceColor(t, i, slices.length)}" />
-  <text x="62" y="${470 + i * 34}" font-family="${SANS}" font-size="22" fill="${t.textDim}">${esc(s.name)}</text>
-  <text x="${W - M}" y="${470 + i * 34}" text-anchor="end" font-family="${MONO}" font-size="16"
+  <text x="62" y="${470 + i * 34}" font-family="${SANS}" font-size="24" fill="${t.textDim}">${esc(s.name)}</text>
+  <text x="${W - M}" y="${470 + i * 34}" text-anchor="end" font-family="${MONO}" font-size="17"
         fill="${t.muted}">${s.percent.toFixed(1)}%</text>`,
     )
     .join("\n  ");
