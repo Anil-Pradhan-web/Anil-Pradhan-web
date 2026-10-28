@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ── Cyberpunk Animated Banner ── -->
-<img width="100%" src="assets/anil_pradhan_cyberpunk_github.gif" alt="Anil Pradhan - Cyberpunk Developer Banner"/>
+<img width="100%" src="assets/anil_pradhan_cyberpunk_github.gif" alt="Animated cyberpunk HUD banner featuring a glowing cyan 'ANIL PRADHAN' name plate with subtitle '< BACKEND ENGINEERING // AI SYSTEMS >', set against a neon grid and matrix-style code rain backdrop with small HUD status readouts showing SYS://ONLINE, AI_SYSTEMS: ACTIVE, BUILD // DEBUG // DEPLOY, and PYTHON | FASTAPI | AGENTS"/>
 
 <br/><br/>
 
@@ -18,6 +18,13 @@
 </a>
 
 </div>
+
+<br/>
+
+<a id="overview"></a>
+## 👋 Hi there, I'm Anil Pradhan
+
+Architecting deterministic intelligence for complex human & machine systems. Backend engineering + AI systems.
 
 <br/>
 
