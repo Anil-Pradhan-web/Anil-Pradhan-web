@@ -1,0 +1,13 @@
+{
+  "name": "anil-pradhan-profile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Profile README and its generated banner assets.",
+  "type": "module",
+  "scripts": {
+    "build": "node assets/src/build-banner.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

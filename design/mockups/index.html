@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Phase 01 — Design Lock · Anil Pradhan GitHub Profile</title>
+<link rel="stylesheet" href="../tokens.css" />
+<style>
+  /* ── page chrome (harness only — not part of the profile) ─────────────── */
+  * { box-sizing: border-box; }
+
+  .bar {
+    position: sticky; top: 0; z-index: 10;
+    display: flex; flex-wrap: wrap; gap: var(--s4);
+    align-items: center; justify-content: space-between;
+    padding: var(--s4) var(--s6);
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+  .bar__id { display: flex; align-items: baseline; gap: var(--s3); flex-wrap: wrap; }
+  .bar__id strong { font-size: var(--step-1); letter-spacing: -0.01em; font-weight: 650; }
+  .bar__id .mono { opacity: 0.85; }
+
+  .bar__controls { display: flex; gap: var(--s3); flex-wrap: wrap; }
+
+  .seg {
+    display: inline-flex; padding: 3px; gap: 2px;
+    border: 1px solid var(--border); border-radius: 999px;
+    background: var(--surface);
+  }
+  .seg button {
+    appearance: none; border: 0; cursor: pointer;
+    padding: 5px 12px; border-radius: 999px;
+    background: transparent; color: var(--text-dim);
+    font-family: var(--mono); font-size: 11px; font-weight: 600; letter-spacing: 0.1em;
+    transition: background 140ms ease, color 140ms ease;
+  }
+  .seg button:hover { color: var(--text); }
+  .seg button.is-on { background: var(--accent); color: var(--accent-ink); }
+
+  main { max-width: 1120px; margin: 0 auto; padding: var(--s7) clamp(20px, 5vw, 32px) var(--s8); }
+
+  .lead { max-width: 68ch; color: var(--text-dim); font-size: var(--step-0); margin: 0 0 var(--s7); overflow-wrap: anywhere; }
+  .lead b { color: var(--text); font-weight: 600; }
+
+  .block { margin-bottom: var(--s8); }
+  .block__head {
+    display: flex; align-items: baseline; justify-content: space-between;
+    gap: var(--s4); flex-wrap: wrap;
+    padding-bottom: var(--s3); margin-bottom: var(--s5);
+    border-bottom: 1px solid var(--border);
+  }
+  .block__head h2 {
+    margin: 0; font-size: var(--step-2); font-weight: 650; letter-spacing: -0.02em;
+  }
+  .block__head h2 span { color: var(--muted); font-weight: 400; margin-right: var(--s2); }
+
+  .stage {
+    width: min(100%, var(--stage-w, 1012px));
+    margin-inline: auto;
+    padding: var(--s3);
+    border: 1px solid var(--border);
+    border-radius: calc(var(--radius) + 4px);
+    background: var(--bg-elev);
+  }
+  .stage img { display: block; width: 100%; height: auto; border-radius: var(--radius-sm); }
+
+  .pair { display: grid; gap: var(--s5); }
+  .pair figure { margin: 0; }
+  .pair figcaption {
+    display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--s2) var(--s4);
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em;
+    color: var(--muted); margin-bottom: var(--s2); text-transform: uppercase;
+  }
+  .pair img {
+    display: block; width: 100%; height: auto; border-radius: var(--radius-sm);
+    outline: 1px solid var(--border); outline-offset: -1px;
+  }
+
+  .note { color: var(--muted); font-size: var(--step--1); margin: var(--s4) 0 0; }
+  .note code, .spec code { font-family: var(--mono); color: var(--text-dim); }
+
+  .columns { display: grid; grid-template-columns: 1.55fr 1fr; gap: var(--s5); align-items: start; }
+  @media (max-width: 860px) { .columns { grid-template-columns: 1fr; } }
+
+  /* ── spec table ───────────────────────────────────────────────────────── */
+  .table-wrap { overflow-x: auto; }
+  .spec { width: 100%; border-collapse: collapse; font-size: var(--step--1); }
+  .spec th, .spec td {
+    text-align: left; padding: 10px 0; vertical-align: top;
+    border-bottom: 1px solid var(--border); overflow-wrap: anywhere;
+  }
+  .spec th { color: var(--muted); font-weight: 500; width: 34%; font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em; }
+  .spec td { color: var(--text-dim); }
+
+  /* ── swatches ─────────────────────────────────────────────────────────── */
+  .swatches { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: var(--s3); }
+  .sw { border: 1px solid var(--border); border-radius: var(--radius-sm); overflow: hidden; }
+  .sw__chip { height: 44px; }
+  .sw__label { padding: 6px 8px; font-family: var(--mono); font-size: 10px; letter-spacing: 0.04em; color: var(--text-dim); display: flex; justify-content: space-between; gap: 4px; }
+  .sw__label span:last-child { color: var(--muted); }
+
+  /* ── README section wireframe ─────────────────────────────────────────── */
+  .wf {
+    max-width: 760px; margin-inline: auto;
+    border: 1px dashed var(--border-strong); border-radius: var(--radius);
+    padding: var(--s6); background: var(--surface);
+  }
+  .wf__status {
+    display: flex; flex-wrap: wrap; align-items: center; gap: var(--s2);
+    font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.06em; color: var(--text-dim);
+    padding-bottom: var(--s4); border-bottom: 1px solid var(--border);
+  }
+  .wf__status .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 3px var(--accent-wash); }
+  .wf__status .sep { color: var(--muted); }
+  .wf__status a { color: var(--accent); }
+
+  .wf__proof { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; margin: var(--s5) 0; }
+  .wf__proof > div { padding: 0 var(--s4); border-left: 1px solid var(--border); }
+  .wf__proof > div:first-child { padding-left: 0; border-left: 0; }
+  .wf__proof b { display: block; font-size: var(--step-3); line-height: 1.1; letter-spacing: -0.03em; font-weight: 650; }
+  .wf__proof span { display: block; margin-top: 4px; font-size: 11px; color: var(--muted); line-height: 1.4; }
+  @media (max-width: 620px) {
+    .wf__proof { grid-template-columns: repeat(2, 1fr); row-gap: var(--s4); }
+    .wf__proof > div:nth-child(3) { padding-left: 0; border-left: 0; }
+  }
+
+  .wf h3 { margin: 0; font-size: var(--step-2); letter-spacing: -0.02em; font-weight: 650; }
+  .wf h3 a { color: var(--text); }
+  .wf h3 a:hover { color: var(--accent); text-decoration: none; }
+
+  .wf__grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s4); }
+  @media (max-width: 620px) { .wf__grid { grid-template-columns: 1fr; } }
+
+  .pcard { border: 1px solid var(--border); border-radius: var(--radius); padding: var(--s4); background: var(--bg-elev); }
+  .pcard p { margin: var(--s2) 0 var(--s3); font-size: 13px; line-height: 1.55; color: var(--text-dim); }
+  .pcard .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: var(--s3); }
+  .pcard .tags span {
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.06em;
+    padding: 3px 7px; border-radius: 4px; color: var(--text-dim);
+    background: var(--surface-2); border: 1px solid var(--border);
+  }
+  .pcard .links { display: flex; gap: var(--s4); font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em; }
+  .pcard .links a:last-child { color: var(--text-dim); }
+
+  .wf__stack { margin-top: var(--s5); padding-top: var(--s4); border-top: 1px solid var(--border); display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s4); }
+  @media (max-width: 620px) { .wf__stack { grid-template-columns: 1fr; } }
+  .wf__stack h4 {
+    margin: 0 0 var(--s2); font-family: var(--mono); font-size: 10px; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--muted); font-weight: 600;
+  }
+  .wf__stack p { margin: 0; font-size: 12.5px; line-height: 1.7; color: var(--text-dim); }
+
+  /* ── checklist ────────────────────────────────────────────────────────── */
+  .check { display: grid; gap: var(--s3); margin: 0; padding: 0; list-style: none; }
+  .check li { display: flex; gap: var(--s3); align-items: flex-start; font-size: var(--step-0); color: var(--text-dim); }
+  .check li::before {
+    content: ""; flex: 0 0 auto; width: 15px; height: 15px; margin-top: 3px;
+    border: 1px solid var(--border-strong); border-radius: 4px;
+  }
+  .check b { color: var(--text); font-weight: 600; }
+
+  .open { border-left: 2px solid var(--gold); padding-left: var(--s4); }
+  .open h3 { margin: 0 0 var(--s2); font-size: var(--step-1); }
+  .open ol { margin: 0; padding-left: 18px; color: var(--text-dim); font-size: var(--step--1); line-height: 1.9; }
+
+  footer { border-top: 1px solid var(--border); padding: var(--s5) var(--s6); color: var(--muted); font-size: var(--step--1); display: flex; justify-content: space-between; gap: var(--s4); flex-wrap: wrap; }
+</style>
+</head>
+<body>
+
+<header class="bar">
+  <div class="bar__id">
+    <span class="eyebrow">Phase 01</span>
+    <strong>Design lock · banner &amp; section system</strong>
+    <span class="mono">Anil Pradhan / GitHub profile</span>
+  </div>
+  <div class="bar__controls">
+    <div class="seg" role="group" aria-label="Theme">
+      <button type="button" data-theme-set="dark" class="is-on">DARK</button>
+      <button type="button" data-theme-set="light">LIGHT</button>
+    </div>
+    <div class="seg" role="group" aria-label="Render width">
+      <button type="button" data-width="1012" class="is-on">1012</button>
+      <button type="button" data-width="768">768</button>
+      <button type="button" data-width="390">390</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <p class="lead">
+    Every asset below is generated from one file — <code>assets/src/profile.json</code> — by
+    <code>assets/src/build-banner.mjs</code>. <b>Approve or reject the system here, before any README copy is written.</b>
+    Toggle the theme and width to see exactly what a visitor sees.
+  </p>
+
+  <!-- 01 ─ live banner -->
+  <section class="block">
+    <div class="block__head">
+      <h2><span>01</span>Banner, live</h2>
+      <span class="mono" id="bannerMeta">1280 × 320 · rendered at 1012 px</span>
+    </div>
+    <div class="stage" id="stage">
+      <img id="liveBanner" src="../../assets/hero-dark.svg" alt="Anil Pradhan — Backend and AI systems engineer. Dell FutureMinds national finalist, top 6 of 8,000. CGPA 8.93." />
+    </div>
+    <p class="note">
+      Switching to <b>390</b> serves the mobile asset (<code>760 × 360</code>) — the variant a phone actually receives via
+      <code>&lt;picture&gt;</code>. The desktop asset is never squashed to phone width.
+    </p>
+  </section>
+
+  <!-- 02 ─ theme parity -->
+  <section class="block">
+    <div class="block__head">
+      <h2><span>02</span>Theme parity</h2>
+      <span class="mono">both generated, never hand-edited</span>
+    </div>
+    <div class="pair">
+      <figure>
+        <figcaption><span>Dark</span><span>hero-dark.svg</span></figcaption>
+        <img src="../../assets/hero-dark.svg" alt="Dark: Anil Pradhan, Backend and AI Systems Engineer banner." />
+      </figure>
+      <figure>
+        <figcaption><span>Light</span><span>hero-light.svg</span></figcaption>
+        <img src="../../assets/hero-light.svg" alt="Light: Anil Pradhan, Backend and AI Systems Engineer banner." />
+      </figure>
+      <figure>
+        <figcaption><span>Mobile · dark</span><span>hero-mobile-dark.svg</span></figcaption>
+        <div style="max-width:390px"><img src="../../assets/hero-mobile-dark.svg" alt="Mobile dark banner." /></div>
+      </figure>
+      <figure>
+        <figcaption><span>Mobile · light</span><span>hero-mobile-light.svg</span></figcaption>
+        <div style="max-width:390px"><img src="../../assets/hero-mobile-light.svg" alt="Mobile light banner." /></div>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 03 ─ spec -->
+  <section class="block">
+    <div class="block__head">
+      <h2><span>03</span>Banner specification</h2>
+      <span class="mono">locked values</span>
+    </div>
+    <div class="columns">
+      <div class="table-wrap">
+      <table class="spec">
+        <tbody>
+          <tr><th>Canvas</th><td>1280 × 320 px (4:1) · mobile 760 × 360</td></tr>
+          <tr><th>Render width</th><td>100% of README column (~1012 px max) · mobile ~350 px</td></tr>
+          <tr><th>Safe zone</th><td>56 px inset desktop · 40 px mobile · nothing critical outside</td></tr>
+          <tr><th>Type floor</th><td>18 px in-canvas for anything that must be read</td></tr>
+          <tr><th>Hierarchy</th><td>76 px name → 20 px role → 12.5 px chips → 11 px meta</td></tr>
+          <tr><th>Fonts</th><td>Inter / Segoe UI stack + mono labels. Display type converts to paths in phase 2</td></tr>
+          <tr><th>Motion</th><td>Two SMIL loops only: status pulse, ACT node pulse. ~3 s, no layout shift</td></tr>
+          <tr><th>Weight</th><td>8.8 KB per theme · zero network requests · no external hosts</td></tr>
+          <tr><th>Theme</th><td>Separate generated files, served via <code>#gh-dark-mode-only</code> / <code>#gh-light-mode-only</code></td></tr>
+          <tr><th>Alt text</th><td>States the message (role + strongest proof), not "banner"</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <div>
+        <div class="swatches">
+          <div class="sw"><div class="sw__chip" style="background:#0b0f14"></div><div class="sw__label"><span>bg</span><span>0B0F14</span></div></div>
+          <div class="sw"><div class="sw__chip" style="background:#111823"></div><div class="sw__label"><span>surface</span><span>111823</span></div></div>
+          <div class="sw"><div class="sw__chip" style="background:#3ddc97"></div><div class="sw__label"><span>accent</span><span>3DDC97</span></div></div>
+          <div class="sw"><div class="sw__chip" style="background:#e3b341"></div><div class="sw__label"><span>award</span><span>E3B341</span></div></div>
+          <div class="sw"><div class="sw__chip" style="background:#9aa7b4"></div><div class="sw__label"><span>text-dim</span><span>9AA7B4</span></div></div>
+          <div class="sw"><div class="sw__chip" style="background:#6b7785"></div><div class="sw__label"><span>muted</span><span>6B7785</span></div></div>
+        </div>
+        <p class="note">One accent. Gold appears only on awards — never as decoration. Same tokens drive the SVG, this page, and the README tables.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 ─ section wireframe -->
+  <section class="block">
+    <div class="block__head">
+      <h2><span>04</span>First-screen wireframe</h2>
+      <span class="mono">HTML, not images — copy lands in phase 3</span>
+    </div>
+    <div class="wf">
+      <div class="wf__status">
+        <span class="dot"></span>
+        <span>OPEN TO 2027 SDE / AI-INFRA ROLES</span>
+        <span class="sep">·</span><span>BHUBANESWAR, IST</span>
+        <span class="sep">·</span><a href="#">RÉSUMÉ ↗</a>
+        <span class="sep">·</span><a href="#">EMAIL</a>
+        <span class="sep">·</span><a href="#">PORTFOLIO ↗</a>
+      </div>
+
+      <div class="wf__proof">
+        <div><b>Top 6</b><span>of 8,000 · Dell FutureMinds</span></div>
+        <div><b>8.93</b><span>CGPA / 10 · B.Tech CSE</span></div>
+        <div><b>218+</b><span>DSA problems solved</span></div>
+        <div><b>4★</b><span>HackerRank Java</span></div>
+      </div>
+
+      <div class="wf__grid">
+        <article class="pcard">
+          <div class="eyebrow" style="font-size:10px">Flagship · 01</div>
+          <h3><a href="#">AI Career Mentor</a></h3>
+          <p>Audits a résumé, scrapes live hiring data, and compiles a personal roadmap — agentic, not a chat wrapper.</p>
+          <div class="tags"><span>FastAPI</span><span>LangGraph</span><span>ChromaDB</span></div>
+          <div class="links"><a href="#">Repo ↗</a><a href="#">Live ↗</a></div>
+        </article>
+        <article class="pcard">
+          <div class="eyebrow" style="font-size:10px">Flagship · 02</div>
+          <h3><a href="#">TaskPilot AI</a></h3>
+          <p>Multi-agent orchestrator that dedupes signals across five tools and schedules a calendar-aware plan.</p>
+          <div class="tags"><span>Python</span><span>Redis</span><span>Postgres</span></div>
+          <div class="links"><a href="#">Repo ↗</a><a href="#">Live ↗</a></div>
+        </article>
+      </div>
+
+      <div class="wf__stack">
+        <div><h4>Languages</h4><p>Python · Java 23 · TypeScript · SQL</p></div>
+        <div><h4>Backend &amp; infra</h4><p>FastAPI · PostgreSQL · Redis · Docker · GitHub Actions</p></div>
+        <div><h4>AI systems</h4><p>LangGraph · RAG · FAISS · ChromaDB · Gemini</p></div>
+      </div>
+    </div>
+    <p class="note">Everything here is real text: selectable, mobile-perfect, screen-reader visible, and indexed. No poster SVGs.</p>
+  </section>
+
+  <!-- 05 ─ checklist -->
+  <section class="block">
+    <div class="block__head">
+      <h2><span>05</span>Sign-off</h2>
+      <span class="mono">approve → phase 2</span>
+    </div>
+    <div class="columns">
+      <ul class="check">
+        <li><b>Direction</b> — editorial “engineer's dossier”, not cyberpunk terminal. Name dominates, one accent.</li>
+        <li><b>Banner copy</b> — <em>Backend &amp; AI Systems Engineer</em>; chips: Dell Top 6/8,000 + CGPA 8.93.</li>
+        <li><b>Proof chips</b> — only two in the banner; the other metrics live in the proof bar as text.</li>
+        <li><b>Mobile</b> — separate 760 × 360 asset instead of a squashed desktop banner.</li>
+        <li><b>Diagram</b> — abstract ingest → plan → act → eval loop; decorative, no readable dependency.</li>
+        <li><b>Motion</b> — two slow pulses. Say the word and I'll strip them to fully static.</li>
+      </ul>
+      <div class="open">
+        <h3>Resolved · 2026-10-29</h3>
+        <ol>
+          <li>VisionForge — team project, AI/ML + pipeline engineering (collaborator not named).</li>
+          <li>TaskPilot — integration lead, stated on the card.</li>
+          <li>Dell — physical certificate; claim kept without a dead link.</li>
+          <li>View counter — kept, one flat-square badge in the footer.</li>
+          <li>Snake — deleted, workflow included.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span>Phase 01 · design lock · generated from assets/src/profile.json</span>
+  <span>10,000-foot check: role + strongest proof readable in one second, in both themes.</span>
+</footer>
+
+<script>
+  const root = document.documentElement;
+  const banner = document.getElementById("liveBanner");
+  const meta = document.getElementById("bannerMeta");
+  const stage = document.getElementById("stage");
+  let theme = "dark";
+  let width = 1012;
+
+  function render() {
+    const isMobile = width <= 500;
+    root.dataset.theme = theme;
+    banner.src = isMobile ? `../../assets/hero-mobile-${theme}.svg` : `../../assets/hero-${theme}.svg`;
+    stage.style.setProperty("--stage-w", width + "px");
+    meta.textContent = isMobile
+      ? "760 × 360 · mobile asset · rendered at 390 px"
+      : `1280 × 320 · ${theme} asset · rendered at ${width} px`;
+  }
+
+  document.querySelectorAll("[data-theme-set]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      theme = btn.dataset.themeSet;
+      document.querySelectorAll("[data-theme-set]").forEach((b) => b.classList.toggle("is-on", b === btn));
+      render();
+    });
+  });
+
+  document.querySelectorAll("[data-width]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      width = Number(btn.dataset.width);
+      document.querySelectorAll("[data-width]").forEach((b) => b.classList.toggle("is-on", b === btn));
+      render();
+    });
+  });
+
+  // Deep-linkable state: ?theme=light&w=390
+  const params = new URLSearchParams(location.search);
+  if (params.get("theme") === "light") theme = "light";
+  if (params.get("w")) width = Number(params.get("w")) || width;
+  if (window.innerWidth < 700 && !params.get("w")) width = 390;
+
+  document.querySelectorAll("[data-theme-set]").forEach((b) =>
+    b.classList.toggle("is-on", b.dataset.themeSet === theme),
+  );
+  document.querySelectorAll("[data-width]").forEach((b) =>
+    b.classList.toggle("is-on", Number(b.dataset.width) === width),
+  );
+
+  render();
+</script>
+</body>
+</html>

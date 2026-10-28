@@ -1,0 +1,15 @@
+# Dependencies (the build has none, but keep this in case one is added)
+node_modules/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+.idea/
+
+# Logs and throwaway QA artefacts
+*.log
+qa/
+*.tmp

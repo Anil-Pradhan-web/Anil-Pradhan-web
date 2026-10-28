@@ -1,0 +1,42 @@
+name: assets
+
+# Fails if the SVGs in assets/ drift from the single source of truth in
+# assets/src/profile.json. Fix by running `npm run build` and committing the result.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "assets/src/**"
+      - "assets/*.svg"
+      - ".github/workflows/assets.yml"
+  pull_request:
+    paths:
+      - "assets/src/**"
+      - "assets/*.svg"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Regenerate assets
+        run: node assets/src/build-banner.mjs
+
+      - name: Assert assets are committed
+        run: |
+          if [ -n "$(git status --porcelain assets)" ]; then
+            echo "::error::assets/ is out of date. Run 'npm run build' and commit the output."
+            git --no-pager diff --stat assets
+            exit 1
+          fi
+          echo "assets/ matches assets/src/profile.json"

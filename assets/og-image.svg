@@ -1,0 +1,71 @@
+<!-- generated: assets/src/build-banner.mjs - do not edit by hand -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640"
+  role="img" aria-label="Anil Pradhan &#8212; Backend and AI systems engineer. Dell FutureMinds national finalist, top 6 of 8,000.">
+  <title>Anil Pradhan &#8212; Backend &amp; AI Systems Engineer</title>
+  <defs>
+    <radialGradient id="glow-og-dark" cx="86%" cy="-14%" r="72%">
+      <stop offset="0%" stop-color="rgba(61,220,151,0.11)" />
+      <stop offset="55%" stop-color="rgba(61,220,151,0.11)" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="rgba(61,220,151,0.11)" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow2-og-dark" cx="4%" cy="118%" r="46%">
+      <stop offset="0%" stop-color="rgba(82,140,255,0.05)" />
+      <stop offset="100%" stop-color="rgba(82,140,255,0.05)" stop-opacity="0" />
+    </radialGradient>
+    <filter id="soft-og-dark" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" />
+    </filter>
+    <marker id="arrow-og-dark" viewBox="0 0 6 6" refX="5" refY="3" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0 L6 3 L0 6 z" fill="rgba(255,255,255,0.22)" />
+    </marker>
+    <marker id="arrow-accent-og-dark" viewBox="0 0 6 6" refX="5" refY="3" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0 L6 3 L0 6 z" fill="#3ddc97" />
+    </marker>
+  </defs>
+  
+  <rect width="1280" height="640" fill="#0b0f14" />
+  <rect width="1280" height="640" fill="url(#glow-og-dark)" />
+  <rect width="1280" height="640" fill="url(#glow2-og-dark)" />
+  <rect x="0.5" y="0.5" width="1279" height="639" fill="none" stroke="rgba(255,255,255,0.095)" />
+  
+  <g>
+    <path d="M28 62 L28 28 L62 28" stroke="#3ddc97" stroke-opacity="0.55" stroke-width="1.4" fill="none" stroke-linecap="square" />
+    <path d="M1218 28 L1252 28 L1252 62" stroke="#3ddc97" stroke-opacity="0.55" stroke-width="1.4" fill="none" stroke-linecap="square" />
+    <path d="M28 578 L28 612 L62 612" stroke="#3ddc97" stroke-opacity="0.55" stroke-width="1.4" fill="none" stroke-linecap="square" />
+    <path d="M1218 612 L1252 612 L1252 578" stroke="#3ddc97" stroke-opacity="0.55" stroke-width="1.4" fill="none" stroke-linecap="square" />
+  </g>
+
+  <text x="64" y="96" font-family="'Cascadia Mono','SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" font-weight="600" letter-spacing="4.5"
+        fill="#3ddc97">BACKEND &amp; AI SYSTEMS ENGINEER</text>
+  <g><line x1="966" y1="176" x2="1038" y2="176" stroke="rgba(255,255,255,0.22)" stroke-width="1" /><line x1="1051" y1="176" x2="1123" y2="176" stroke="rgba(255,255,255,0.22)" stroke-width="1" /><line x1="1136" y1="176" x2="1208" y2="176" stroke="rgba(255,255,255,0.22)" stroke-width="1" /><circle cx="960" cy="176" r="4" fill="#0b0f14" stroke="rgba(255,255,255,0.22)" stroke-width="1.1" /><circle cx="1045" cy="176" r="4" fill="#0b0f14" stroke="rgba(255,255,255,0.22)" stroke-width="1.1" /><circle cx="1130" cy="176" r="6" fill="#3ddc97" /><circle cx="1215" cy="176" r="4" fill="#0b0f14" stroke="rgba(255,255,255,0.22)" stroke-width="1.1" /></g>
+  <line x1="64" y1="124" x2="1216" y2="124" stroke="rgba(255,255,255,0.095)" />
+
+  <text x="60" y="244" font-family="'Inter','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="104" font-weight="700" letter-spacing="-3"
+        fill="#f0f4f8">ANIL PRADHAN</text>
+  <line x1="64" y1="280" x2="148" y2="280" stroke="#3ddc97" stroke-width="4" stroke-linecap="round" />
+  <text x="64" y="322" font-family="'Inter','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="26" fill="#9aa7b4">Deterministic multi-agent systems &amp; high-throughput backends</text>
+
+  <line x1="64" y1="372" x2="1216" y2="372" stroke="rgba(255,255,255,0.095)" />
+  <text x="64" y="444" font-family="'Inter','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="44" font-weight="700"
+        letter-spacing="-1.2" fill="#f0f4f8">Top 6</text>
+  <text x="64" y="474" font-family="'Cascadia Mono','SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" letter-spacing="0.6"
+        fill="#6b7785">of 8,000+ teams &#183; Dell 2026</text>
+  <text x="352" y="444" font-family="'Inter','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="44" font-weight="700"
+        letter-spacing="-1.2" fill="#f0f4f8">8.93</text>
+  <text x="352" y="474" font-family="'Cascadia Mono','SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" letter-spacing="0.6"
+        fill="#6b7785">CGPA / 10 &#183; B.Tech CSE</text>
+  <text x="640" y="444" font-family="'Inter','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="44" font-weight="700"
+        letter-spacing="-1.2" fill="#f0f4f8">218+</text>
+  <text x="640" y="474" font-family="'Cascadia Mono','SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" letter-spacing="0.6"
+        fill="#6b7785">DSA problems solved</text>
+  <text x="928" y="444" font-family="'Inter','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="44" font-weight="700"
+        letter-spacing="-1.2" fill="#f0f4f8">4&#9733;</text>
+  <text x="928" y="474" font-family="'Cascadia Mono','SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" letter-spacing="0.6"
+        fill="#6b7785">HackerRank &#183; Java</text>
+
+  <line x1="64" y1="536" x2="1216" y2="536" stroke="rgba(255,255,255,0.095)" />
+  <text x="64" y="582" font-family="'Cascadia Mono','SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13.5" font-weight="600" letter-spacing="1.6"
+        fill="#3ddc97">github.com/Anil-Pradhan-web</text>
+  <text x="1216" y="582" text-anchor="end" font-family="'Cascadia Mono','SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13.5" letter-spacing="1.6"
+        fill="#6b7785">my-portfolio-anil.vercel.app</text>
+</svg>

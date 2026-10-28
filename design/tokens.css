@@ -1,0 +1,137 @@
+/* ══════════════════════════════════════════════════════════════════════════
+   Anil Pradhan — GitHub profile design system
+   Phase 1 · single palette, two themes, one badge style.
+
+   Used by: design/mockups/index.html (approval harness)
+   Mirrored by: assets/src/build-banner.mjs (SVG generation)
+   ────────────────────────────────────────────────────────────────────────── */
+
+:root {
+  color-scheme: dark;
+
+  /* surfaces */
+  --bg:            #0b0f14;
+  --bg-elev:       #0e141b;
+  --surface:       #111823;
+  --surface-2:     #16202b;
+  --border:        rgba(255, 255, 255, 0.10);
+  --border-strong: rgba(255, 255, 255, 0.20);
+
+  /* text */
+  --text:          #f0f4f8;
+  --text-dim:      #9aa7b4;
+  --muted:         #6b7785;
+
+  /* accents — one primary, one reserved for awards */
+  --accent:        #3ddc97;
+  --accent-wash:   rgba(61, 220, 151, 0.10);
+  --accent-ink:    #04120c;
+  --gold:          #e3b341;
+  --gold-wash:     rgba(227, 179, 65, 0.10);
+
+  /* type */
+  --sans: "Inter", "Segoe UI Variable Display", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --mono: "Cascadia Mono", "SF Mono", "JetBrains Mono", Menlo, Consolas, "Liberation Mono", monospace;
+
+  --step--1: 12px;
+  --step-0:  14px;
+  --step-1:  16px;
+  --step-2:  20px;
+  --step-3:  26px;
+  --step-4:  34px;
+  --step-5:  46px;
+
+  /* space — 4pt scale */
+  --s1: 4px;  --s2: 8px;  --s3: 12px; --s4: 16px;
+  --s5: 24px; --s6: 32px; --s7: 48px; --s8: 64px;
+
+  --radius:    10px;
+  --radius-sm: 6px;
+  --shadow: 0 1px 0 rgba(255, 255, 255, 0.03), 0 18px 40px -28px rgba(0, 0, 0, 0.9);
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+
+  --bg:            #ffffff;
+  --bg-elev:       #f7f9fa;
+  --surface:       #ffffff;
+  --surface-2:     #f3f6f8;
+  --border:        rgba(14, 20, 26, 0.14);
+  --border-strong: rgba(14, 20, 26, 0.30);
+
+  --text:          #0e141a;
+  --text-dim:      #4b5764;
+  --muted:         #6b7683;
+
+  --accent:        #0e7c5a;
+  --accent-wash:   rgba(14, 124, 90, 0.08);
+  --accent-ink:    #ffffff;
+  --gold:          #8a6200;
+  --gold-wash:     rgba(138, 98, 0, 0.08);
+
+  --shadow: 0 1px 0 rgba(255, 255, 255, 0.6), 0 18px 40px -30px rgba(14, 20, 26, 0.35);
+}
+
+/* ── primitives ─────────────────────────────────────────────────────────── */
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: var(--step-1);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+.eyebrow {
+  font-family: var(--mono);
+  font-size: var(--step--1);
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.mono {
+  font-family: var(--mono);
+  font-size: var(--step--1);
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s2);
+  height: 28px;
+  padding: 0 var(--s3);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  font-family: var(--mono);
+  font-size: var(--step--1);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.chip--award {
+  color: var(--gold);
+  border-color: color-mix(in srgb, var(--gold) 40%, transparent);
+  background: var(--gold-wash);
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: var(--s5);
+  box-shadow: var(--shadow);
+}
+
+.rule { height: 1px; background: var(--border); border: 0; margin: var(--s6) 0; }
