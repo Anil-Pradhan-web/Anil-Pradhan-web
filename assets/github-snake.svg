@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 160" width="880" height="160">
+  <style>
+    .grid-cell { rx: 2.5; width: 11px; height: 11px; }
+    .mono { font-family: 'SF Mono', Monaco, 'Fira Code', 'Courier New', monospace; font-size: 11px; fill: #57606a; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="1" y="1" width="878" height="158" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="1" />
+
+  <!-- Header -->
+  <text x="30" y="24" class="mono" font-weight="bold" fill="#0969da">&#x1F40D; CONTRIBUTION GRAPH // SNAKE DISPATCH</text>
+  <text x="850" y="24" class="mono" text-anchor="end" fill="#57606a">1,347+ COMMITS THIS YEAR</text>
+
+  <!-- Contribution Grid Rows -->
+  <g transform="translate(30, 36)">
+    <g fill="#ebedf0">
+      <pattern id="empty-cells-light" width="16" height="14" patternUnits="userSpaceOnUse">
+        <rect x="0" y="0" width="12" height="11" rx="2.5" fill="#ebedf0" />
+      </pattern>
+      <rect x="0" y="0" width="820" height="98" fill="url(#empty-cells-light)" />
+    </g>
+
+    <g fill="#9be9a8">
+      <rect x="16" y="0" class="grid-cell" /><rect x="32" y="14" class="grid-cell" /><rect x="48" y="28" class="grid-cell" />
+      <rect x="80" y="42" class="grid-cell" /><rect x="112" y="14" class="grid-cell" /><rect x="128" y="0" class="grid-cell" />
+      <rect x="160" y="28" class="grid-cell" /><rect x="192" y="70" class="grid-cell" /><rect x="224" y="42" class="grid-cell" />
+      <rect x="272" y="14" class="grid-cell" /><rect x="304" y="56" class="grid-cell" />
+    </g>
+
+    <g fill="#40c463">
+      <rect x="32" y="0" class="grid-cell" /><rect x="48" y="14" class="grid-cell" /><rect x="64" y="28" class="grid-cell" />
+      <rect x="96" y="0" class="grid-cell" /><rect x="144" y="14" class="grid-cell" /><rect x="176" y="42" class="grid-cell" />
+      <rect x="208" y="28" class="grid-cell" /><rect x="240" y="70" class="grid-cell" /><rect x="288" y="42" class="grid-cell" />
+    </g>
+
+    <g fill="#30a14e">
+      <rect x="48" y="0" class="grid-cell" /><rect x="64" y="14" class="grid-cell" /><rect x="80" y="28" class="grid-cell" />
+      <rect x="160" y="42" class="grid-cell" /><rect x="224" y="14" class="grid-cell" /><rect x="256" y="28" class="grid-cell" />
+      <rect x="656" y="28" class="grid-cell" /><rect x="704" y="42" class="grid-cell" /><rect x="720" y="14" class="grid-cell" />
+    </g>
+
+    <g fill="#216e39">
+      <rect x="64" y="0" class="grid-cell" /><rect x="80" y="14" class="grid-cell" /><rect x="96" y="28" class="grid-cell" />
+      <rect x="720" y="28" class="grid-cell" /><rect x="736" y="42" class="grid-cell" /><rect x="752" y="28" class="grid-cell" />
+      <rect x="768" y="14" class="grid-cell" /><rect x="784" y="28" class="grid-cell" /><rect x="800" y="42" class="grid-cell" />
+    </g>
+
+    <!-- Animated Snake -->
+    <g>
+      <rect x="0" y="0" width="13" height="12" rx="3" fill="#0969da">
+        <animateMotion path="M 10 14 L 160 14 L 160 56 L 380 56 L 380 14 L 560 14 L 560 70 L 760 70 L 760 28 L 810 28" dur="14s" repeatCount="indefinite" />
+      </rect>
+      <rect x="0" y="0" width="12" height="11" rx="2.5" fill="#1a7f37">
+        <animateMotion path="M 10 14 L 160 14 L 160 56 L 380 56 L 380 14 L 560 14 L 560 70 L 760 70 L 760 28 L 810 28" dur="14s" begin="0.12s" repeatCount="indefinite" />
+      </rect>
+      <rect x="0" y="0" width="12" height="11" rx="2.5" fill="#2da44e">
+        <animateMotion path="M 10 14 L 160 14 L 160 56 L 380 56 L 380 14 L 560 14 L 560 70 L 760 70 L 760 28 L 810 28" dur="14s" begin="0.24s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(640, 142)">
+    <text x="-38" y="9" class="mono" font-size="10">Less</text>
+    <rect x="0" y="0" width="10" height="10" rx="2" fill="#ebedf0" />
+    <rect x="14" y="0" width="10" height="10" rx="2" fill="#9be9a8" />
+    <rect x="28" y="0" width="10" height="10" rx="2" fill="#40c463" />
+    <rect x="42" y="0" width="10" height="10" rx="2" fill="#30a14e" />
+    <rect x="56" y="0" width="10" height="10" rx="2" fill="#216e39" />
+    <text x="74" y="9" class="mono" font-size="10">More</text>
+  </g>
+</svg>
