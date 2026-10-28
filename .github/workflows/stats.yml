@@ -37,10 +37,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node assets/src/build-stats.mjs --fetch
 
-      - name: Commit when the numbers moved
+      - name: Commit when the card changed
         run: |
-          if git diff --quiet -- assets; then
-            echo "No change since the last refresh."
+          # GitHub's language byte counts settle asynchronously and can move by a
+          # handful of bytes without changing a single pixel. Only commit when the
+          # rendered card actually differs.
+          if git diff --quiet -- 'assets/activity-*.svg'; then
+            echo "No rendered change; leaving the snapshot alone."
+            git checkout -- assets/src/stats.json
             exit 0
           fi
           git config user.name "github-actions[bot]"
