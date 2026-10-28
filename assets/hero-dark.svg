@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="280" viewBox="0 0 850 280">
+  <style>
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    @keyframes pulse {
+      0% { r: 5; opacity: 1; }
+      50% { r: 8; opacity: 0.4; }
+      100% { r: 5; opacity: 1; }
+    }
+    .cursor { animation: blink 1.2s step-end infinite; }
+    .pulse-dot { animation: pulse 2s ease-in-out infinite; }
+  </style>
+
+  <!-- Window frame -->
+  <rect x="0.5" y="0.5" width="849" height="279" rx="10" ry="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <circle cx="25" cy="20" r="6" fill="#ff5f56"/>
+  <circle cx="45" cy="20" r="6" fill="#ffbd2e"/>
+  <circle cx="65" cy="20" r="6" fill="#27c93f"/>
+  <text x="425" y="24" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#8b949e">anil@github ~ bash</text>
+  <line x1="0" y1="40" x2="850" y2="40" stroke="#30363d" stroke-width="1"/>
+
+  <!-- ONLINE indicator -->
+  <circle cx="750" cy="68" r="5" fill="#00E89D" class="pulse-dot"/>
+  <text x="762" y="72" font-family="'Courier New', monospace" font-size="12" fill="#00E89D" font-weight="bold">ONLINE</text>
+
+  <!-- Line 1: $ whoami -->
+  <clipPath id="c1">
+    <rect x="30" y="55" width="0" height="30">
+      <animate attributeName="width" from="0" to="300" dur="0.6s" begin="0.3s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#c1)">
+    <text x="30" y="75" font-family="'Courier New', monospace" font-size="16" fill="#8b949e">$</text>
+    <text x="48" y="75" font-family="'Courier New', monospace" font-size="16" fill="#c9d1d9">whoami</text>
+  </g>
+
+  <!-- Line 2: → Anil Pradhan -->
+  <clipPath id="c2">
+    <rect x="30" y="85" width="0" height="30">
+      <animate attributeName="width" from="0" to="400" dur="0.8s" begin="1.2s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#c2)">
+    <text x="30" y="105" font-family="'Courier New', monospace" font-size="16" fill="#8b949e">→</text>
+    <text x="52" y="105" font-family="'Courier New', monospace" font-size="18" fill="#00E5FF" font-weight="bold">Anil Pradhan</text>
+  </g>
+
+  <!-- Line 3: $ cat role.txt -->
+  <clipPath id="c3">
+    <rect x="30" y="120" width="0" height="30">
+      <animate attributeName="width" from="0" to="350" dur="0.8s" begin="2.3s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#c3)">
+    <text x="30" y="140" font-family="'Courier New', monospace" font-size="16" fill="#8b949e">$</text>
+    <text x="48" y="140" font-family="'Courier New', monospace" font-size="16" fill="#c9d1d9">cat role.txt</text>
+  </g>
+
+  <!-- Line 4: → Backend Engineer · AI Systems Architect -->
+  <clipPath id="c4">
+    <rect x="30" y="150" width="0" height="30">
+      <animate attributeName="width" from="0" to="600" dur="1.2s" begin="3.4s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#c4)">
+    <text x="30" y="170" font-family="'Courier New', monospace" font-size="16" fill="#8b949e">→</text>
+    <text x="52" y="170" font-family="'Courier New', monospace" font-size="16" fill="#00E89D">Backend Engineer · AI Systems Architect</text>
+  </g>
+
+  <!-- Line 5: $ achievements --top -->
+  <clipPath id="c5">
+    <rect x="30" y="185" width="0" height="30">
+      <animate attributeName="width" from="0" to="400" dur="0.8s" begin="5.0s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#c5)">
+    <text x="30" y="205" font-family="'Courier New', monospace" font-size="16" fill="#8b949e">$</text>
+    <text x="48" y="205" font-family="'Courier New', monospace" font-size="16" fill="#c9d1d9">achievements --top</text>
+  </g>
+
+  <!-- Line 6: → Dell Grand Finalist ... -->
+  <clipPath id="c6">
+    <rect x="30" y="215" width="0" height="30">
+      <animate attributeName="width" from="0" to="780" dur="1.5s" begin="6.2s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#c6)">
+    <text x="30" y="235" font-family="'Courier New', monospace" font-size="16" fill="#8b949e">→</text>
+    <text x="52" y="235" font-family="'Courier New', monospace" font-size="15" fill="#F5A623">Dell Grand Finalist (Top 6/8000+) · 5× Hackathon Builder · 218+ LC</text>
+  </g>
+
+  <!-- Blinking cursor -->
+  <rect x="52" y="240" width="8" height="18" fill="#c9d1d9" class="cursor">
+    <animate attributeName="x" values="52;52;52;52;52;52" dur="0.1s" begin="0s" fill="freeze"/>
+    <!-- Cursor repositions after each line reveal -->
+    <animate attributeName="x" from="52" to="106" dur="0.01s" begin="0.9s" fill="freeze"/>
+    <animate attributeName="y" from="240" to="58" dur="0.01s" begin="0.01s" fill="freeze"/>
+    <animate attributeName="y" to="88" dur="0.01s" begin="0.9s" fill="freeze"/>
+    <animate attributeName="x" to="200" dur="0.01s" begin="2.0s" fill="freeze"/>
+    <animate attributeName="y" to="88" dur="0.01s" begin="2.0s" fill="freeze"/>
+    <animate attributeName="x" to="170" dur="0.01s" begin="2.3s" fill="freeze"/>
+    <animate attributeName="y" to="123" dur="0.01s" begin="2.3s" fill="freeze"/>
+    <animate attributeName="x" to="440" dur="0.01s" begin="3.1s" fill="freeze"/>
+    <animate attributeName="y" to="123" dur="0.01s" begin="3.1s" fill="freeze"/>
+    <animate attributeName="x" to="438" dur="0.01s" begin="3.4s" fill="freeze"/>
+    <animate attributeName="y" to="153" dur="0.01s" begin="3.4s" fill="freeze"/>
+    <animate attributeName="x" to="230" dur="0.01s" begin="4.6s" fill="freeze"/>
+    <animate attributeName="y" to="188" dur="0.01s" begin="5.0s" fill="freeze"/>
+    <animate attributeName="x" to="230" dur="0.01s" begin="5.0s" fill="freeze"/>
+    <animate attributeName="x" to="52" dur="0.01s" begin="5.8s" fill="freeze"/>
+    <animate attributeName="y" to="218" dur="0.01s" begin="6.2s" fill="freeze"/>
+    <animate attributeName="x" to="52" dur="0.01s" begin="6.2s" fill="freeze"/>
+    <animate attributeName="x" to="700" dur="0.01s" begin="7.7s" fill="freeze"/>
+    <animate attributeName="y" to="240" dur="0.01s" begin="7.7s" fill="freeze"/>
+  </rect>
+</svg>

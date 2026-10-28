@@ -1,0 +1,414 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 680" width="850" height="680">
+  <style>
+    /* Node fade-in animation */
+    @keyframes nodeIn {
+      from { opacity: 0; transform: scale(0.8); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    @keyframes labelIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .node { opacity: 0; animation: nodeIn 0.5s ease-out forwards; }
+    .label { opacity: 0; animation: labelIn 0.4s ease-out forwards; }
+
+    /* Level 0 — Root */
+    .l0 { animation-delay: 0s; }
+    /* Level 1 — Languages */
+    .l1a { animation-delay: 0.4s; }
+    .l1b { animation-delay: 0.5s; }
+    /* Level 2 — Category headers */
+    .l2a { animation-delay: 0.8s; }
+    .l2b { animation-delay: 0.9s; }
+    .l2c { animation-delay: 1.0s; }
+    /* Level 3 — AI/ML */
+    .l3a0 { animation-delay: 1.2s; }
+    .l3a1 { animation-delay: 1.3s; }
+    .l3a2 { animation-delay: 1.4s; }
+    .l3a3 { animation-delay: 1.5s; }
+    .l3a4 { animation-delay: 1.6s; }
+    .l3a5 { animation-delay: 1.7s; }
+    .l3a6 { animation-delay: 1.8s; }
+    .l3a7 { animation-delay: 1.9s; }
+    /* Level 3 — Backend */
+    .l3b0 { animation-delay: 1.2s; }
+    .l3b1 { animation-delay: 1.3s; }
+    .l3b2 { animation-delay: 1.4s; }
+    /* Level 3 — Frontend */
+    .l3c0 { animation-delay: 1.2s; }
+    .l3c1 { animation-delay: 1.3s; }
+    .l3c2 { animation-delay: 1.4s; }
+    .l3c3 { animation-delay: 1.5s; }
+    /* Level 4 — Databases */
+    .l4 { animation-delay: 2.8s; }
+    .l4a { animation-delay: 2.9s; }
+    .l4b { animation-delay: 3.0s; }
+    /* Level 5 — DevOps */
+    .l5 { animation-delay: 3.2s; }
+    .l5a { animation-delay: 3.3s; }
+    .l5b { animation-delay: 3.4s; }
+    .l5c { animation-delay: 3.5s; }
+    .l5d { animation-delay: 3.6s; }
+    .l5e { animation-delay: 3.7s; }
+    .l5f { animation-delay: 3.8s; }
+
+    .node-text {
+      font-family: monospace;
+      font-size: 12px;
+      fill: #c9d1d9;
+      text-anchor: middle;
+      dominant-baseline: central;
+    }
+    .cat-label {
+      font-family: monospace;
+      font-size: 14px;
+      font-weight: bold;
+      text-anchor: middle;
+      dominant-baseline: central;
+      letter-spacing: 2px;
+    }
+    .title-text {
+      font-family: monospace;
+      font-size: 11px;
+      fill: #8b949e;
+      text-anchor: middle;
+      dominant-baseline: central;
+      letter-spacing: 3px;
+    }
+  </style>
+
+  <defs>
+    <!-- Glow filters per category -->
+    <filter id="glow-cyan" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow-purple" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow-emerald" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow-orange" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow-blue" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow-red" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Brighter glow for root Python node -->
+    <filter id="glow-root" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="850" height="680" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="425" y="20" class="title-text">⚔️ TECH SKILL TREE</text>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- CONNECTION LINES (drawn behind nodes)       -->
+  <!-- ═══════════════════════════════════════════ -->
+
+  <!-- Python → Java -->
+  <line x1="375" y1="68" x2="270" y2="95" stroke="#00E5FF" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="200" stroke-dashoffset="200">
+    <animate attributeName="stroke-dashoffset" from="200" to="0" dur="0.6s" begin="0.3s" fill="freeze"/>
+  </line>
+  <!-- Python → TypeScript -->
+  <line x1="445" y1="68" x2="520" y2="95" stroke="#00E5FF" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="200" stroke-dashoffset="200">
+    <animate attributeName="stroke-dashoffset" from="200" to="0" dur="0.6s" begin="0.4s" fill="freeze"/>
+  </line>
+
+  <!-- Python → AI/ML label -->
+  <line x1="340" y1="68" x2="130" y2="175" stroke="#a855f7" stroke-width="1.5" stroke-opacity="0.3" stroke-dasharray="300" stroke-dashoffset="300">
+    <animate attributeName="stroke-dashoffset" from="300" to="0" dur="0.7s" begin="0.7s" fill="freeze"/>
+  </line>
+  <!-- Python → Backend label -->
+  <line x1="395" y1="68" x2="380" y2="175" stroke="#00E89D" stroke-width="1.5" stroke-opacity="0.3" stroke-dasharray="200" stroke-dashoffset="200">
+    <animate attributeName="stroke-dashoffset" from="200" to="0" dur="0.6s" begin="0.7s" fill="freeze"/>
+  </line>
+  <!-- Java → Backend label -->
+  <line x1="270" y1="127" x2="370" y2="175" stroke="#00E89D" stroke-width="1.5" stroke-opacity="0.3" stroke-dasharray="200" stroke-dashoffset="200">
+    <animate attributeName="stroke-dashoffset" from="200" to="0" dur="0.6s" begin="0.8s" fill="freeze"/>
+  </line>
+  <!-- TypeScript → Frontend label -->
+  <line x1="540" y1="127" x2="610" y2="175" stroke="#f97316" stroke-width="1.5" stroke-opacity="0.3" stroke-dasharray="200" stroke-dashoffset="200">
+    <animate attributeName="stroke-dashoffset" from="200" to="0" dur="0.6s" begin="0.8s" fill="freeze"/>
+  </line>
+
+  <!-- AI/ML vertical chain -->
+  <line x1="100" y1="246" x2="100" y2="262" stroke="#a855f7" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="30" stroke-dashoffset="30">
+    <animate attributeName="stroke-dashoffset" from="30" to="0" dur="0.3s" begin="1.3s" fill="freeze"/>
+  </line>
+  <line x1="100" y1="294" x2="100" y2="310" stroke="#a855f7" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="30" stroke-dashoffset="30">
+    <animate attributeName="stroke-dashoffset" from="30" to="0" dur="0.3s" begin="1.4s" fill="freeze"/>
+  </line>
+  <line x1="100" y1="342" x2="100" y2="358" stroke="#a855f7" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="30" stroke-dashoffset="30">
+    <animate attributeName="stroke-dashoffset" from="30" to="0" dur="0.3s" begin="1.5s" fill="freeze"/>
+  </line>
+  <line x1="100" y1="390" x2="100" y2="406" stroke="#a855f7" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="30" stroke-dashoffset="30">
+    <animate attributeName="stroke-dashoffset" from="30" to="0" dur="0.3s" begin="1.6s" fill="freeze"/>
+  </line>
+  <line x1="100" y1="438" x2="100" y2="454" stroke="#a855f7" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="30" stroke-dashoffset="30">
+    <animate attributeName="stroke-dashoffset" from="30" to="0" dur="0.3s" begin="1.7s" fill="freeze"/>
+  </line>
+  <line x1="100" y1="486" x2="100" y2="502" stroke="#a855f7" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="30" stroke-dashoffset="30">
+    <animate attributeName="stroke-dashoffset" from="30" to="0" dur="0.3s" begin="1.8s" fill="freeze"/>
+  </line>
+  <line x1="100" y1="534" x2="100" y2="550" stroke="#a855f7" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="30" stroke-dashoffset="30">
+    <animate attributeName="stroke-dashoffset" from="30" to="0" dur="0.3s" begin="1.9s" fill="freeze"/>
+  </line>
+  <!-- AI/ML label → first node -->
+  <line x1="130" y1="185" x2="100" y2="214" stroke="#a855f7" stroke-width="1.5" stroke-opacity="0.3" stroke-dasharray="60" stroke-dashoffset="60">
+    <animate attributeName="stroke-dashoffset" from="60" to="0" dur="0.4s" begin="1.1s" fill="freeze"/>
+  </line>
+
+  <!-- Backend vertical chain -->
+  <line x1="380" y1="185" x2="380" y2="214" stroke="#00E89D" stroke-width="1.5" stroke-opacity="0.3" stroke-dasharray="40" stroke-dashoffset="40">
+    <animate attributeName="stroke-dashoffset" from="40" to="0" dur="0.3s" begin="1.1s" fill="freeze"/>
+  </line>
+  <line x1="380" y1="246" x2="380" y2="262" stroke="#00E89D" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="30" stroke-dashoffset="30">
+    <animate attributeName="stroke-dashoffset" from="30" to="0" dur="0.3s" begin="1.3s" fill="freeze"/>
+  </line>
+  <line x1="380" y1="294" x2="380" y2="310" stroke="#00E89D" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="30" stroke-dashoffset="30">
+    <animate attributeName="stroke-dashoffset" from="30" to="0" dur="0.3s" begin="1.4s" fill="freeze"/>
+  </line>
+
+  <!-- Frontend vertical chain -->
+  <line x1="640" y1="185" x2="640" y2="214" stroke="#f97316" stroke-width="1.5" stroke-opacity="0.3" stroke-dasharray="40" stroke-dashoffset="40">
+    <animate attributeName="stroke-dashoffset" from="40" to="0" dur="0.3s" begin="1.1s" fill="freeze"/>
+  </line>
+  <line x1="640" y1="246" x2="640" y2="262" stroke="#f97316" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="30" stroke-dashoffset="30">
+    <animate attributeName="stroke-dashoffset" from="30" to="0" dur="0.3s" begin="1.3s" fill="freeze"/>
+  </line>
+  <line x1="640" y1="294" x2="640" y2="310" stroke="#f97316" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="30" stroke-dashoffset="30">
+    <animate attributeName="stroke-dashoffset" from="30" to="0" dur="0.3s" begin="1.4s" fill="freeze"/>
+  </line>
+  <line x1="640" y1="342" x2="640" y2="362" stroke="#f97316" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="30" stroke-dashoffset="30">
+    <animate attributeName="stroke-dashoffset" from="30" to="0" dur="0.3s" begin="1.5s" fill="freeze"/>
+  </line>
+
+  <!-- Backend → Databases label -->
+  <line x1="380" y1="342" x2="380" y2="415" stroke="#3b82f6" stroke-width="1.5" stroke-opacity="0.3" stroke-dasharray="100" stroke-dashoffset="100">
+    <animate attributeName="stroke-dashoffset" from="100" to="0" dur="0.5s" begin="2.6s" fill="freeze"/>
+  </line>
+  <!-- Databases label → PostgreSQL -->
+  <line x1="370" y1="430" x2="340" y2="444" stroke="#3b82f6" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="40" stroke-dashoffset="40">
+    <animate attributeName="stroke-dashoffset" from="40" to="0" dur="0.3s" begin="2.8s" fill="freeze"/>
+  </line>
+  <!-- Databases label → Redis -->
+  <line x1="400" y1="430" x2="440" y2="444" stroke="#3b82f6" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="40" stroke-dashoffset="40">
+    <animate attributeName="stroke-dashoffset" from="40" to="0" dur="0.3s" begin="2.9s" fill="freeze"/>
+  </line>
+  <!-- PostgreSQL — Redis horizontal -->
+  <line x1="395" y1="460" x2="385" y2="460" stroke="#3b82f6" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="20" stroke-dashoffset="20">
+    <animate attributeName="stroke-dashoffset" from="20" to="0" dur="0.3s" begin="3.0s" fill="freeze"/>
+  </line>
+
+  <!-- Databases → DevOps label -->
+  <line x1="390" y1="476" x2="425" y2="525" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.3" stroke-dasharray="80" stroke-dashoffset="80">
+    <animate attributeName="stroke-dashoffset" from="80" to="0" dur="0.5s" begin="3.1s" fill="freeze"/>
+  </line>
+
+  <!-- DevOps horizontal chain -->
+  <line x1="195" y1="570" x2="220" y2="570" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="40" stroke-dashoffset="40">
+    <animate attributeName="stroke-dashoffset" from="40" to="0" dur="0.3s" begin="3.4s" fill="freeze"/>
+  </line>
+  <line x1="350" y1="570" x2="370" y2="570" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="40" stroke-dashoffset="40">
+    <animate attributeName="stroke-dashoffset" from="40" to="0" dur="0.3s" begin="3.5s" fill="freeze"/>
+  </line>
+  <line x1="490" y1="570" x2="500" y2="570" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="40" stroke-dashoffset="40">
+    <animate attributeName="stroke-dashoffset" from="40" to="0" dur="0.3s" begin="3.6s" fill="freeze"/>
+  </line>
+  <line x1="620" y1="570" x2="630" y2="570" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="40" stroke-dashoffset="40">
+    <animate attributeName="stroke-dashoffset" from="40" to="0" dur="0.3s" begin="3.7s" fill="freeze"/>
+  </line>
+  <!-- Prometheus → Linux -->
+  <line x1="690" y1="586" x2="690" y2="602" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="30" stroke-dashoffset="30">
+    <animate attributeName="stroke-dashoffset" from="30" to="0" dur="0.3s" begin="3.8s" fill="freeze"/>
+  </line>
+
+  <!-- DevOps label → first node connections -->
+  <line x1="425" y1="540" x2="150" y2="554" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.2" stroke-dasharray="300" stroke-dashoffset="300">
+    <animate attributeName="stroke-dashoffset" from="300" to="0" dur="0.5s" begin="3.2s" fill="freeze"/>
+  </line>
+  <line x1="425" y1="540" x2="300" y2="554" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.2" stroke-dasharray="200" stroke-dashoffset="200">
+    <animate attributeName="stroke-dashoffset" from="200" to="0" dur="0.4s" begin="3.2s" fill="freeze"/>
+  </line>
+  <line x1="425" y1="540" x2="430" y2="554" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.2" stroke-dasharray="30" stroke-dashoffset="30">
+    <animate attributeName="stroke-dashoffset" from="30" to="0" dur="0.3s" begin="3.2s" fill="freeze"/>
+  </line>
+  <line x1="425" y1="540" x2="560" y2="554" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.2" stroke-dasharray="200" stroke-dashoffset="200">
+    <animate attributeName="stroke-dashoffset" from="200" to="0" dur="0.4s" begin="3.2s" fill="freeze"/>
+  </line>
+  <line x1="425" y1="540" x2="690" y2="554" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.2" stroke-dasharray="300" stroke-dashoffset="300">
+    <animate attributeName="stroke-dashoffset" from="300" to="0" dur="0.5s" begin="3.2s" fill="freeze"/>
+  </line>
+
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- NODES                                       -->
+  <!-- ═══════════════════════════════════════════ -->
+
+  <!-- ── Level 0: Root — Python ── -->
+  <g class="node l0" filter="url(#glow-root)">
+    <rect x="305" y="30" width="140" height="38" rx="8" fill="#161b22" stroke="#00E5FF" stroke-width="2"/>
+    <text x="375" y="49" class="node-text" font-size="14" fill="#00E5FF" font-weight="bold">Python</text>
+  </g>
+
+  <!-- ── Level 1: Languages ── -->
+  <g class="node l1a" filter="url(#glow-cyan)">
+    <rect x="195" y="95" width="120" height="32" rx="8" fill="#161b22" stroke="#00E5FF" stroke-width="1.5"/>
+    <text x="255" y="111" class="node-text">Java</text>
+  </g>
+  <g class="node l1b" filter="url(#glow-cyan)">
+    <rect x="465" y="95" width="120" height="32" rx="8" fill="#161b22" stroke="#00E5FF" stroke-width="1.5"/>
+    <text x="525" y="111" class="node-text">TypeScript</text>
+  </g>
+
+  <!-- ── Level 2: Category Headers ── -->
+  <text x="130" y="180" class="cat-label label l2a" fill="#a855f7">AI / ML</text>
+  <text x="380" y="180" class="cat-label label l2b" fill="#00E89D">BACKEND</text>
+  <text x="640" y="180" class="cat-label label l2c" fill="#f97316">FRONTEND</text>
+
+  <!-- ── Level 3: AI/ML Nodes ── -->
+  <g class="node l3a0" filter="url(#glow-purple)">
+    <rect x="40" y="214" width="120" height="32" rx="8" fill="#161b22" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="100" y="230" class="node-text">LangGraph</text>
+  </g>
+  <g class="node l3a1" filter="url(#glow-purple)">
+    <rect x="40" y="262" width="120" height="32" rx="8" fill="#161b22" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="100" y="278" class="node-text">Gemini</text>
+  </g>
+  <g class="node l3a2" filter="url(#glow-purple)">
+    <rect x="40" y="310" width="120" height="32" rx="8" fill="#161b22" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="100" y="326" class="node-text">Groq</text>
+  </g>
+  <g class="node l3a3" filter="url(#glow-purple)">
+    <rect x="40" y="358" width="120" height="32" rx="8" fill="#161b22" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="100" y="374" class="node-text">Claude/MCP</text>
+  </g>
+  <g class="node l3a4" filter="url(#glow-purple)">
+    <rect x="40" y="406" width="120" height="32" rx="8" fill="#161b22" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="100" y="422" class="node-text">PyTorch</text>
+  </g>
+  <g class="node l3a5" filter="url(#glow-purple)">
+    <rect x="40" y="454" width="120" height="32" rx="8" fill="#161b22" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="100" y="470" class="node-text">YOLO11n</text>
+  </g>
+  <g class="node l3a6" filter="url(#glow-purple)">
+    <rect x="40" y="502" width="120" height="32" rx="8" fill="#161b22" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="100" y="518" class="node-text">ChromaDB</text>
+  </g>
+  <g class="node l3a7" filter="url(#glow-purple)">
+    <rect x="40" y="550" width="120" height="32" rx="8" fill="#161b22" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="100" y="566" class="node-text">FAISS</text>
+  </g>
+
+  <!-- ── Level 3: Backend Nodes ── -->
+  <g class="node l3b0" filter="url(#glow-emerald)">
+    <rect x="315" y="214" width="130" height="32" rx="8" fill="#161b22" stroke="#00E89D" stroke-width="1.5"/>
+    <text x="380" y="230" class="node-text">FastAPI</text>
+  </g>
+  <g class="node l3b1" filter="url(#glow-emerald)">
+    <rect x="315" y="262" width="130" height="32" rx="8" fill="#161b22" stroke="#00E89D" stroke-width="1.5"/>
+    <text x="380" y="278" class="node-text">WebSockets</text>
+  </g>
+  <g class="node l3b2" filter="url(#glow-emerald)">
+    <rect x="315" y="310" width="130" height="32" rx="8" fill="#161b22" stroke="#00E89D" stroke-width="1.5"/>
+    <text x="380" y="326" class="node-text">SQLAlchemy</text>
+  </g>
+
+  <!-- ── Level 3: Frontend Nodes ── -->
+  <g class="node l3c0" filter="url(#glow-orange)">
+    <rect x="575" y="214" width="130" height="32" rx="8" fill="#161b22" stroke="#f97316" stroke-width="1.5"/>
+    <text x="640" y="230" class="node-text">Next.js</text>
+  </g>
+  <g class="node l3c1" filter="url(#glow-orange)">
+    <rect x="575" y="262" width="130" height="32" rx="8" fill="#161b22" stroke="#f97316" stroke-width="1.5"/>
+    <text x="640" y="278" class="node-text">React</text>
+  </g>
+  <g class="node l3c2" filter="url(#glow-orange)">
+    <rect x="575" y="310" width="130" height="32" rx="8" fill="#161b22" stroke="#f97316" stroke-width="1.5"/>
+    <text x="640" y="326" class="node-text">Tailwind</text>
+  </g>
+  <g class="node l3c3" filter="url(#glow-orange)">
+    <rect x="575" y="362" width="130" height="32" rx="8" fill="#161b22" stroke="#f97316" stroke-width="1.5"/>
+    <text x="640" y="378" class="node-text">Vite</text>
+  </g>
+
+  <!-- ── Level 4: Databases ── -->
+  <text x="390" y="420" class="cat-label label l4" fill="#3b82f6">DATABASES</text>
+  <g class="node l4a" filter="url(#glow-blue)">
+    <rect x="270" y="444" width="130" height="32" rx="8" fill="#161b22" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="335" y="460" class="node-text">PostgreSQL</text>
+  </g>
+  <g class="node l4b" filter="url(#glow-blue)">
+    <rect x="420" y="444" width="110" height="32" rx="8" fill="#161b22" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="475" y="460" class="node-text">Redis</text>
+  </g>
+
+  <!-- ── Level 5: DevOps ── -->
+  <text x="425" y="530" class="cat-label label l5" fill="#ef4444">DEVOPS</text>
+  <g class="node l5a" filter="url(#glow-red)">
+    <rect x="70" y="554" width="120" height="32" rx="8" fill="#161b22" stroke="#ef4444" stroke-width="1.5"/>
+    <text x="130" y="570" class="node-text">Docker</text>
+  </g>
+  <g class="node l5b" filter="url(#glow-red)">
+    <rect x="210" y="554" width="130" height="32" rx="8" fill="#161b22" stroke="#ef4444" stroke-width="1.5"/>
+    <text x="275" y="570" class="node-text">GitHub Actions</text>
+  </g>
+  <g class="node l5c" filter="url(#glow-red)">
+    <rect x="370" y="554" width="110" height="32" rx="8" fill="#161b22" stroke="#ef4444" stroke-width="1.5"/>
+    <text x="425" y="570" class="node-text">Pytest</text>
+  </g>
+  <g class="node l5d" filter="url(#glow-red)">
+    <rect x="500" y="554" width="110" height="32" rx="8" fill="#161b22" stroke="#ef4444" stroke-width="1.5"/>
+    <text x="555" y="570" class="node-text">Vercel</text>
+  </g>
+  <g class="node l5e" filter="url(#glow-red)">
+    <rect x="625" y="554" width="130" height="32" rx="8" fill="#161b22" stroke="#ef4444" stroke-width="1.5"/>
+    <text x="690" y="570" class="node-text">Prometheus</text>
+  </g>
+  <g class="node l5f" filter="url(#glow-red)">
+    <rect x="635" y="602" width="110" height="32" rx="8" fill="#161b22" stroke="#ef4444" stroke-width="1.5"/>
+    <text x="690" y="618" class="node-text">Linux</text>
+  </g>
+
+  <!-- Bottom decorative line -->
+  <line x1="100" y1="660" x2="750" y2="660" stroke="#30363d" stroke-width="0.5" stroke-opacity="0.5"/>
+  <text x="425" y="672" font-family="monospace" font-size="9" fill="#484f58" text-anchor="middle">nodes unlocked: 28 / 28</text>
+</svg>

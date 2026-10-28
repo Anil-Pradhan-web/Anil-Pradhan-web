@@ -1,303 +1,100 @@
 <div align="center">
 
-<!-- ── Cyberpunk Animated Banner ── -->
-<img width="100%" src="assets/anil_pradhan_cyberpunk_github.gif" alt="Animated cyberpunk HUD banner featuring a glowing cyan 'ANIL PRADHAN' name plate with subtitle '< BACKEND ENGINEERING // AI SYSTEMS >', set against a neon grid and matrix-style code rain backdrop with small HUD status readouts showing SYS://ONLINE, AI_SYSTEMS: ACTIVE, BUILD // DEBUG // DEPLOY, and PYTHON | FASTAPI | AGENTS"/>
+<!-- ── Animated Terminal Hero Banner ── -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img width="100%" src="assets/hero-dark.svg" alt="Terminal-style animated hero banner showing: $ whoami → Anil Pradhan, Backend Engineer & AI Systems Architect, Dell Grand Finalist"/>
+</picture>
 
-<br/><br/>
+<br/>
 
-<!-- ── Profile Views Counter ── -->
+<!-- ── Profile Views ── -->
 <a href="https://github.com/Anil-Pradhan-web">
   <img src="https://komarev.com/ghpvc/?username=Anil-Pradhan-web&label=PROFILE+VIEWS&color=00E89D&style=for-the-badge&v=1" alt="Profile Views"/>
 </a>
 
 <br/><br/>
 
-<!-- ── Dynamic Typing Telemetry ── -->
+<!-- ── Dynamic Typing ── -->
 <a href="https://my-portfolio-anil.vercel.app">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=17&pause=1200&color=00E5FF&center=true&vCenter=true&width=840&height=40&lines=Building+Deterministic+Multi-Agent+Workflows;Dell+FutureMinds+National+Grand+Finalist+(Top+6+%2F+8%2C000%2B);5%C3%97+AI+Hackathon+Builder+(Dell%2C+MSFT%2C+Google%2C+AWS%2C+iQOO);218%2B+LeetCode+%C2%B7+111%2B+GFG+%C2%B7+4%E2%98%85+HackerRank+Java;Architecting+High-Throughput+FastAPI+Backends" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=17&pause=2000&color=00E5FF&center=true&vCenter=true&width=680&height=40&lines=Building+deterministic+multi-agent+systems;Dell+FutureMinds+Grand+Finalist+%C2%B7+Top+6+%2F+8%2C000%2B;Python+%C2%B7+FastAPI+%C2%B7+LangGraph+%C2%B7+RAG+Pipelines" alt="Typing SVG"/>
 </a>
 
 </div>
 
 <br/>
 
-<a id="overview"></a>
-## 👋 Hi there, I'm Anil Pradhan
+## 👋 About Me
 
-Architecting deterministic intelligence for complex human & machine systems. Backend engineering + AI systems.
+I'm a backend engineer and AI systems builder obsessed with making multi-agent workflows deterministic, testable, and production-ready. I build with Python, FastAPI, and LangGraph — and I've battle-tested my architectures at 5 national hackathons.
 
-<br/>
-
----
-
-## 🏆 Hackathons & National Competitions
-
-<table>
-  <!-- Grand Finalist Highlight -->
-  <tr>
-    <td colspan="2" valign="top" bgcolor="#0d1117">
-      <h3 align="left">🥇 Dell FutureMinds AI Hackathon 2026</h3>
-      <p><b>National Grand Finalist · Top 6 Nationwide out of 8,000+ Students</b> &nbsp; <img src="https://img.shields.io/badge/Standing-Grand_Finalist-00e89d?style=flat-square" alt="Grand Finalist"/></p>
-      <p>Ranked in the <b>top 6 teams across India</b> among 8,000+ engineering contenders. Awarded Certificate of Excellence and pitched our autonomous hardware inspection architecture live to executive leadership, technical directors, and engineering panels at <b>Dell Technologies Bengaluru HQ</b>.</p>
-      <ul>
-        <li><b>Live Pitch:</b> Multi-agent vision inspection pipeline running anomaly detection and vector matching in &lt; 5 seconds.</li>
-        <li><b>Recognition:</b> National Certificate of Excellence &amp; executive leadership commendation.</li>
-      </ul>
-    </td>
-  </tr>
-  <!-- Participant Hackathons Grid -->
-  <tr>
-    <td width="50%" valign="top">
-      <h4 align="left">⚡ iQOO Hackathon 2026</h4>
-      <p><img src="https://img.shields.io/badge/Role-Participant_%2F_Builder-00e5ff?style=flat-square" alt="Participant"/></p>
-      <p><b>High-Performance Computing &amp; On-Device Intelligence</b></p>
-      <p>Engineered responsive, resource-optimized pipeline architectures tackling latency-sensitive real-time processing and on-device developer workflow efficiency.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h4 align="left">🔷 Microsoft AI Dev Days</h4>
-      <p><img src="https://img.shields.io/badge/Role-Participant_%2F_Builder-00e5ff?style=flat-square" alt="Participant"/></p>
-      <p><b>Azure AI Services &amp; Copilot Integration</b></p>
-      <p>Built and deployed autonomous agentic prototypes leveraging Azure OpenAI, semantic search chunking, and intelligent conversational copilot capabilities.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4 align="left">🟧 Amazon Nova Hackathon</h4>
-      <p><img src="https://img.shields.io/badge/Role-Participant_%2F_Builder-00e5ff?style=flat-square" alt="Participant"/></p>
-      <p><b>AWS Bedrock &amp; Multimodal AI Systems</b></p>
-      <p>Developed high-throughput inference workflows utilizing Amazon Nova and Bedrock foundation models with resilient cloud event orchestration.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h4 align="left">🌐 Google Solution Challenge</h4>
-      <p><img src="https://img.shields.io/badge/Role-Participant_%2F_Builder-00e5ff?style=flat-square" alt="Participant"/></p>
-      <p><b>Google Cloud &amp; Gemini Multimodal Pipelines</b></p>
-      <p>Architected sustainable community-focused solutions integrating Gemini multimodal models, serverless backend microservices, and Google Cloud APIs.</p>
-    </td>
-  </tr>
-</table>
+- 🎯 **Currently building:** Autonomous multi-agent pipelines with LangGraph + RAG
+- 📍 **Based in:** India
+- 📬 **Reach me:** [anilpradhan.dev@gmail.com](mailto:anilpradhan.dev@gmail.com) · [LinkedIn](https://www.linkedin.com/in/anil-pradhan543/)
+- 📖 **Blog:** [my-portfolio-anil.vercel.app/blog](https://my-portfolio-anil.vercel.app/blog)
 
 ---
 
-## ⚡ Problem Solving & Algorithmic Rigor
+## 🔥 Featured Projects
 
-<table width="100%">
+<div align="center">
+
+<a href="https://github.com/Anil-Pradhan-web?tab=repositories">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anil-Pradhan-web&repo=Anil-Pradhan-web&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5ff&text_color=94a3b8&icon_color=00e89d" alt="Profile Repo"/>
+</a>
+
+</div>
+
+> 💡 **Pin your best repositories** on your GitHub profile page so they appear here. Replace the placeholder above with your actual project repos.
+
+---
+
+## 🏆 Hackathons & Competitions
+
+<div align="center">
+  <img width="100%" src="assets/hackathon-timeline.svg" alt="Animated hackathon timeline showing Dell FutureMinds Grand Finalist, iQOO, Microsoft, Amazon Nova, and Google Solution Challenge"/>
+</div>
+
+---
+
+## ⚔️ Tech Skill Tree
+
+<div align="center">
+  <img width="100%" src="assets/skill-tree.svg" alt="RPG-style animated skill tree showing tech stack: Python, Java, TypeScript branching into AI/ML, Backend, Frontend, Databases, and DevOps"/>
+</div>
+
+---
+
+## ⚡ Problem Solving
+
+<div align="center">
+
+<table border="0">
   <tr>
-    <td width="33.33%" align="center" valign="top">
-      <br/>
+    <td align="center">
       <a href="https://leetcode.com/u/Anil_Pradhan/">
-        <img src="https://img.shields.io/badge/LeetCode-218+_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=090d16" alt="LeetCode 218+"/>
+        <img src="assets/leetcode-card.svg" alt="LeetCode: 218+ Problems Solved" width="250"/>
       </a>
-      <br/><br/>
-      <p align="left">
-        <b>218+ Problems Solved</b><br/>
-        Focused on optimal time &amp; space complexity across:
-      </p>
-      <ul align="left">
-        <li>Graph Algorithms (BFS/DFS)</li>
-        <li>Dynamic Programming</li>
-        <li>Trees &amp; Binary Search</li>
-        <li>Two Pointers &amp; Sliding Window</li>
-      </ul>
-      <p align="center">
-        <a href="https://leetcode.com/u/Anil_Pradhan/"><img src="https://img.shields.io/badge/View_Profile-FFA116?style=flat-square&logo=leetcode&logoColor=090d16" alt="LeetCode Profile"/></a>
-      </p>
     </td>
-    <td width="33.33%" align="center" valign="top">
-      <br/>
+    <td align="center">
       <a href="https://www.geeksforgeeks.org/user/anilpradhan543/">
-        <img src="https://img.shields.io/badge/GeeksforGeeks-111+_Solved-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GFG 111+"/>
+        <img src="assets/gfg-card.svg" alt="GeeksforGeeks: 111+ Problems Solved" width="250"/>
       </a>
-      <br/><br/>
-      <p align="left">
-        <b>111+ Problems Solved</b><br/>
-        Consistent core algorithmic mastery:
-      </p>
-      <ul align="left">
-        <li><b>100+ Day DSA Streak</b> (160 Days of Code)</li>
-        <li>Arrays, Matrices &amp; Strings</li>
-        <li>Linked Lists &amp; Recursion</li>
-        <li>Bit Manipulation &amp; Math</li>
-      </ul>
-      <p align="center">
-        <a href="https://www.geeksforgeeks.org/user/anilpradhan543/"><img src="https://img.shields.io/badge/View_Profile-2F8D46?style=flat-square&logo=geeksforgeeks&logoColor=white" alt="GFG Profile"/></a>
-      </p>
     </td>
-    <td width="33.33%" align="center" valign="top">
-      <br/>
+    <td align="center">
       <a href="https://www.hackerrank.com/profile/anilpradhan9644">
-        <img src="https://img.shields.io/badge/HackerRank-Java_4%E2%98%85-00EA64?style=for-the-badge&logo=hackerrank&logoColor=090d16" alt="HackerRank 4 Star"/>
+        <img src="assets/hackerrank-card.svg" alt="HackerRank: 4-Star Java" width="250"/>
       </a>
-      <br/><br/>
-      <p align="left">
-        <b>Domain Skill Ratings:</b>
-      </p>
-      <ul align="left">
-        <li>☕ <b>Java:</b> ⭐⭐⭐⭐ (4 Star)</li>
-        <li>🐍 <b>Python:</b> ⭐ (1 Star)</li>
-        <li>🗄️ <b>SQL:</b> ⭐ (1 Star)</li>
-        <li>🧩 <b>Problem Solving:</b> ⭐ (1 Star)</li>
-      </ul>
-      <p align="center">
-        <a href="https://www.hackerrank.com/profile/anilpradhan9644"><img src="https://img.shields.io/badge/View_Profile-00EA64?style=flat-square&logo=hackerrank&logoColor=090d16" alt="HackerRank Profile"/></a>
-      </p>
     </td>
   </tr>
 </table>
 
----
-
-## 🧠 Technologies I've Worked With
-
-<table>
-  <tr>
-    <td align="center" width="130"><br/><b>🔤 Languages</b><br/><br/></td>
-    <td>
-      <img src="https://img.shields.io/badge/Python-090d16?style=for-the-badge&logo=python&logoColor=3776ab" alt="Python"/>
-      <img src="https://img.shields.io/badge/Java_23-090d16?style=for-the-badge&logo=openjdk&logoColor=f89820" alt="Java 23"/>
-      <img src="https://img.shields.io/badge/TypeScript-090d16?style=for-the-badge&logo=typescript&logoColor=3178c6" alt="TypeScript"/>
-      <img src="https://img.shields.io/badge/JavaScript-090d16?style=for-the-badge&logo=javascript&logoColor=f7df1e" alt="JavaScript"/>
-      <img src="https://img.shields.io/badge/SQL-090d16?style=for-the-badge&logo=postgresql&logoColor=4169e1" alt="SQL"/>
-      <img src="https://img.shields.io/badge/HTML5-090d16?style=for-the-badge&logo=html5&logoColor=e34f26" alt="HTML5"/>
-      <img src="https://img.shields.io/badge/CSS3-090d16?style=for-the-badge&logo=css3&logoColor=1572b6" alt="CSS3"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><br/><b>🤖 AI &amp; ML</b><br/><br/></td>
-    <td>
-      <img src="https://img.shields.io/badge/LangGraph-090d16?style=for-the-badge&logo=langchain&logoColor=00e89d" alt="LangGraph"/>
-      <img src="https://img.shields.io/badge/Multi--Agent_DAGs-090d16?style=for-the-badge&logo=diagramsdotnet&logoColor=00e5ff" alt="Multi-Agent DAGs"/>
-      <img src="https://img.shields.io/badge/RAG_Pipelines-090d16?style=for-the-badge&logo=searxng&logoColor=a855f7" alt="RAG"/>
-      <img src="https://img.shields.io/badge/Google_Gemini-090d16?style=for-the-badge&logo=googlegemini&logoColor=8e75b2" alt="Google Gemini"/>
-      <img src="https://img.shields.io/badge/Groq_LPU-090d16?style=for-the-badge&logo=speedtest&logoColor=f55036" alt="Groq"/>
-      <img src="https://img.shields.io/badge/OpenRouter-090d16?style=for-the-badge&logo=openai&logoColor=6366f1" alt="OpenRouter"/>
-      <img src="https://img.shields.io/badge/Hugging_Face-090d16?style=for-the-badge&logo=huggingface&logoColor=ffd21e" alt="Hugging Face"/>
-      <img src="https://img.shields.io/badge/Claude_/_MCP-090d16?style=for-the-badge&logo=anthropic&logoColor=d97757" alt="Claude MCP"/>
-      <img src="https://img.shields.io/badge/PyTorch-090d16?style=for-the-badge&logo=pytorch&logoColor=ee4c2c" alt="PyTorch"/>
-      <img src="https://img.shields.io/badge/YOLO11n-090d16?style=for-the-badge&logo=yolo&logoColor=38bdf8" alt="YOLO11n"/>
-      <img src="https://img.shields.io/badge/OpenCV-090d16?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
-      <img src="https://img.shields.io/badge/ChromaDB-090d16?style=for-the-badge&logo=databricks&logoColor=f5a623" alt="ChromaDB"/>
-      <img src="https://img.shields.io/badge/FAISS-090d16?style=for-the-badge&logo=meta&logoColor=0081fb" alt="FAISS"/>
-      <img src="https://img.shields.io/badge/Edge--TTS-090d16?style=for-the-badge&logo=microsoftedge&logoColor=0078d7" alt="Edge-TTS"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><br/><b>⚙️ Backend</b><br/><br/></td>
-    <td>
-      <img src="https://img.shields.io/badge/FastAPI-090d16?style=for-the-badge&logo=fastapi&logoColor=009688" alt="FastAPI"/>
-      <img src="https://img.shields.io/badge/Java_HTTP_Server-090d16?style=for-the-badge&logo=openjdk&logoColor=ed8b00" alt="Java HTTP Server"/>
-      <img src="https://img.shields.io/badge/WebSockets-090d16?style=for-the-badge&logo=socketdotio&logoColor=white" alt="WebSockets"/>
-      <img src="https://img.shields.io/badge/JWT_/_RBAC-090d16?style=for-the-badge&logo=jsonwebtokens&logoColor=00e5ff" alt="JWT"/>
-      <img src="https://img.shields.io/badge/Circuit_Breaker-090d16?style=for-the-badge&logo=circuitverse&logoColor=f43f5e" alt="Circuit Breaker"/>
-      <img src="https://img.shields.io/badge/Rate_Limiting-090d16?style=for-the-badge&logo=cloudflare&logoColor=f38020" alt="Rate Limiting"/>
-      <img src="https://img.shields.io/badge/SQLAlchemy_2.0-090d16?style=for-the-badge&logo=sqlalchemy&logoColor=d71f00" alt="SQLAlchemy"/>
-      <img src="https://img.shields.io/badge/PDFPlumber-090d16?style=for-the-badge&logo=adobeacrobatreader&logoColor=ec1c24" alt="PDFPlumber"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><br/><b>🎨 Frontend</b><br/><br/></td>
-    <td>
-      <img src="https://img.shields.io/badge/Next.js_14-090d16?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js 14"/>
-      <img src="https://img.shields.io/badge/React_19-090d16?style=for-the-badge&logo=react&logoColor=61dafb" alt="React 19"/>
-      <img src="https://img.shields.io/badge/Vite-090d16?style=for-the-badge&logo=vite&logoColor=646cff" alt="Vite"/>
-      <img src="https://img.shields.io/badge/Tailwind_CSS-090d16?style=for-the-badge&logo=tailwindcss&logoColor=06b6d4" alt="Tailwind CSS"/>
-      <img src="https://img.shields.io/badge/Monaco_Editor-090d16?style=for-the-badge&logo=visualstudiocode&logoColor=007acc" alt="Monaco Editor"/>
-      <img src="https://img.shields.io/badge/Mapbox_GL-090d16?style=for-the-badge&logo=mapbox&logoColor=4264fb" alt="Mapbox GL"/>
-      <img src="https://img.shields.io/badge/Lenis_Scroll-090d16?style=for-the-badge&logo=framer&logoColor=0055ff" alt="Lenis Scroll"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><br/><b>🗄️ Databases</b><br/><br/></td>
-    <td>
-      <img src="https://img.shields.io/badge/PostgreSQL_(Neon)-090d16?style=for-the-badge&logo=postgresql&logoColor=4169e1" alt="PostgreSQL"/>
-      <img src="https://img.shields.io/badge/Redis_(Upstash)-090d16?style=for-the-badge&logo=redis&logoColor=dc382d" alt="Redis"/>
-      <img src="https://img.shields.io/badge/ChromaDB-090d16?style=for-the-badge&logo=databricks&logoColor=f5a623" alt="ChromaDB"/>
-      <img src="https://img.shields.io/badge/SQLite_WAL-090d16?style=for-the-badge&logo=sqlite&logoColor=003b57" alt="SQLite"/>
-      <img src="https://img.shields.io/badge/Write--Ahead_Log-090d16?style=for-the-badge&logo=files&logoColor=22c55e" alt="WAL"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><br/><b>🏗️ DevOps</b><br/><br/></td>
-    <td>
-      <img src="https://img.shields.io/badge/Docker-090d16?style=for-the-badge&logo=docker&logoColor=2496ed" alt="Docker"/>
-      <img src="https://img.shields.io/badge/GitHub_Actions-090d16?style=for-the-badge&logo=githubactions&logoColor=2088ff" alt="GitHub Actions"/>
-      <img src="https://img.shields.io/badge/Pytest_(147+_Tests)-090d16?style=for-the-badge&logo=pytest&logoColor=0a9edc" alt="Pytest"/>
-      <img src="https://img.shields.io/badge/Prometheus-090d16?style=for-the-badge&logo=prometheus&logoColor=e6522c" alt="Prometheus"/>
-      <img src="https://img.shields.io/badge/Sentry-090d16?style=for-the-badge&logo=sentry&logoColor=362d59" alt="Sentry"/>
-      <img src="https://img.shields.io/badge/Firebase_Auth-090d16?style=for-the-badge&logo=firebase&logoColor=ffca28" alt="Firebase"/>
-      <img src="https://img.shields.io/badge/Vercel-090d16?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
-      <img src="https://img.shields.io/badge/Linux_Ubuntu-090d16?style=for-the-badge&logo=ubuntu&logoColor=e95420" alt="Linux"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><br/><b>🧩 DSA &amp;<br/>Systems</b><br/><br/></td>
-    <td>
-      <img src="https://img.shields.io/badge/Segment_Tree-090d16?style=for-the-badge&logo=leetcode&logoColor=ffa116" alt="Segment Tree"/>
-      <img src="https://img.shields.io/badge/Min--Heap_Priority_Queue-090d16?style=for-the-badge&logo=stackblitz&logoColor=1389fd" alt="Min-Heap"/>
-      <img src="https://img.shields.io/badge/Consistent_Hash_Ring-090d16?style=for-the-badge&logo=hashnode&logoColor=2962ff" alt="Hash Ring"/>
-      <img src="https://img.shields.io/badge/Token_Bucket-090d16?style=for-the-badge&logo=cloudflare&logoColor=f38020" alt="Token Bucket"/>
-      <img src="https://img.shields.io/badge/Virtual_Threads_(Loom)-090d16?style=for-the-badge&logo=openjdk&logoColor=ed8b00" alt="Virtual Threads"/>
-      <img src="https://img.shields.io/badge/StampedLock-090d16?style=for-the-badge&logo=openjdk&logoColor=38bdf8" alt="StampedLock"/>
-      <img src="https://img.shields.io/badge/Microservices-090d16?style=for-the-badge&logo=kubernetes&logoColor=326ce5" alt="Microservices"/>
-    </td>
-  </tr>
-</table>
+</div>
 
 ---
 
-## 📜 Licenses & Certifications
-
-<p>
-  <a href="https://www.linkedin.com/in/anil-pradhan543/details/certifications/">
-    <img src="https://img.shields.io/badge/View_All_Credentials_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="View on LinkedIn"/>
-  </a>
-</p>
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🤖 Frontier AI &amp; Generative Systems</h4>
-      <ul>
-        <li><b>Anthropic</b> — Claude 101</li>
-        <li><b>Anthropic</b> — AI Fluency for Students</li>
-        <li><b>IBM</b> — Getting Started with Artificial Intelligence</li>
-        <li><b>IBM</b> — Artificial Intelligence Fundamentals</li>
-        <li><b>Infosys Springboard</b> — Gen AI (OpenAI GPT Models &amp; AI for Software Engineering)</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>⚙️ Enterprise SWE, Systems &amp; National Merit</h4>
-      <ul>
-        <li><b>Naukri.com</b> — Certificate of Merit: Young Turks 2026 (96.57 Percentile)</li>
-        <li><b>Wells Fargo</b> — Software Engineering Job Simulation</li>
-        <li><b>Cisco Networking Academy</b> — Python Essentials 2</li>
-        <li><b>IIT Madras &amp; NIT Rourkela</b> — Reverse Coding-X &amp; AlgoUtsav 2026</li>
-        <li><b>HackerRank</b> — Problem Solving (Basic), SQL (Basic), Python (Basic)</li>
-        <li><b>GeeksforGeeks</b> — 160 Days of Problem Solving</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
----
-
-## ✍️ Digital Publication & Research Dispatches
-
-<p>I write and publish long-form architectural essays and cross-disciplinary technical research across four ongoing tracks at <a href="https://my-portfolio-anil.vercel.app/blog"><b>my-portfolio-anil.vercel.app/blog</b></a>:</p>
-
-<table>
-  <tr>
-    <td width="25%" align="center"><b>🌊 Deep Sea &amp; Oceans</b><br/><sub>Abyssal telemetry &amp; trench biology</sub></td>
-    <td width="25%" align="center"><b>🌿 Nature &amp; Ecology</b><br/><sub>Canopy resilience &amp; bio indicators</sub></td>
-    <td width="25%" align="center"><b>🤖 Technology &amp; AI</b><br/><sub>Multi-agent state machines &amp; backend scale</sub></td>
-    <td width="25%" align="center"><b>📈 Economics &amp; Society</b><br/><sub>Macro labor dynamics &amp; automated change</sub></td>
-  </tr>
-</table>
-
-> 📖 **Featured Essay:** [*Building AI Applications Is More Than Just Calling an LLM API*](https://my-portfolio-anil.vercel.app/blog/building-ai-applications-beyond-llm-api) — A story-based architectural deep dive into async FastAPI event loops, deterministic RAG chunking, automated evals, and OWASP defenses.
-
----
-
-## 📊 Telemetry & Activity Metrics
+## 📊 GitHub Activity
 
 <div align="center">
 
@@ -310,32 +107,72 @@ Architecting deterministic intelligence for complex human & machine systems. Bac
       <img src="https://streak-stats.demolab.com?user=Anil-Pradhan-web&theme=tokyonight&hide_border=true&background=0D1117&ring=00E5FF&fire=F5A623&currStreakLabel=00E89D" height="175" alt="GitHub Streak"/>
     </td>
   </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anil-Pradhan-web&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5ff&text_color=94a3b8" height="150" alt="Top Languages"/>
-    </td>
-  </tr>
 </table>
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anil-Pradhan-web&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5ff&text_color=94a3b8" height="150" alt="Top Languages"/>
+
+<br/><br/>
+
+<!-- ── Contribution Snake ── -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anil-Pradhan-web/Anil-Pradhan-web/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anil-Pradhan-web/Anil-Pradhan-web/output/github-snake.svg">
+  <img alt="Snake animation eating contribution graph" src="https://raw.githubusercontent.com/Anil-Pradhan-web/Anil-Pradhan-web/output/github-snake-dark.svg"/>
+</picture>
 
 </div>
 
 ---
 
-## 🌐 Connect & Collaborate
+<details>
+<summary><h2>📜 Certifications & Credentials</h2></summary>
+
+<br/>
+
+<a href="https://www.linkedin.com/in/anil-pradhan543/details/certifications/">
+  <img src="https://img.shields.io/badge/View_All_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Certifications"/>
+</a>
+
+<br/><br/>
+
+| Domain | Certifications |
+|--------|---------------|
+| **🤖 Frontier AI** | Anthropic — Claude 101 · Anthropic — AI Fluency · IBM — AI Fundamentals · Infosys — Gen AI |
+| **⚙️ Engineering** | Wells Fargo — SWE Simulation · Cisco — Python Essentials 2 · Naukri — Young Turks 2026 (96.57%ile) |
+| **🏆 Competitive** | IIT Madras & NIT Rourkela — Reverse Coding-X & AlgoUtsav · HackerRank — Problem Solving, SQL, Python · GFG — 160 Days of Problem Solving |
+
+</details>
+
+---
+
+<details>
+<summary><h2>✍️ Writing & Research</h2></summary>
+
+<br/>
+
+I write long-form architectural essays and cross-disciplinary research at [**my-portfolio-anil.vercel.app/blog**](https://my-portfolio-anil.vercel.app/blog):
+
+| 🌊 Deep Sea & Oceans | 🌿 Nature & Ecology | 🤖 Technology & AI | 📈 Economics & Society |
+|---|---|---|---|
+| Abyssal telemetry & trench biology | Canopy resilience & bio indicators | Multi-agent state machines & scale | Macro labor dynamics & automation |
+
+> 📖 **Featured:** [*Building AI Applications Is More Than Just Calling an LLM API*](https://my-portfolio-anil.vercel.app/blog/building-ai-applications-beyond-llm-api) — Architectural deep dive into async FastAPI event loops, deterministic RAG, automated evals, and OWASP defenses.
+
+</details>
+
+---
+
+## 🌐 Connect
 
 <div align="center">
 
 <a href="https://my-portfolio-anil.vercel.app">
-  <img src="https://img.shields.io/badge/Live_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=00e5ff" alt="Portfolio"/>
-</a>
-<a href="https://my-portfolio-anil.vercel.app/blog">
-  <img src="https://img.shields.io/badge/Research_Blog-0d1117?style=for-the-badge&logo=bookstack&logoColor=00e89d" alt="Blog"/>
+  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=00e5ff" alt="Portfolio"/>
 </a>
 <a href="https://www.linkedin.com/in/anil-pradhan543/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="https://github.com/Anil-Pradhan-web">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 <a href="mailto:anilpradhan.dev@gmail.com">
   <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
@@ -343,16 +180,13 @@ Architecting deterministic intelligence for complex human & machine systems. Bac
 <a href="https://leetcode.com/u/Anil_Pradhan/">
   <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=090d16" alt="LeetCode"/>
 </a>
-<a href="https://www.geeksforgeeks.org/user/anilpradhan543/">
-  <img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks"/>
-</a>
-<a href="https://www.hackerrank.com/profile/anilpradhan9644">
-  <img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=090d16" alt="HackerRank"/>
+<a href="https://my-portfolio-anil.vercel.app/blog">
+  <img src="https://img.shields.io/badge/Blog-0d1117?style=for-the-badge&logo=bookstack&logoColor=00e89d" alt="Blog"/>
 </a>
 
 <br/><br/>
 
-<sub><b>Designed &amp; Orchestrated by Anil Pradhan</b> · <i>Architecting deterministic intelligence for complex human &amp; machine systems.</i></sub>
+<sub><b>Designed & Orchestrated by Anil Pradhan</b> · <i>Architecting deterministic intelligence for complex human & machine systems.</i></sub>
 
 <br/>
 
