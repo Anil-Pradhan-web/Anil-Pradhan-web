@@ -136,10 +136,11 @@ Each section is separated by a hairline rule, not `<hr>` + emoji. Section header
 | 4 | Selected work | stacked `h3` entries: title-link, 2-line problem, 2 bullets, Repo · Live | 3 entries |
 | 5 | More work | one paragraph: project · link · project · link | 1 line |
 | 6 | Stack | 3 labelled lines, mono headers, comma lists | 3 × ~5 items |
-| 7 | Achievements | 4 dated rows | 4 rows |
-| 8 | Writing | 4 rows: title-link + one-line summary | 4 rows |
-| 9 | Credentials | 5 selected + `<details>` | collapsed |
-| 10 | Footer | link row + signature + view counter | 2 lines |
+| 7 | Activity | generated card: 53-week heatmap + language share + 4 counters | image |
+| 8 | Achievements | 4 dated rows | 4 rows |
+| 9 | Writing | 4 rows: title-link + one-line summary | 4 rows |
+| 10 | Credentials | 5 selected + `<details>` | collapsed |
+| 11 | Footer | link row + signature + view counter | 2 lines |
 
 Mobile: entries are already stacked, the proof bar keeps its single row (verified at 390 px — no horizontal overflow), the stack stays three labelled lines. No horizontal scrolling anywhere.
 
@@ -163,47 +164,59 @@ No entrance animations (they finish before the image is scrolled into view anywa
 | Budget | Limit | Current |
 |---|---|---|
 | Banner weight | ≤ 12 KB per theme | 8.9 KB |
-| Total committed images | ≤ 400 KB | 163 KB (banners + social card) |
+| Activity card weight | ≤ 32 KB per theme | 28.9 KB |
+| Total committed images | ≤ 400 KB | 274 KB (banners, activity, social card) |
 | External image hosts | 1 max | 1 (`komarev.com`, view counter) |
 | Badge count | ≤ 8 | 1 |
 | Fonts loaded | 0 | 0 |
-| Tokens per theme | 1 file | `tokens.css` + generator constants |
+| Tokens per theme | 1 file | `theme.mjs` (shared by both generators) |
 
 ---
 
 ## 7. Files delivered
 
 ```
-assets/src/profile.json          single source of truth (name, role, chips, metrics, diagram)
+assets/src/profile.json          source of truth for the banner (name, role, chips, metrics, diagram)
+assets/src/stats.json            source of truth for activity (contribution days, language bytes)
+assets/src/theme.mjs             shared palette, type stacks, frame primitives
 assets/src/build-banner.mjs      generator: 1 data file → 4 banners + 1 social card
+assets/src/build-stats.mjs       generator: GitHub data → snapshot → 4 activity cards
 assets/hero-dark.svg             1280×320
 assets/hero-light.svg            1280×320
 assets/hero-mobile-dark.svg      760×360
 assets/hero-mobile-light.svg     760×360
 assets/og-image.svg / .png       1280×640 social preview
+assets/activity-dark.svg         1280×344
+assets/activity-light.svg        1280×344
+assets/activity-mobile-dark.svg  760×700
+assets/activity-mobile-light.svg 760×700
 design/tokens.css                palette, type scale, spacing, primitives
 design/mockups/index.html        approval harness: theme + width toggles, spec, wireframe, sign-off
 docs/phase-0-content-map.md      content inventory + decisions
 docs/phase-1-design-lock.md      this document
-docs/qa-report.md                link, renderer, responsive and payload evidence
-package.json                     `npm run build` → the generator, zero dependencies
+docs/phase-5-account-shell.md    repo metadata + what remains manual
+docs/qa-report.md                link, renderer, responsive, data and payload evidence
+package.json                     `npm run build` / `npm run build:stats`, zero dependencies
 .gitignore                       keeps node_modules and QA scratch output out of git
 .github/workflows/assets.yml     CI: regenerate on push, fail if assets/ drifts
+.github/workflows/stats.yml      CI: refresh activity data nightly, commit when it moves
 ```
 
-Regenerate with `npm run build` (or `node assets/src/build-banner.mjs`). Never edit the SVGs by hand. The PNG is a one-time raster of `og-image.svg` (headless Chrome, 1280×640) — regenerate only if the card copy changes.
+Regenerate with `npm run build` (copy) or `npm run build:stats` (copy + fresh GitHub data). Never edit the SVGs by hand. The PNG is a one-time raster of `og-image.svg` (headless Chrome, 1280×640) — regenerate only if the card copy changes.
 
 **Delivery status:**
 
 | Item | State |
 |---|---|
 | Banner generation | ✅ single source, 4 variants, ASCII-only output |
+| Activity generation | ✅ official contribution graph + language bytes, 4 variants, snapshot committed |
 | Social preview card | ✅ `og-image.png` rendered; **upload is UI-only** (Settings → Social preview) |
 | Text-to-path display type | ❌ rejected — see §2 (cost > benefit) |
-| README wiring | ✅ `<picture>` with 3 sources, verified against GitHub's renderer |
+| README wiring | ✅ two `<picture>` blocks with 3 sources each, verified against GitHub's renderer and live |
 | Retired assets | ✅ snake + workflow, 3 DSA cards, skill tree, timeline, 1.7 MB GIF deleted |
-| Payload | 1770 KB → 163 KB |
-| Drift protection | ✅ `assets.yml` regenerates and diffs `assets/` on every push that touches the generator |
+| Payload | 1770 KB → 274 KB |
+| Drift protection | ✅ `assets.yml` regenerates and diffs `assets/` on every push that touches a generator |
+| Live data | ✅ `stats.yml` refreshes nightly and commits only when the numbers move |
 | Repo metadata | ✅ description, topics and homepages set via `gh api`; pin order + social preview remain manual |
 
 ---

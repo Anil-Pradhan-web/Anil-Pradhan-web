@@ -72,6 +72,17 @@
 
 **AI / ML** — LangGraph · RAG · FAISS · ChromaDB · Gemini · YOLO11 · OpenCV
 
+## Activity
+
+*Last 12 months — pulled from GitHub's own contribution graph and per-repository language bytes. Refreshed daily by CI.*
+
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/activity-mobile-dark.svg">
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/activity-mobile-light.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/activity-light.svg">
+  <img src="./assets/activity-dark.svg" width="100%" alt="Contribution heatmap for the last 12 months plus most-used languages by byte share, rendered from GitHub's own data.">
+</picture>
+
 ## Track record
 
 - **Dell FutureMinds AI Hackathon 2026** — National Grand Finalist, **top 6 of 8,000+ teams**, on stage at Dell Bengaluru HQ.
