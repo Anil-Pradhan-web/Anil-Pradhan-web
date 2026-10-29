@@ -33,55 +33,78 @@
 
 </div>
 
-## Selected work
+## ⚡ Stack & Technologies
 
-### [AI Career Mentor](https://github.com/Anil-Pradhan-web/ai-career-mentor)
+### Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java 23](https://img.shields.io/badge/Java_23-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-*Agentic career platform: résumé audit → live market scan → learning roadmap.*
+### AI / ML & Agentic Systems
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Multi-Agent Systems](https://img.shields.io/badge/Multi--Agent_Systems-0b0f14?style=for-the-badge&logo=probot&logoColor=3ddc97)
+![RAG](https://img.shields.io/badge/RAG_Pipelines-3ddc97?style=for-the-badge&logo=databricks&logoColor=0b0f14)
+![FAISS](https://img.shields.io/badge/FAISS-008080?style=for-the-badge&logo=meta&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6600?style=for-the-badge&logo=databricks&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![YOLO11](https://img.shields.io/badge/YOLO11-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![Unsloth](https://img.shields.io/badge/Unsloth-FF4500?style=for-the-badge&logo=lightning&logoColor=white)
+![LoRA](https://img.shields.io/badge/LoRA_Fine--Tuning-4A154B?style=for-the-badge&logo=slack&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 
-- **Engine** — FastAPI service with a LangGraph agent graph, ChromaDB retrieval, and PostgreSQL persistence.
-- **Hardening** — RBAC, token-bucket rate limiting, circuit breakers, containerised CI/CD.
+### Backend & Distributed Systems
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Django & DRF](https://img.shields.io/badge/Django_REST-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Java Concurrency](https://img.shields.io/badge/Java_Concurrency-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis_Caching-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![RESTful APIs](https://img.shields.io/badge/RESTful_APIs-02569B?style=for-the-badge&logo=fastapi&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+![JWT & RBAC](https://img.shields.io/badge/JWT_&_RBAC-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Rate Limiting](https://img.shields.io/badge/Rate_Limiting-232F3E?style=for-the-badge&logo=cloudflare&logoColor=white)
+![Circuit Breakers](https://img.shields.io/badge/Circuit_Breakers-E0234E?style=for-the-badge&logo=resilience4j&logoColor=white)
 
-[Repo ↗](https://github.com/Anil-Pradhan-web/ai-career-mentor) &nbsp;·&nbsp; [Live demo ↗](https://ai-career-mentor-anil.vercel.app)
+### Frontend & Frameworks
+![React 19](https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-### [TaskPilot AI](https://github.com/IdeaForg-e/TaskPilot-AI) <sub>team project</sub>
+### DevOps, Cloud & Infrastructure
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
-*Multi-agent chief of staff: five signal sources → one deduplicated, calendar-aware plan.*
+## 📊 GitHub Stats & Activity
 
-- **Role** — integration lead: bi-directional sync across GitHub, Slack, email, and calendar.
-- **Engine** — async FastAPI pipelines, idempotent state machine, Redis + PostgreSQL.
+<div align="center">
 
-[Repo ↗](https://github.com/IdeaForg-e/TaskPilot-AI) &nbsp;·&nbsp; [Live demo ↗](https://task-pilot-ai-two.vercel.app/)
+<img src="./assets/github-stats.svg" alt="Anil Pradhan's GitHub Stats" />
 
-### [VisionForge AI](https://github.com/Disha-1610/VisionForge) <sub>team project</sub>
+<br/><br/>
 
-*Autonomous hardware inspection: defect detection, root-cause synthesis, vector retrieval.*
+<img src="./assets/streak-stats.svg" alt="Anil Pradhan's GitHub Streak" />
 
-- **Dell FutureMinds 2026** — national grand finalist, **top 6 of 8,000+ teams**; pitched live at Dell Bengaluru HQ.
-- **Role** — AI/ML and pipeline engineering: YOLO11n inference, OpenCV pre-processing, FAISS retrieval, &lt;5 s end to end.
+<br/><br/>
 
-[Repo ↗](https://github.com/Disha-1610/VisionForge)
+<img src="./assets/top-langs.svg" alt="Most Used Languages" />
 
-**Also shipped** — [VolunteerIQ](https://github.com/Anil-Pradhan-web/VolunteerIQ) volunteer dispatch engine ([live ↗](https://volunteer-iq-clutchcode.vercel.app/)) · [SlotSync](https://github.com/Anil-Pradhan-web/SlotSync) Tatkal reservation engine in Java 23 + React 19 · [Portfolio](https://github.com/Anil-Pradhan-web/MY-PORTFOLIO) source for this site and blog.
+<br/><br/>
 
-## Stack
-
-**Systems** — Python · Java 23 · TypeScript · SQL
-
-**Backend & data** — FastAPI · PostgreSQL · Redis · Docker · GitHub Actions
-
-**AI / ML** — LangGraph · RAG · FAISS · ChromaDB · Gemini · YOLO11 · OpenCV
-
-## Activity
-
-*Last 12 months — pulled from GitHub's own contribution graph and per-repository language bytes. Refreshed daily by CI.*
-
-<picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/activity-mobile-dark.svg">
-  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/activity-mobile-light.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/activity-light.svg">
-  <img src="./assets/activity-dark.svg" width="100%" alt="Contribution heatmap for the last 12 months plus most-used languages by byte share, rendered from GitHub's own data.">
-</picture>
+</div>
 
 ## Track record
 
@@ -90,12 +113,10 @@
 - **iQOO Hackathon 2026 · Microsoft AI Dev Days · Amazon Nova · Google Solution Challenge** — selected builder.
 - **IIT Madras Reverse Coding-X · NIT Rourkela AlgoUtsav 2026** — competitive programming.
 
-## Writing
+## ✍️ Articles & Blog
 
-- [**Building AI Applications Is More Than Just Calling an LLM API**](https://my-portfolio-anil.vercel.app/blog/building-ai-applications-beyond-llm-api) — async event loops, deterministic RAG chunking, evaluation harnesses, OWASP LLM defenses.
-- [**AI Layoffs and Billions in Data Centers: What Is Really Happening to Jobs?**](https://my-portfolio-anil.vercel.app/blog/ai-layoffs-data-centers-and-the-future-of-jobs) — where the compute money goes, and which roles it removes.
-- [**Pollution in India: Evidence, Myths, and the Decade Ahead**](https://my-portfolio-anil.vercel.app/blog/pollution-in-india-evidence-myths-and-the-decade-ahead) — reading the data instead of the headlines.
-- [**Into the Deep Sea: Earth's Last Frontier**](https://my-portfolio-anil.vercel.app/blog/into-the-deep-sea-earths-last-frontier) — abyssal telemetry, trench mapping, and what we still cannot see.
+Explore my technical articles and essays on AI systems, scalable backends, and computing:  
+👉 **[Read all articles on my Blog ↗](https://my-portfolio-anil.vercel.app/blog)**
 
 ## Credentials
 
