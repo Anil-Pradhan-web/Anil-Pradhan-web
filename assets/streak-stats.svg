@@ -4,7 +4,7 @@
   
   <!-- Column 1: Total Contributions -->
   <g transform="translate(85, 0)">
-    <text x="0" y="88" text-anchor="middle" font-family="'Inter','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="28" font-weight="700" fill="#f0f4f8">1,340</text>
+    <text x="0" y="88" text-anchor="middle" font-family="'Inter','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="28" font-weight="700" fill="#f0f4f8">1,346</text>
     <text x="0" y="116" text-anchor="middle" font-family="'Inter','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13.5" font-weight="600" fill="#3ddc97">Total Contributions</text>
     <text x="0" y="140" text-anchor="middle" font-family="'Inter','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="11.5" fill="#6b7785">Oct 27, 2024 - Present</text>
   </g>
@@ -21,7 +21,7 @@
     <circle cx="0" cy="94" r="32" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="4.5" />
     <circle cx="0" cy="94" r="32" fill="none" stroke="#3ddc97" stroke-width="4.5" stroke-linecap="round"
       stroke-dasharray="201" stroke-dashoffset="45" transform="rotate(-90 0 94)" />
-    <text x="0" y="103" text-anchor="middle" font-family="'Inter','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="24" font-weight="700" fill="#f0f4f8">3</text>
+    <text x="0" y="103" text-anchor="middle" font-family="'Inter','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="24" font-weight="700" fill="#f0f4f8">4</text>
     <text x="0" y="148" text-anchor="middle" font-family="'Inter','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13.5" font-weight="700" fill="#3ddc97">Current Streak</text>
     <text x="0" y="168" text-anchor="middle" font-family="'Inter','Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="11.5" fill="#6b7785">Oct 26 - Oct 29</text>
   </g>
