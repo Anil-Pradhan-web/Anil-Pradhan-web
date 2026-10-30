@@ -1896,18 +1896,18 @@
     },
     {
       "name": "JavaScript",
-      "bytes": 295654,
+      "bytes": 285831,
       "repos": 9
     },
     {
       "name": "CSS",
-      "bytes": 192488,
-      "repos": 11
+      "bytes": 188488,
+      "repos": 10
     },
     {
       "name": "HTML",
-      "bytes": 110463,
-      "repos": 8
+      "bytes": 89907,
+      "repos": 7
     },
     {
       "name": "Batchfile",
@@ -1935,6 +1935,6 @@
       "repos": 1
     }
   ],
-  "languageTotalBytes": 4837029,
+  "languageTotalBytes": 4802650,
   "languageRepoCount": 15
 }
