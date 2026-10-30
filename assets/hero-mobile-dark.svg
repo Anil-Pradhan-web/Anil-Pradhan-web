@@ -1,6 +1,6 @@
 <!-- generated: assets/src/build-banner.mjs - do not edit by hand -->
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360"
-  role="img" aria-label="Anil Pradhan &#8212; Backend and AI systems engineer. Dell FutureMinds national finalist, top 6 of 8,000.">
+  role="img" aria-label="Anil Pradhan &#8212; Backend &amp; AI Systems Engineer. Deterministic multi-agent systems &amp; high-throughput backends.">
   <title>Anil Pradhan &#8212; Backend &amp; AI Systems Engineer</title>
   <defs>
     <radialGradient id="glow-m-dark" cx="86%" cy="-14%" r="72%">
@@ -47,10 +47,24 @@
 
   
     <g>
-      <rect x="40" y="236" width="229" height="32" rx="16" fill="rgba(255,255,255,0.028)" stroke="#e3b341" stroke-opacity="0.38" />
-      <path d="M61 246.5 L66.5 252 L61 257.5 L55.5 252 Z" fill="#e3b341" />
-      <text x="78" y="256.4" font-family="'Cascadia Mono','SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="600"
-            letter-spacing="1.1" fill="#e3b341">DELL TOP 6 / 8,000</text>
+      <rect x="40" y="242" width="180" height="30" rx="15" fill="rgba(255,255,255,0.028)" stroke="#3ddc97" stroke-opacity="0.4" stroke-width="1" />
+      <circle cx="51" cy="257" r="2.8" fill="#3ddc97" />
+      <text x="60" y="261" font-family="'Cascadia Mono','SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="600"
+            letter-spacing="1.6" fill="#9aa7b4">AGENTIC WORKFLOWS</text>
+    </g>
+  
+    <g>
+      <rect x="230" y="242" width="205" height="30" rx="15" fill="rgba(255,255,255,0.028)" stroke="#3ddc97" stroke-opacity="0.4" stroke-width="1" />
+      <circle cx="241" cy="257" r="2.8" fill="#3ddc97" />
+      <text x="250" y="261" font-family="'Cascadia Mono','SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="600"
+            letter-spacing="1.6" fill="#9aa7b4">DISTRIBUTED RUNTIMES</text>
+    </g>
+  
+    <g>
+      <rect x="445" y="242" width="163" height="30" rx="15" fill="rgba(255,255,255,0.028)" stroke="#3ddc97" stroke-opacity="0.4" stroke-width="1" />
+      <circle cx="456" cy="257" r="2.8" fill="#3ddc97" />
+      <text x="465" y="261" font-family="'Cascadia Mono','SF Mono','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="600"
+            letter-spacing="1.6" fill="#9aa7b4">LOW-LATENCY RAG</text>
     </g>
 
   <line x1="40" y1="300" x2="720" y2="300" stroke="rgba(255,255,255,0.095)" />

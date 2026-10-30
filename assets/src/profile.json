@@ -9,13 +9,15 @@
     "resume": "https://my-portfolio-anil.vercel.app/Anil_Pradhan_resume.pdf",
     "location": "Bhubaneswar, IN",
     "timezone": "IST 05:30",
-    "year": "2026"
+    "year": "2026",
+    "coordinates": "20.2961° N · 85.8245° E"
   },
+  "capabilities": [
+    "AGENTIC WORKFLOWS",
+    "DISTRIBUTED RUNTIMES",
+    "LOW-LATENCY RAG"
+  ],
   "proof": {
-    "chips": [
-      { "label": "DELL TOP 6 / 8,000", "tone": "award" },
-      { "label": "CGPA 8.93 / 10", "tone": "neutral" }
-    ],
     "status": "OPEN TO 2027 SDE / AI-INFRA ROLES",
     "metrics": [
       { "value": "Top 6", "caption": "of 8,000+ teams · Dell 2026" },
@@ -25,7 +27,7 @@
     ]
   },
   "diagram": {
-    "label": "SYSTEM TOPOLOGY / 04 NODES",
+    "label": "SYSTEM TOPOLOGY // MULTI-AGENT CYCLIC RUNTIME",
     "nodes": ["INGEST", "PLAN", "ACT", "EVAL"],
     "activeIndex": 2
   }

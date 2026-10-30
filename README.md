@@ -4,7 +4,7 @@
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/hero-mobile-dark.svg">
   <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/hero-mobile-light.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-dark.svg" width="100%" alt="Anil Pradhan — Backend & AI Systems Engineer. Dell FutureMinds national finalist, top 6 of 8,000+.">
+  <img src="./assets/hero-dark.svg" width="100%" alt="Anil Pradhan — Backend &amp; AI Systems Engineer. Deterministic multi-agent systems &amp; high-throughput backends.">
 </picture>
 
 **Open to 2027 SDE / AI-infra roles** &nbsp;·&nbsp; Bhubaneswar, IST (UTC+5:30)<br/>

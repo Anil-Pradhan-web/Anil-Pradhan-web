@@ -21,29 +21,20 @@ const repoRoot = resolve(__dirname, "../..");
 const OUT_DIR = resolve(repoRoot, "assets");
 const data = JSON.parse(readFileSync(resolve(__dirname, "profile.json"), "utf8"));
 
-function chip(t, { x, y, h = 34, label, tone = "neutral", fs = 12.5, mono = true }) {
-  const ls = 1.1;
-  const padX = 16;
-  const iconW = tone === "award" ? 22 : 0;
+function capabilityPill(t, { x, y, h = 30, label }) {
+  const fs = 11;
+  const ls = 1.6;
+  const padX = 14;
   const textW = approxWidth(label, fs, ls, 0.62);
-  const w = Math.round(padX * 2 + iconW + textW);
-  const color = tone === "award" ? t.gold : t.textDim;
-  const border = tone === "award" ? `${t.gold}` : t.chipBorder;
-  const borderOpacity = tone === "award" ? "0.38" : "1";
-  const cx = x + padX + 5;
-  const cy = y + h / 2;
-  const diamond =
-    tone === "award"
-      ? `<path d="M${cx} ${cy - 5.5} L${cx + 5.5} ${cy} L${cx} ${cy + 5.5} L${cx - 5.5} ${cy} Z" fill="${t.gold}" />`
-      : "";
+  const w = Math.round(padX * 2 + textW + 10);
   return {
     width: w,
     svg: `
     <g>
-      <rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${h / 2}" fill="${t.chipBg}" stroke="${border}" stroke-opacity="${borderOpacity}" />
-      ${diamond}
-      <text x="${x + padX + iconW}" y="${cy + 4.4}" font-family="${mono ? MONO : SANS}" font-size="${fs}" font-weight="600"
-            letter-spacing="${ls}" fill="${color}">${esc(label)}</text>
+      <rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${h / 2}" fill="${t.chipBg}" stroke="${t.accent}" stroke-opacity="0.4" stroke-width="1" />
+      <circle cx="${x + 11}" cy="${y + h / 2}" r="2.8" fill="${t.accent}" />
+      <text x="${x + 20}" y="${y + h / 2 + 4}" font-family="${MONO}" font-size="${fs}" font-weight="600"
+            letter-spacing="${ls}" fill="${t.textDim}">${esc(label)}</text>
     </g>`,
   };
 }
@@ -58,37 +49,49 @@ function desktop(themeName) {
   const M = 56;
   const { identity: pid, proof, diagram } = data;
 
-  const [chipA, chipB] = proof.chips;
-  const c1 = chip(t, { x: M, y: 221, ...chipA });
-  const c2 = chip(t, { x: M + c1.width + 12, y: 221, ...chipB });
+  const caps = data.capabilities || ["AGENTIC WORKFLOWS", "DISTRIBUTED RUNTIMES", "LOW-LATENCY RAG"];
+  let curX = M;
+  const capSvgs = [];
+  for (const cap of caps) {
+    const p = capabilityPill(t, { x: curX, y: 226, label: cap });
+    capSvgs.push(p.svg);
+    curX += p.width + 10;
+  }
 
   // diagram geometry
-  const ax0 = 764;
+  const ax0 = 744;
   const ax1 = 1222;
-  const ay = 152;
-  const nx = [806, 933, 1059, 1186];
-  const ticks = [];
-  for (let x = ax0; x <= ax1; x += 24) ticks.push(x);
+  const ay = 158;
+  const nx = [780, 895, 1010, 1125];
 
   const links = nx
     .slice(0, -1)
-    .map((x, i) => `<line x1="${x + 9}" y1="${ay}" x2="${nx[i + 1] - 10}" y2="${ay}"
-      stroke="${t.lineStrong}" stroke-width="1" marker-end="url(#arrow-${id})" />`)
+    .map((x, i) => `<line x1="${x + 14}" y1="${ay}" x2="${nx[i + 1] - 14}" y2="${ay}"
+      stroke="${t.lineStrong}" stroke-width="1.2" stroke-dasharray="3 3" />
+      <line x1="${x + 14}" y1="${ay}" x2="${nx[i + 1] - 14}" y2="${ay}"
+      stroke="${t.accent}" stroke-width="1.5" stroke-dasharray="5 28" stroke-linecap="round">
+        <animate attributeName="stroke-dashoffset" values="33;0" dur="2.4s" repeatCount="indefinite" />
+      </line>`)
     .join("\n      ");
 
   const nodes = nx
     .map((x, i) => {
       const on = i === diagram.activeIndex;
       if (!on) {
-        return `<circle cx="${x}" cy="${ay}" r="5.5" fill="${t.bg}" stroke="${t.lineStrong}" stroke-width="1.2" />`;
+        return `<g>
+          <circle cx="${x}" cy="${ay}" r="9" fill="${t.bg}" stroke="${t.lineStrong}" stroke-width="1.4" />
+          <circle cx="${x}" cy="${ay}" r="3.2" fill="${t.textDim}" opacity="0.6" />
+        </g>`;
       }
       return `<g>
-        <circle cx="${x}" cy="${ay}" r="14" fill="none" stroke="${t.accent}" stroke-opacity="0.45">
-          <animate attributeName="r" values="13;21;13" dur="3.6s" repeatCount="indefinite" />
-          <animate attributeName="stroke-opacity" values="0.45;0;0.45" dur="3.6s" repeatCount="indefinite" />
+        <circle cx="${x}" cy="${ay}" r="17" fill="none" stroke="${t.accent}" stroke-opacity="0.35">
+          <animate attributeName="r" values="13;23;13" dur="3.2s" repeatCount="indefinite" />
+          <animate attributeName="stroke-opacity" values="0.55;0;0.55" dur="3.2s" repeatCount="indefinite" />
         </circle>
-        <circle cx="${x}" cy="${ay}" r="8" fill="${t.accent}" />
-        <circle cx="${x}" cy="${ay}" r="8" fill="${t.accent}" filter="url(#soft-${id})" opacity="0.5" />
+        <circle cx="${x}" cy="${ay}" r="10" fill="${t.bg}" stroke="${t.accent}" stroke-width="2" />
+        <circle cx="${x}" cy="${ay}" r="4.5" fill="${t.accent}">
+          <animate attributeName="opacity" values="1;0.4;1" dur="2.2s" repeatCount="indefinite" />
+        </circle>
       </g>`;
     })
     .join("\n      ");
@@ -96,13 +99,15 @@ function desktop(themeName) {
   const labels = nx
     .map(
       (x, i) =>
-        `<text x="${x}" y="186" text-anchor="middle" font-family="${MONO}" font-size="9.5" letter-spacing="2.2"
-          fill="${i === diagram.activeIndex ? t.textDim : t.muted}" ${i === diagram.activeIndex ? 'font-weight="700"' : ""}>${esc(diagram.nodes[i])}</text>`,
+        `<text x="${x}" y="190" text-anchor="middle" font-family="${MONO}" font-size="9.5" letter-spacing="2"
+          fill="${i === diagram.activeIndex ? t.accent : t.textDim}" ${i === diagram.activeIndex ? 'font-weight="700"' : ""}>${esc(diagram.nodes[i])}</text>
+        <text x="${x}" y="204" text-anchor="middle" font-family="${MONO}" font-size="8" letter-spacing="1.2"
+          fill="${t.muted}">0${i + 1}</text>`,
     )
     .join("\n      ");
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}"
-  role="img" aria-label="Anil Pradhan &#8212; Backend and AI systems engineer. Dell FutureMinds national finalist, top 6 of 8,000. CGPA 8.93.">
+  role="img" aria-label="Anil Pradhan &#8212; Backend &amp; AI Systems Engineer. Deterministic multi-agent systems &amp; high-throughput backends.">
   <title>Anil Pradhan &#8212; Backend &amp; AI Systems Engineer</title>${defs(t, id)}
   ${backdrop(t, W, H, id)}
   ${brackets(t, W, H)}
@@ -118,12 +123,11 @@ function desktop(themeName) {
   <text x="${M - 3}" y="150" font-family="${SANS}" font-size="76" font-weight="700" letter-spacing="-2.2"
         fill="${t.text}">${esc(pid.name)}</text>
   <line x1="${M}" y1="170" x2="${M + 68}" y2="170" stroke="${t.accent}" stroke-width="3" stroke-linecap="round" />
-  <text x="${M}" y="200" font-family="${SANS}" font-size="20" font-weight="400" letter-spacing="0.1"
+  <text x="${M}" y="200" font-family="${SANS}" font-size="19" font-weight="400" letter-spacing="0.1"
         fill="${t.textDim}">${esc(pid.role)}</text>
 
-  <!-- proof chips -->
-  ${c1.svg}
-  ${c2.svg}
+  <!-- capability badges -->
+  ${capSvgs.join("\n  ")}
 
   <!-- footer -->
   <line x1="${M}" y1="278" x2="${W - M}" y2="278" stroke="${t.line}" />
@@ -135,20 +139,21 @@ function desktop(themeName) {
   <text x="${W - M}" y="299.5" text-anchor="end" font-family="${MONO}" font-size="11" letter-spacing="1.7"
         fill="${t.muted}">${esc(pid.location.toUpperCase())} &#183; ${esc(pid.timezone)}</text>
 
-  <!-- system diagram -->
-  <rect x="${ax0}" y="94" width="5" height="5" fill="${t.accent}" opacity="0.75" />
-  <text x="${ax0 + 13}" y="100" font-family="${MONO}" font-size="9" letter-spacing="2.6"
-        fill="${t.muted}">${esc(diagram.label)}</text>
+  <!-- system diagram container HUD -->
+  <rect x="${ax0 - 12}" y="70" width="${W - M - ax0 + 24}" height="182" rx="8" fill="${t.chipBg}" stroke="${t.line}" stroke-width="1" />
+  <line x1="${ax0 - 12}" y1="112" x2="${W - M + 12}" y2="112" stroke="${t.line}" stroke-opacity="0.4" />
+  <text x="${ax0}" y="94" font-family="${MONO}" font-size="9.5" font-weight="600" letter-spacing="2.4"
+        fill="${t.accent}">${esc(diagram.label)}</text>
+  <text x="${W - M}" y="94" text-anchor="end" font-family="${MONO}" font-size="9" letter-spacing="1.6"
+        fill="${t.muted}">${esc(pid.coordinates || "20.29°N 85.82°E")}</text>
 
-  <g stroke="${t.line}" stroke-width="1">
-    ${ticks.map((x) => `<line x1="${x}" y1="${ay + 5}" x2="${x}" y2="${ay + 9}" />`).join("\n    ")}
-  </g>
-  <line x1="${ax0}" y1="${ay}" x2="${ax1}" y2="${ay}" stroke="${t.line}" />
-
-  <path d="M1186 ${ay - 8} C 1186 116, 933 116, 933 ${ay - 10}" fill="none" stroke="${t.accent}"
-        stroke-opacity="0.32" stroke-width="1.1" stroke-dasharray="3 5" marker-end="url(#arrow-accent-${id})">
-    <animate attributeName="stroke-dashoffset" values="0;-32" dur="2.6s" repeatCount="indefinite" />
+  <!-- reflection loop -->
+  <path d="M1125 ${ay - 10} C 1125 106, 895 106, 895 ${ay - 12}" fill="none" stroke="${t.accent}"
+        stroke-opacity="0.45" stroke-width="1.2" stroke-dasharray="3 4" marker-end="url(#arrow-accent-${id})">
+    <animate attributeName="stroke-dashoffset" values="0;-28" dur="2.6s" repeatCount="indefinite" />
   </path>
+  <text x="1010" y="102" text-anchor="middle" font-family="${MONO}" font-size="8" letter-spacing="1.8"
+        fill="${t.accent}" opacity="0.9">AGENTIC REFLECTION // LOOP</text>
 
   <g>
     ${links}
@@ -159,6 +164,8 @@ function desktop(themeName) {
   <g>
     ${labels}
   </g>
+  <text x="${ax0}" y="234" font-family="${MONO}" font-size="8" letter-spacing="1.2"
+        fill="${t.muted}">CONCURRENCY: ASYNC-UVLOOP &#183; MEMORY: VECTOR FAISS &#183; EVAL: EVAL-HARNESS</text>
 </svg>
 `;
 }
@@ -174,7 +181,14 @@ function mobile(themeName) {
   const { identity: pid, proof, diagram } = data;
 
   const [line1, line2] = pid.role.split(" & ");
-  const award = chip(t, { x: M, y: 236, h: 32, fs: 14, ...proof.chips[0] });
+  const caps = data.capabilities || ["AGENTIC WORKFLOWS", "DISTRIBUTED RUNTIMES", "LOW-LATENCY RAG"];
+  let curX = M;
+  const capSvgs = [];
+  for (const cap of caps) {
+    const p = capabilityPill(t, { x: curX, y: 242, h: 30, label: cap });
+    capSvgs.push(p.svg);
+    curX += p.width + 10;
+  }
 
   const chain = [500, 566, 632, 698];
   const chainSvg = chain
@@ -193,7 +207,7 @@ function mobile(themeName) {
     .join("");
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}"
-  role="img" aria-label="Anil Pradhan &#8212; Backend and AI systems engineer. Dell FutureMinds national finalist, top 6 of 8,000.">
+  role="img" aria-label="Anil Pradhan &#8212; Backend &amp; AI Systems Engineer. Deterministic multi-agent systems &amp; high-throughput backends.">
   <title>Anil Pradhan &#8212; Backend &amp; AI Systems Engineer</title>${defs(t, id)}
   ${backdrop(t, W, H, id)}
   ${brackets(t, W, H, 18, 22)}
@@ -208,7 +222,7 @@ function mobile(themeName) {
   <text x="${M}" y="188" font-family="${SANS}" font-size="24" fill="${t.textDim}">${esc(line1)}</text>
   <text x="${M}" y="216" font-family="${SANS}" font-size="24" fill="${t.textDim}">&amp; ${esc(line2)}</text>
 
-  ${award.svg}
+  ${capSvgs.join("\n  ")}
 
   <line x1="${M}" y1="300" x2="${W - M}" y2="300" stroke="${t.line}" />
   <circle cx="${M + 3}" cy="320" r="3" fill="${t.accent}">
@@ -258,7 +272,7 @@ function social(themeName = "dark") {
     .join("");
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}"
-  role="img" aria-label="Anil Pradhan &#8212; Backend and AI systems engineer. Dell FutureMinds national finalist, top 6 of 8,000.">
+  role="img" aria-label="Anil Pradhan &#8212; Backend &amp; AI Systems Engineer. Deterministic multi-agent systems &amp; high-throughput backends.">
   <title>Anil Pradhan &#8212; Backend &amp; AI Systems Engineer</title>${defs(t, id)}
   ${backdrop(t, W, H, id)}
   ${brackets(t, W, H, 28, 34)}
