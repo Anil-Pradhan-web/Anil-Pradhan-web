@@ -29,7 +29,7 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Regenerate assets from their snapshots
+      - name: Regenerate assets
         run: npm run build
 
       - name: Assert assets are committed
@@ -39,4 +39,4 @@ jobs:
             git --no-pager diff --stat assets
             exit 1
           fi
-          echo "assets/ matches assets/src/profile.json and assets/src/stats.json"
+          echo "assets/ matches assets/src/profile.json"
