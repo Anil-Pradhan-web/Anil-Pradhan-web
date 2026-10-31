@@ -92,15 +92,15 @@
 
 <div align="center">
 
-<img src="./assets/github-stats.svg" alt="Anil Pradhan's GitHub Stats" />
+<img src="https://github-readme-stats.shion.dev/api?username=Anil-Pradhan-web&theme=shadow_blue&hide_border=false&include_all_commits=true&count_private=true" alt="Anil Pradhan's GitHub Stats" />
 
 <br/><br/>
 
-<img src="./assets/streak-stats.svg" alt="Anil Pradhan's GitHub Streak" />
+<img src="https://streak-stats.demolab.com/?user=Anil-Pradhan-web&theme=shadow_blue&hide_border=false" alt="Anil Pradhan's GitHub Streak" />
 
 <br/><br/>
 
-<img src="./assets/top-langs.svg" alt="Most Used Languages" />
+<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Anil-Pradhan-web&theme=shadow_blue&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Most Used Languages" />
 
 <br/><br/>
 
