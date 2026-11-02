@@ -4,30 +4,20 @@
 
 <br/>
 
-<b>HAWKINS NATIONAL LABORATORY // AGENTIC SYSTEMS DIVISION</b><br/>
-<b>Open to 2027 SDE / AI-infra roles</b> &nbsp;·&nbsp; Bhubaneswar, IST (UTC+5:30)<br/>
-[Résumé ↗](https://my-portfolio-anil.vercel.app/Anil_Pradhan_resume.pdf) &nbsp;·&nbsp; [Portfolio ↗](https://my-portfolio-anil.vercel.app) &nbsp;·&nbsp; [LinkedIn ↗](https://www.linkedin.com/in/anil-pradhan543/) &nbsp;·&nbsp; [Email ↗](mailto:anilpradhan9644@gmail.com)
+<b>Building real-world products and solving problems that actually matter.</b>
 
-<table align="center">
-  <tr>
-    <td align="center" width="25%">
-      <h3>Top 6</h3>
-      <sub>of <b>8,000+</b> teams<br/>Dell 2026</sub>
-    </td>
-    <td align="center" width="25%">
-      <h3>8.93</h3>
-      <sub>CGPA / 10<br/>B.Tech CSE</sub>
-    </td>
-    <td align="center" width="25%">
-      <h3>218+</h3>
-      <sub>DSA problems<br/><a href="https://leetcode.com/u/Anil_Pradhan/">LeetCode</a></sub>
-    </td>
-    <td align="center" width="25%">
-      <h3>4★</h3>
-      <sub>HackerRank<br/><a href="https://www.hackerrank.com/profile/anilpradhan9644">Java</a></sub>
-    </td>
-  </tr>
-</table>
+<br/><br/>
+
+<a href="https://my-portfolio-anil.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-0b0c10?style=for-the-badge&logo=googlechrome&logoColor=e50914" alt="Portfolio" /></a>
+<a href="https://my-portfolio-anil.vercel.app/Anil_Pradhan_resume.pdf"><img src="https://img.shields.io/badge/RÉSUMÉ-0b0c10?style=for-the-badge&logo=googledocs&logoColor=e50914" alt="Résumé" /></a>
+<a href="https://www.linkedin.com/in/anil-pradhan543/"><img src="https://img.shields.io/badge/LINKEDIN-0b0c10?style=for-the-badge&logo=linkedin&logoColor=e50914" alt="LinkedIn" /></a>
+<a href="https://leetcode.com/u/Anil_Pradhan/"><img src="https://img.shields.io/badge/LEETCODE-0b0c10?style=for-the-badge&logo=leetcode&logoColor=e50914" alt="LeetCode" /></a>
+<a href="https://www.hackerrank.com/profile/anilpradhan9644"><img src="https://img.shields.io/badge/HACKERRANK-0b0c10?style=for-the-badge&logo=hackerrank&logoColor=e50914" alt="HackerRank" /></a>
+<a href="mailto:anilpradhan9644@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0b0c10?style=for-the-badge&logo=gmail&logoColor=e50914" alt="Email" /></a>
+
+<br/><br/>
+
+<img src="./assets/metrics-bar.svg" width="100%" alt="Key Verified Engineering Metrics — Dell Top 6 of 8,000+ | CGPA 8.93 / 10 | 218+ LeetCode DSA | 4-Star HackerRank Java" />
 
 </div>
 
@@ -112,37 +102,41 @@
 
 ## 🏆 Track Record & Hackathons
 
-- **Dell FutureMinds AI Hackathon 2026** — National Grand Finalist, **top 6 of 8,000+ teams**, on stage at Dell Bengaluru HQ.
-- **Naukri Young Turks 2026** — Certificate of Merit, **96.57 percentile**.
-- **iQOO Hackathon 2026 · Microsoft AI Dev Days · Amazon Nova · Google Solution Challenge** — selected builder.
-- **IIT Madras Reverse Coding-X · NIT Rourkela AlgoUtsav 2026** — competitive programming.
+- [![Dell](https://img.shields.io/badge/Dell_FutureMinds_2026-0b0c10?style=flat-square&logo=dell&logoColor=e50914)]() **National Grand Finalist, top 6 of 8,000+ teams**, on stage at Dell Bengaluru HQ.
+- [![Naukri](https://img.shields.io/badge/Naukri_Young_Turks_2026-0b0c10?style=flat-square&logoColor=e50914)]() **Certificate of Merit, 96.57 percentile**.
+- [![Selected Builder](https://img.shields.io/badge/Selected_Builder-0b0c10?style=flat-square&logoColor=e50914)]() **iQOO Hackathon 2026 · Microsoft AI Dev Days · Amazon Nova · Google Solution Challenge**.
+- [![Competitive Coding](https://img.shields.io/badge/Competitive_Programming-0b0c10?style=flat-square&logoColor=e50914)]() **IIT Madras Reverse Coding-X · NIT Rourkela AlgoUtsav 2026**.
 
 ---
 
 ## ✍️ Articles & Technical Blog
 
-Explore my technical articles and essays on AI systems, scalable backends, and computing:  
-👉 **[Read all articles on my Blog ↗](https://my-portfolio-anil.vercel.app/blog)**
+Explore my technical articles and essays on AI systems, scalable backends, and computing:
+
+<br/>
+
+<a href="https://my-portfolio-anil.vercel.app/blog"><img src="https://img.shields.io/badge/EXPLORE_ALL_ARTICLES_ON_MY_BLOG_↗-0b0c10?style=for-the-badge&logo=hashnode&logoColor=e50914" alt="Read all articles on my Blog" /></a>
 
 ---
 
 ## 📜 Clearance & Credentials
 
-- **Anthropic** — Claude 101 · AI Fluency for Students & Developers
-- **IBM** — Artificial Intelligence Fundamentals
-- **Infosys Springboard** — Generative AI (OpenAI GPT & AI for Software Engineering)
-- **Naukri.com** — Certificate of Merit, Young Turks 2026
-- **Cisco Networking Academy** — Python Essentials 2
+- [![Anthropic](https://img.shields.io/badge/Anthropic-0b0c10?style=flat-square&logo=anthropic&logoColor=e50914)]() **Claude 101** · AI Fluency for Students & Developers
+- [![IBM](https://img.shields.io/badge/IBM-0b0c10?style=flat-square&logo=ibm&logoColor=e50914)]() **Artificial Intelligence Fundamentals**
+- [![Infosys](https://img.shields.io/badge/Infosys_Springboard-0b0c10?style=flat-square&logoColor=e50914)]() **Generative AI** (OpenAI GPT & AI for Software Engineering)
+- [![Naukri](https://img.shields.io/badge/Naukri.com-0b0c10?style=flat-square&logoColor=e50914)]() **Certificate of Merit**, Young Turks 2026
+- [![Cisco](https://img.shields.io/badge/Cisco_Networking_Academy-0b0c10?style=flat-square&logo=cisco&logoColor=e50914)]() **Python Essentials 2**
 
 <details>
 <summary>Six more, verified on LinkedIn</summary>
+<br/>
 
-- **Wells Fargo** — Software Engineering Job Simulation
-- **IBM** — Getting Started with Artificial Intelligence
-- **HackerRank** — Problem Solving (Basic) · SQL (Basic) · Python (Basic)
-- **GeeksforGeeks** — 160 Days of Problem Solving
-- **IIT Madras** — Reverse Coding-X
-- **NIT Rourkela** — AlgoUtsav 2026
+- [![Wells Fargo](https://img.shields.io/badge/Wells_Fargo-0b0c10?style=flat-square&logo=wellsfargo&logoColor=e50914)]() **Software Engineering Job Simulation**
+- [![IBM](https://img.shields.io/badge/IBM-0b0c10?style=flat-square&logo=ibm&logoColor=e50914)]() **Getting Started with Artificial Intelligence**
+- [![HackerRank](https://img.shields.io/badge/HackerRank-0b0c10?style=flat-square&logo=hackerrank&logoColor=e50914)]() **Problem Solving (Basic) · SQL (Basic) · Python (Basic)**
+- [![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-0b0c10?style=flat-square&logo=geeksforgeeks&logoColor=e50914)]() **160 Days of Problem Solving**
+- [![IIT Madras](https://img.shields.io/badge/IIT_Madras-0b0c10?style=flat-square&logoColor=e50914)]() **Reverse Coding-X**
+- [![NIT Rourkela](https://img.shields.io/badge/NIT_Rourkela-0b0c10?style=flat-square&logoColor=e50914)]() **AlgoUtsav 2026**
 
 </details>
 
@@ -150,9 +144,18 @@ Explore my technical articles and essays on AI systems, scalable backends, and c
 
 <div align="center">
 
-[Portfolio](https://my-portfolio-anil.vercel.app) &nbsp;·&nbsp; [Blog](https://my-portfolio-anil.vercel.app/blog) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/anil-pradhan543/) &nbsp;·&nbsp; [LeetCode](https://leetcode.com/u/Anil_Pradhan/) &nbsp;·&nbsp; [GeeksforGeeks](https://www.geeksforgeeks.org/user/anilpradhan543/) &nbsp;·&nbsp; [Email](mailto:anilpradhan9644@gmail.com)
+<a href="https://my-portfolio-anil.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0b0c10?style=flat-square&logo=googlechrome&logoColor=e50914" alt="Portfolio" /></a>
+<a href="https://my-portfolio-anil.vercel.app/blog"><img src="https://img.shields.io/badge/Blog-0b0c10?style=flat-square&logo=hashnode&logoColor=e50914" alt="Blog" /></a>
+<a href="https://www.linkedin.com/in/anil-pradhan543/"><img src="https://img.shields.io/badge/LinkedIn-0b0c10?style=flat-square&logo=linkedin&logoColor=e50914" alt="LinkedIn" /></a>
+<a href="https://leetcode.com/u/Anil_Pradhan/"><img src="https://img.shields.io/badge/LeetCode-0b0c10?style=flat-square&logo=leetcode&logoColor=e50914" alt="LeetCode" /></a>
+<a href="https://www.geeksforgeeks.org/user/anilpradhan543/"><img src="https://img.shields.io/badge/GeeksforGeeks-0b0c10?style=flat-square&logo=geeksforgeeks&logoColor=e50914" alt="GeeksforGeeks" /></a>
+<a href="mailto:anilpradhan9644@gmail.com"><img src="https://img.shields.io/badge/Email-0b0c10?style=flat-square&logo=gmail&logoColor=e50914" alt="Email" /></a>
+
+<br/><br/>
 
 <sub><b>Anil Pradhan</b> · Backend &amp; AI systems · Bhubaneswar, India</sub>
+
+<br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=Anil-Pradhan-web&label=profile+views&color=e50914&style=flat-square" alt="Profile views" />
 
