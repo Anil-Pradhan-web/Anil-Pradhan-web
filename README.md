@@ -27,47 +27,52 @@
 
 ### Languages
 ![Python](https://img.shields.io/badge/Python-0b0c10?style=for-the-badge&logo=python&logoColor=e50914)
-![Java 23](https://img.shields.io/badge/Java_23-0b0c10?style=for-the-badge&logo=openjdk&logoColor=e50914)
 ![TypeScript](https://img.shields.io/badge/TypeScript-0b0c10?style=for-the-badge&logo=typescript&logoColor=e50914)
 ![JavaScript](https://img.shields.io/badge/JavaScript-0b0c10?style=for-the-badge&logo=javascript&logoColor=e50914)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0b0c10?style=for-the-badge&logo=postgresql&logoColor=e50914)
-![SQLite](https://img.shields.io/badge/SQLite-0b0c10?style=for-the-badge&logo=sqlite&logoColor=e50914)
-![Bash](https://img.shields.io/badge/Bash-0b0c10?style=for-the-badge&logo=gnu-bash&logoColor=e50914)
+![Java](https://img.shields.io/badge/Java-0b0c10?style=for-the-badge&logo=openjdk&logoColor=e50914)
+![SQL](https://img.shields.io/badge/SQL-0b0c10?style=for-the-badge&logo=postgresql&logoColor=e50914)
 ![HTML5](https://img.shields.io/badge/HTML5-0b0c10?style=for-the-badge&logo=html5&logoColor=e50914)
 ![CSS3](https://img.shields.io/badge/CSS3-0b0c10?style=for-the-badge&logo=css3&logoColor=e50914)
 
-### AI / ML & Agentic Systems
+### AI, Machine Learning & Agentic Systems
+![AI Agents & Workflows](https://img.shields.io/badge/AI_Agents_&_Multi--Agent_Workflows-0b0c10?style=for-the-badge&logo=probot&logoColor=e50914)
 ![LangGraph](https://img.shields.io/badge/LangGraph-0b0c10?style=for-the-badge&logo=langchain&logoColor=e50914)
-![Multi-Agent Systems](https://img.shields.io/badge/Multi--Agent_Systems-0b0c10?style=for-the-badge&logo=probot&logoColor=e50914)
-![RAG](https://img.shields.io/badge/RAG_Pipelines-0b0c10?style=for-the-badge&logo=databricks&logoColor=e50914)
-![FAISS](https://img.shields.io/badge/FAISS-0b0c10?style=for-the-badge&logo=meta&logoColor=e50914)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-0b0c10?style=for-the-badge&logo=databricks&logoColor=e50914)
-![Google Gemini](https://img.shields.io/badge/Google_Gemini-0b0c10?style=for-the-badge&logo=googlegemini&logoColor=e50914)
-![YOLO11](https://img.shields.io/badge/YOLO11-0b0c10?style=for-the-badge&logo=yolo&logoColor=e50914)
-![OpenCV](https://img.shields.io/badge/OpenCV-0b0c10?style=for-the-badge&logo=opencv&logoColor=e50914)
+![RAG Pipelines](https://img.shields.io/badge/RAG_Pipelines-0b0c10?style=for-the-badge&logo=databricks&logoColor=e50914)
+![LLM Applications](https://img.shields.io/badge/LLM_Applications-0b0c10?style=for-the-badge&logo=openai&logoColor=e50914)
+![Model Fine-Tuning](https://img.shields.io/badge/LoRA_%2F_QLoRA_Fine--Tuning-0b0c10?style=for-the-badge&logo=huggingface&logoColor=e50914)
+![Qwen & Gemma](https://img.shields.io/badge/Qwen_&_Gemma-0b0c10?style=for-the-badge&logo=googlegemini&logoColor=e50914)
 ![Unsloth](https://img.shields.io/badge/Unsloth-0b0c10?style=for-the-badge&logo=lightning&logoColor=e50914)
-![LoRA](https://img.shields.io/badge/LoRA_Fine--Tuning-0b0c10?style=for-the-badge&logo=slack&logoColor=e50914)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-0b0c10?style=for-the-badge&logo=huggingface&logoColor=e50914)
-![PyTorch](https://img.shields.io/badge/PyTorch-0b0c10?style=for-the-badge&logo=pytorch&logoColor=e50914)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-0b0c10?style=for-the-badge&logo=databricks&logoColor=e50914)
+![Computer Vision](https://img.shields.io/badge/Computer_Vision_&_YOLO-0b0c10?style=for-the-badge&logo=opencv&logoColor=e50914)
+![OCR](https://img.shields.io/badge/OCR_Systems-0b0c10?style=for-the-badge&logo=tesseract&logoColor=e50914)
 
-### Backend & Distributed Systems
+### Backend, APIs & Payment Systems
 ![FastAPI](https://img.shields.io/badge/FastAPI-0b0c10?style=for-the-badge&logo=fastapi&logoColor=e50914)
-![Django & DRF](https://img.shields.io/badge/Django_REST-0b0c10?style=for-the-badge&logo=django&logoColor=e50914)
-![Java Concurrency](https://img.shields.io/badge/Java_Concurrency-0b0c10?style=for-the-badge&logo=openjdk&logoColor=e50914)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0b0c10?style=for-the-badge&logo=postgresql&logoColor=e50914)
-![Redis](https://img.shields.io/badge/Redis_Caching-0b0c10?style=for-the-badge&logo=redis&logoColor=e50914)
-![RESTful APIs](https://img.shields.io/badge/RESTful_APIs-0b0c10?style=for-the-badge&logo=fastapi&logoColor=e50914)
-![WebSockets](https://img.shields.io/badge/WebSockets-0b0c10?style=for-the-badge&logo=socketdotio&logoColor=e50914)
-![JWT & RBAC](https://img.shields.io/badge/JWT_&_RBAC-0b0c10?style=for-the-badge&logo=jsonwebtokens&logoColor=e50914)
-![Rate Limiting](https://img.shields.io/badge/Rate_Limiting-0b0c10?style=for-the-badge&logo=cloudflare&logoColor=e50914)
-![Circuit Breakers](https://img.shields.io/badge/Circuit_Breakers-0b0c10?style=for-the-badge&logo=resilience4j&logoColor=e50914)
+![Django](https://img.shields.io/badge/Django-0b0c10?style=for-the-badge&logo=django&logoColor=e50914)
+![Django REST Framework](https://img.shields.io/badge/Django_REST_Framework-0b0c10?style=for-the-badge&logo=django&logoColor=e50914)
+![RESTful APIs](https://img.shields.io/badge/RESTful_APIs-0b0c10?style=for-the-badge&logo=postman&logoColor=e50914)
+![JWT Authentication](https://img.shields.io/badge/JWT_Authentication-0b0c10?style=for-the-badge&logo=jsonwebtokens&logoColor=e50914)
+![Razorpay Integration](https://img.shields.io/badge/Razorpay_Payment_Integration-0b0c10?style=for-the-badge&logo=razorpay&logoColor=e50914)
 
-### Frontend & Frameworks
-![React 19](https://img.shields.io/badge/React_19-0b0c10?style=for-the-badge&logo=react&logoColor=e50914)
+### Frontend & Modern Web
+![React](https://img.shields.io/badge/React_19-0b0c10?style=for-the-badge&logo=react&logoColor=e50914)
 ![Next.js](https://img.shields.io/badge/Next.js-0b0c10?style=for-the-badge&logo=nextdotjs&logoColor=e50914)
+![Vite](https://img.shields.io/badge/Vite-0b0c10?style=for-the-badge&logo=vite&logoColor=e50914)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0b0c10?style=for-the-badge&logo=tailwindcss&logoColor=e50914)
 ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-0b0c10?style=for-the-badge&logo=shadcnui&logoColor=e50914)
-![Vite](https://img.shields.io/badge/Vite-0b0c10?style=for-the-badge&logo=vite&logoColor=e50914)
+
+### Data & ML Tooling
+![Pydantic](https://img.shields.io/badge/Pydantic_Validation-0b0c10?style=for-the-badge&logo=pydantic&logoColor=e50914)
+![Jupyter](https://img.shields.io/badge/Jupyter_Notebooks-0b0c10?style=for-the-badge&logo=jupyter&logoColor=e50914)
+
+### Computer Science & Core Systems
+![DSA & Segment Trees](https://img.shields.io/badge/DSA_&_Segment_Trees-0b0c10?style=for-the-badge&logo=leetcode&logoColor=e50914)
+![Concurrency](https://img.shields.io/badge/Concurrency_&_Multi--Threading-0b0c10?style=for-the-badge&logo=cpu&logoColor=e50914)
+![Token-Bucket Rate Limiting](https://img.shields.io/badge/Token--Bucket_Rate_Limiting-0b0c10?style=for-the-badge&logo=cloudflare&logoColor=e50914)
+![DBMS & SQL Architecture](https://img.shields.io/badge/DBMS_&_SQL_Architecture-0b0c10?style=for-the-badge&logo=postgresql&logoColor=e50914)
+![Operating Systems & Linux](https://img.shields.io/badge/Operating_Systems_&_Linux-0b0c10?style=for-the-badge&logo=linux&logoColor=e50914)
+![Computer Networking](https://img.shields.io/badge/Computer_Networking-0b0c10?style=for-the-badge&logo=cisco&logoColor=e50914)
+![System Design & OOP](https://img.shields.io/badge/System_Design_&_OOP-0b0c10?style=for-the-badge&logo=diagramsdotnet&logoColor=e50914)
 
 ### DevOps, Cloud & Infrastructure
 ![Docker](https://img.shields.io/badge/Docker-0b0c10?style=for-the-badge&logo=docker&logoColor=e50914)
