@@ -46,13 +46,12 @@
 ![Computer Vision](https://img.shields.io/badge/Computer_Vision_&_YOLO-0b0c10?style=for-the-badge&logo=opencv&logoColor=e50914)
 ![OCR](https://img.shields.io/badge/OCR_Systems-0b0c10?style=for-the-badge&logo=tesseract&logoColor=e50914)
 
-### Backend, APIs & Payment Systems
+### Backend & APIs
 ![FastAPI](https://img.shields.io/badge/FastAPI-0b0c10?style=for-the-badge&logo=fastapi&logoColor=e50914)
 ![Django](https://img.shields.io/badge/Django-0b0c10?style=for-the-badge&logo=django&logoColor=e50914)
 ![Django REST Framework](https://img.shields.io/badge/Django_REST_Framework-0b0c10?style=for-the-badge&logo=django&logoColor=e50914)
 ![RESTful APIs](https://img.shields.io/badge/RESTful_APIs-0b0c10?style=for-the-badge&logo=postman&logoColor=e50914)
 ![JWT Authentication](https://img.shields.io/badge/JWT_Authentication-0b0c10?style=for-the-badge&logo=jsonwebtokens&logoColor=e50914)
-![Razorpay Integration](https://img.shields.io/badge/Razorpay_Payment_Integration-0b0c10?style=for-the-badge&logo=razorpay&logoColor=e50914)
 
 ### Frontend & Modern Web
 ![React](https://img.shields.io/badge/React_19-0b0c10?style=for-the-badge&logo=react&logoColor=e50914)
